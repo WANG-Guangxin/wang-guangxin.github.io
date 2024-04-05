@@ -3,7 +3,7 @@ name: Deploy Hexo Site
 on:
   push:
     branches:
-      - source-code  # Set a branch to trigger deployment
+      - master # Set a branch to trigger deployment
 
 jobs:
   build-and-deploy:
