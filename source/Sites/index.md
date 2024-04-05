@@ -7,19 +7,19 @@ academia: true
 
 ### Blog
 
-#### https://wgxls.site ![](https://cdn.jsdelivr.net/gh/WANG-Guangxin/wang-guangxin.github.io/img/${STATUS_WGXLS_SITE}.svg)
+#### https://wgxls.site ![](https://cdn.jsdelivr.net/gh/WANG-Guangxin/wang-guangxin.github.io/source/img/${STATUS_WGXLS_SITE}.svg)
 
 |  Uptime (7 Days)   |  Uptime (24 Hours)  | SSL certificate expiration period |
 | :----------------: | :-----------------: | :-------------------------------: |
 | ${WGXLS_SITE_UP_7} | ${WGXLS_SITE_UP_24} |         ${WGXLS_SITE_SSL}         |
 
-#### https://1881997.xyz ![](https://cdn.jsdelivr.net/gh/WANG-Guangxin/wang-guangxin.github.io/img/${STATUS_1881997_XYZ}.svg)
+#### https://1881997.xyz ![](https://cdn.jsdelivr.net/gh/WANG-Guangxin/wang-guangxin.github.io/source/img/${STATUS_1881997_XYZ}.svg)
 
 |  Uptime (7 Days)   |  Uptime (24 Hours)  | SSL certificate expiration period |
 | :----------------: | :-----------------: | :-------------------------------: |
 | ${1881997_XYZ_UP_7} | ${1881997_XYZ_UP_24} |         ${1881997_XYZ_SSL}         |
 
-#### https://blog.wgxls.eu.org:86 ![](https://cdn.jsdelivr.net/gh/WANG-Guangxin/wang-guangxin.github.io/img/${STATUS_BLOG_WGXLS_EU_ORG}.svg) ![](https://cdn.jsdelivr.net/gh/WANG-Guangxin/wang-guangxin.github.io/img/China-Friendly-green.svg.svg) 
+#### https://blog.wgxls.eu.org:86 ![](https://cdn.jsdelivr.net/gh/WANG-Guangxin/wang-guangxin.github.io/source/img/${STATUS_BLOG_WGXLS_EU_ORG}.svg) ![](https://cdn.jsdelivr.net/gh/WANG-Guangxin/wang-guangxin.github.io/source/img/China-Friendly-green.svg) 
 
 |  Uptime (7 Days)   |  Uptime (24 Hours)  | SSL certificate expiration period |
 | :----------------: | :-----------------: | :-------------------------------: |
