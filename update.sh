@@ -20,7 +20,7 @@ done
 git commit -m "$commit_message"
 
 # 推送到远程仓库的home-page分支
-git push origin source-code
+git push origin master
 
 echo "自动添加、提交和推送已完成。"
 
