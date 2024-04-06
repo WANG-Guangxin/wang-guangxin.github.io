@@ -1,3 +1,8 @@
+table,
+th,
+td {
+  border: 1px solid #000;
+}
 .page pre,
 .page .highlight {
   overflow: auto;
