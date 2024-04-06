@@ -136,7 +136,8 @@ def calc_uptime():
     temp = {}
     for key,value in g_config.items():
         temp[key] = {}
-        temp[key]['S'] = 0
+        temp[key]['S7'] = 0
+        temp[key]['S24'] = 0
         temp[key]['u7d'] = 0
         temp[key]['u24h'] = 0
     
@@ -146,12 +147,13 @@ def calc_uptime():
         if data[2]:
             temp[data[1]]['u7d'] += 1
         if datetime.strptime(data[0], "%Y-%m-%d %H:%M:%S") >= one_days_ago:
+            temp[key]['S24'] += 1
             if data[2]:
                 temp[data[1]]['u24h'] += 1
 
     for key, value in temp.items():
         u7d = temp[key]['u7d'] / temp[key]['S'] * 100.0
-        u24h = temp[key]['u24h'] / temp[key]['S'] * 100.0
+        u24h = temp[key]['u24h'] / temp[key]['S24'] * 100.0
         u7d_msg = get_uptime_msg(u7d)
         u24h_msg = get_uptime_msg(u24h)
         g_config[key]['uptime7d'] += u7d_msg
