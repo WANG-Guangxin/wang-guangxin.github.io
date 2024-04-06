@@ -67,20 +67,32 @@ def check_uptime(url):
 
 
 def check_ssl_expiry(url, port=443):
-    domain = urlparse(url).hostname
-    ssl_date_fmt = r'%b %d %H:%M:%S %Y %Z'
-    context = ssl.create_default_context()
-    
-    conn = context.wrap_socket(
-        socket.socket(socket.AF_INET),
-        server_hostname=domain,
-    )
-    conn.settimeout(3.0)
-    
-    conn.connect((domain, port))
-    
-    ssl_info = conn.getpeercert()
-    return (datetime.strptime(ssl_info['notAfter'], ssl_date_fmt) - datetime.utcnow()).days
+    try:
+        domain = urlparse(url).hostname
+        ssl_date_fmt = r'%b %d %H:%M:%S %Y %Z'
+        context = ssl.create_default_context()
+
+        conn = context.wrap_socket(
+            socket.socket(socket.AF_INET),
+            server_hostname=domain,
+        )
+        conn.settimeout(3.0)
+
+        conn.connect((domain, port))
+        
+        ssl_info = conn.getpeercert()
+        return (datetime.strptime(ssl_info['notAfter'], ssl_date_fmt) - datetime.utcnow()).days
+
+    except Exception as e:
+        print(f"An error occurred when checking SSL expiry for {url}: {e}")
+
+        # Depending on your use case, you may want to retry the connection, 
+        # return a default value, raise the error so caller can handle it, 
+        # or take some other action.
+
+        # Here we choose to return a negative value to represent the failure.
+        return -1
+
 
 def check_url(url):
     global g_data_list
