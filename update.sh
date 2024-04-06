@@ -1,5 +1,7 @@
 #!/bin/bash
 
+git pull origin master
+
 # 添加所有修改的文件
 git add .
 
