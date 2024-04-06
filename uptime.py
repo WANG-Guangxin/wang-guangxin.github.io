@@ -143,7 +143,7 @@ def calc_uptime():
     
     one_days_ago = datetime.now() - timedelta(days=1)
     for data in g_data_list:
-        temp[data[1]]['S'] += 1
+        temp[data[1]]['S7'] += 1
         if data[2]:
             temp[data[1]]['u7d'] += 1
         if datetime.strptime(data[0], "%Y-%m-%d %H:%M:%S") >= one_days_ago:
@@ -152,7 +152,7 @@ def calc_uptime():
                 temp[data[1]]['u24h'] += 1
 
     for key, value in temp.items():
-        u7d = temp[key]['u7d'] / temp[key]['S'] * 100.0
+        u7d = temp[key]['u7d'] / temp[key]['S7'] * 100.0
         u24h = temp[key]['u24h'] / temp[key]['S24'] * 100.0
         u7d_msg = get_uptime_msg(u7d)
         u24h_msg = get_uptime_msg(u24h)
