@@ -22,6 +22,13 @@ g_config = {
         "uptime7d": "X1881997_XYZ_UP_7='",
         "uptime24h": "X1881997_XYZ_UP_24='",
         "ssl": "X1881997_XYZ_SSL='"
+    },
+    "https://blog.wgxls.eu.org:86":
+    {
+        "status": "STATUS_BLOG_WGXLS_EU_ORG='",
+        "uptime7d": "BLOG_WGXLS_EU_ORG_UP_7='",
+        "uptime24h": "BLOG_WGXLS_EU_ORG_UP_24='",
+        "ssl": "BLOG_WGXLS_EU_ORG_SSL='"
     }
 }
 
