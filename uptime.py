@@ -88,10 +88,10 @@ def check_ssl_expiry(url, port=443):
         return -1
 
 def to_bool(s):
-    if s == "True":
-        return True
+    if isinstance(s, bool):
+        return s
     else:
-        return False
+        return s == "True"
 
 def check_url(url):
     global g_data_list
