@@ -85,14 +85,13 @@ def check_ssl_expiry(url, port=443):
 
     except Exception as e:
         print(f"An error occurred when checking SSL expiry for {url}: {e}")
-
-        # Depending on your use case, you may want to retry the connection, 
-        # return a default value, raise the error so caller can handle it, 
-        # or take some other action.
-
-        # Here we choose to return a negative value to represent the failure.
         return -1
 
+def to_bool(s):
+    if s == "True":
+        return True
+    else:
+        return False
 
 def check_url(url):
     global g_data_list
@@ -140,17 +139,17 @@ def calc_uptime():
         temp[key]['S24'] = 0
         temp[key]['u7d'] = 0
         temp[key]['u24h'] = 0
-    
+        
     one_days_ago = datetime.now() - timedelta(days=1)
     for data in g_data_list:
         temp[data[1]]['S7'] += 1
-        if data[2]:
+        if to_bool(data[2]):
             temp[data[1]]['u7d'] += 1
         if datetime.strptime(data[0], "%Y-%m-%d %H:%M:%S") >= one_days_ago:
-            temp[key]['S24'] += 1
-            if data[2]:
+            temp[data[1]]['S24'] += 1
+            if to_bool(data[2]):
                 temp[data[1]]['u24h'] += 1
-
+    print(temp)
     for key, value in temp.items():
         u7d = temp[key]['u7d'] / temp[key]['S7'] * 100.0
         u24h = temp[key]['u24h'] / temp[key]['S24'] * 100.0
@@ -173,8 +172,8 @@ def main():
     remove_data_before_seven_days()
     for key, value in g_config.items():
         check_url(key)
-    write_list_to_csv()
     calc_uptime()
+    write_list_to_csv()
     write_env()
 
 if __name__ == '__main__':
