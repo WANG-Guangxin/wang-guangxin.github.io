@@ -5,7 +5,7 @@ on:
     branches:
       - master # Set a branch to trigger deployment
   schedule:
-    - cron: '*/6 * * * *' # Runs every 5 minutes
+    - cron: '*/15 * * * *' # Runs every 0 minutes
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -28,8 +28,32 @@ jobs:
     - name: Install Hexo
       run: npm install -g hexo-cli
 
-    - name: Billd
+    - name: Billd-0
       run: bash ./build.sh
+
+    - name: Deploying-0
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./public
+
+    - name: Billd-1
+      run: sleep 250 && bash ./build.sh
+
+    - name: Deploying-1
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./public
+
+    - name: Billd-2
+      run: sleep 250 && bash ./build.sh
+
+    - name: Deploying-2
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./public
 
     - name: Commit changes
       uses: stefanzweifel/git-auto-commit-action@v4
@@ -37,10 +61,4 @@ jobs:
         commit_message: Auto Commit
         branch: ${{ github.head_ref }}
         file_pattern: data.csv
-
-    - name: Deploying
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./public
         
