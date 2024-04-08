@@ -1,6 +1,6 @@
 favicon: /img/favicon.png
 # Change to your profile picture
-avatar: https://cdn.jsdelivr.net/gh/WANG-Guangxin/wang-guangxin.github.io/img/avatar_rmbg.png
+avatar: /img/avatar_rmbg.png
 # if author sets in hexo_config, this string doesn't work
 author: 'WANG-Guangxin'
 author_bio: 'Embedded System Engineer'
@@ -11,9 +11,10 @@ since: 2020
 # #title 为页内跳转，单页模式
 # 可以选择外链或其他页面
 menu:
-  Publications: /Publications
-  About: /About
+  Publications: /publications
+  About: /about
   Blog: https://wgxls.site
+  Sites: /sites
 
 # flink picture will load if avator link calls on error
 loading_bg:
