@@ -8,19 +8,19 @@ academia: true
 
 ## H2 Blog
 
-### H3 https://wgxls.site ![](/img/${STATUS_WGXLS_SITE}.svg)
+### H3 https://wgxls.site ![](/img/${STATUS_WGXLS_SITE})
 
 |  Uptime (7 Days)   |  Uptime (24 Hours)  | SSL certificate expiration period |
 | :----------------: | :-----------------: | :-------------------------------: |
 | ${WGXLS_SITE_UP_7} | ${WGXLS_SITE_UP_24} |         ${WGXLS_SITE_SSL}         |
 
-### H3 https://1881997.xyz ![](/img/${STATUS_1881997_XYZ}.svg)
+### H3 https://1881997.xyz ![](/img/${STATUS_1881997_XYZ})
 
 |  Uptime (7 Days)   |  Uptime (24 Hours)  | SSL certificate expiration period |
 | :----------------: | :-----------------: | :-------------------------------: |
 | ${X1881997_XYZ_UP_7} | ${X1881997_XYZ_UP_24} |         ${X1881997_XYZ_SSL}         |
 
-### H3 https://blog.wgxls.eu.org:86 ![](/img/${STATUS_BLOG_WGXLS_EU_ORG}.svg) ![](/img/China-Friendly-green.svg) 
+### H3 https://blog.wgxls.eu.org:86 ![](/img/${STATUS_BLOG_WGXLS_EU_ORG}) ![](/img/China-Friendly-green.svg) 
 
 |  Uptime (7 Days)   |  Uptime (24 Hours)  | SSL certificate expiration period |
 | :----------------: | :-----------------: | :-------------------------------: |
