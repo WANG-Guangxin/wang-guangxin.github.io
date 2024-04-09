@@ -38,7 +38,7 @@ jobs:
         publish_dir: ./public
 
     - name: Billd-1
-      run: sleep 250 && bash ./build.sh
+      run: sleep 300 && bash ./build.sh
 
     - name: Deploying-1
       uses: peaceiris/actions-gh-pages@v3
@@ -47,7 +47,7 @@ jobs:
         publish_dir: ./public
 
     - name: Billd-2
-      run: sleep 250 && bash ./build.sh
+      run: sleep 300 && bash ./build.sh
 
     - name: Deploying-2
       uses: peaceiris/actions-gh-pages@v3
