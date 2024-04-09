@@ -29,9 +29,64 @@ g_config = {
         "uptime7d": "BLOG_WGXLS_EU_ORG_UP_7='",
         "uptime24h": "BLOG_WGXLS_EU_ORG_UP_24='",
         "ssl": "BLOG_WGXLS_EU_ORG_SSL='"
-    }
+    },
+    "https://opengrok.dijk.eu.org":
+    {
+        "status": "STATUS_OPENGROK_DIJK_EU_ORG='",
+        "uptime7d": "OPENGROK_DIJK_EU_ORG_UP_7='",
+        "uptime24h": "OPENGROK_DIJK_EU_ORG_UP_24='",
+        "ssl": "OPENGROK_DIJK_EU_ORG_SSL='"
+    },
+    "https://423.1881997.xyz":
+    {
+        "status": "STATUS_423_1881997_XYZ='",
+        "uptime7d": "X423_1881997_XYZ_UP_7='",
+        "uptime24h": "X423_1881997_XYZ_UP_24='",
+        "ssl": "X423_1881997_XYZ_SSL='"
+    },
+    "https://opengrok.wgxls.eu.org:86":
+    {
+        "status": "STATUS_OPENGROK_WGXLS_EU_ORG='",
+        "uptime7d": "OPENGROK_WGXLS_EU_ORG_UP_7='",
+        "uptime24h": "OPENGROK_WGXLS_EU_ORG_UP_24='",
+        "ssl": "OPENGROK_WGXLS_EU_ORG_SSL='"
+    },
+    "https://pdf.dijk.eu.org":
+    {
+        "status": "STATUS_PDF_DIJK_EU_ORG='",
+        "uptime7d": "PDF_DIJK_EU_ORG_UP_7='",
+        "uptime24h": "PDF_DIJK_EU_ORG_UP_24='",
+        "ssl": "PDF_DIJK_EU_ORG_SSL='"
+    },
+    "https://725.1881997.xyz":
+    {
+        "status": "STATUS_725_1881997_XYZ='",
+        "uptime7d": "X725_1881997_XYZ_UP_7='",
+        "uptime24h": "X725_1881997_XYZ_UP_24='",
+        "ssl": "X725_1881997_XYZ_SSL='"
+    },
+    "https://pdf.wgxls.eu.org:86":
+    {
+        "status": "STATUS_PDF_WGXLS_EU_ORG='",
+        "uptime7d": "PDF_WGXLS_EU_ORG_UP_7='",
+        "uptime24h": "PDF_WGXLS_EU_ORG_UP_24='",
+        "ssl": "PDF_WGXLS_EU_ORG_SSL='"
+    },
+    "https://image-host-wgx.pages.dev":
+    {
+        "status": "STATUS_IMAGE_HOST_PAGES='",
+        "uptime7d": "IMAGE_HOST_PAGES_UP_7='",
+        "uptime24h": "IMAGE_HOST_PAGES_UP_24='",
+        "ssl": "IMAGE_HOST_PAGES_SSL='"
+    },
+    "https://lsky.wgxls.eu.org:86":
+    {
+        "status": "STATUS_LSKY_WGXLS_EU_ORG='",
+        "uptime7d": "LSKY_WGXLS_EU_ORG_UP_7='",
+        "uptime24h": "LSKY_WGXLS_EU_ORG_UP_24='",
+        "ssl": "LSKY_WGXLS_EU_ORG_SSL='"
+    }    
 }
-
 
 g_data_file = 'data.csv'
 g_data_list = []
