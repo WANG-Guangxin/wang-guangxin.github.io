@@ -123,8 +123,9 @@ def check_uptime(url):
 
 def check_ssl_expiry(url):
     try:
-        domain = urlparse(url).hostname
-        port = urlparse(url).port
+        parsed_url = urlparse(url)
+        domain = parsed_url.hostname
+        port = parsed_url.port if parsed_url.port else 443
         ssl_date_fmt = r'%b %d %H:%M:%S %Y %Z'
         context = ssl.create_default_context()
 
