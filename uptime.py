@@ -169,7 +169,7 @@ def check_url(url):
     if int(ssl_day) <= 0:
         ssl_msg = f"""<span style="color: red;">{ssl_day} Days</span>'"""
     elif int(ssl_day) <= 15:
-        ssl_msg = f"""<span style="color: yellow;">{ssl_day} Days</span>'"""
+        ssl_msg = f"""<span style="color: orange;">{ssl_day} Days</span>'"""
     elif int(ssl_day) >= 60:
         ssl_msg = f"""<span style="color: green;">{ssl_day} Days</span>'"""
     else:
@@ -183,7 +183,7 @@ def get_uptime_msg(uptime):
     elif uptime >= 70.0:
         msg = f"""<span style="color: blue;">{uptime:.2f}%</span>'"""
     elif uptime >= 50.0:
-        msg = f"""<span style="color: yellow;">{uptime:.2f}%</span>'"""
+        msg = f"""<span style="color: orange;">{uptime:.2f}%</span>'"""
     else:
         msg = f"""<span style="color: red;">{uptime:.2f}%</span>'"""
     return msg
