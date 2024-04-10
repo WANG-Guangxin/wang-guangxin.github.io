@@ -13,7 +13,6 @@ since: 2020
 menu:
   Publications: /publications
   About: /about
-  Blog: https://wgxls.site
   Sites: /sites
 
 # flink picture will load if avator link calls on error
@@ -28,6 +27,7 @@ social:
 social_links:
   # fab fa-twitter: /
   # fab fa-facebook-square: /
+  fa fa-home: https://wgxls.site
   fab fa-github: https://github.com/WANG-Guangxin
   # fab fa-stack-overflow: /
   # fab fa-linkedin: /
