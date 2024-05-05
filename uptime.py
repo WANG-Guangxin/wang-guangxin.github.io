@@ -108,6 +108,8 @@ def remove_data_before_seven_days():
     global g_data_list  
     seven_days_ago = datetime.now() - timedelta(days=7)
     g_data_list = [data for data in g_data_list if len(data) > 0 and datetime.strptime(data[0], "%Y-%m-%d %H:%M:%S") >= seven_days_ago]
+    # Also remove itmes which are not in g_config
+    g_data_list = [data for data in g_data_list if data[1] in g_config]
 
 def get_current_time():
     now = datetime.now()
