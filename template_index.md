@@ -20,7 +20,7 @@ academia: true
 | :----------------: | :-----------------: | :-------------------------------: |
 | ${X1881997_XYZ_UP_7} | ${X1881997_XYZ_UP_24} |         ${X1881997_XYZ_SSL}         |
 
-### H3 https://blog.wgxls.eu.org:86 ![](/img/${STATUS_BLOG_WGXLS_EU_ORG}) ![](/img/China-Friendly-green.svg) 
+### H3 https://blog.wgxls.eu.org:8443 ![](/img/${STATUS_BLOG_WGXLS_EU_ORG}) ![](/img/China-Friendly-green.svg) 
 
 |  Uptime (7 Days)   |  Uptime (24 Hours)  | SSL certificate expiration period |
 | :----------------: | :-----------------: | :-------------------------------: |
@@ -40,7 +40,7 @@ academia: true
 | :----------------: | :-----------------: | :-------------------------------: |
 | ${X423_1881997_XYZ_UP_7} | ${X423_1881997_XYZ_UP_24} |         ${X423_1881997_XYZ_SSL}         |
 
-### H3 https://opengrok.wgxls.eu.org:86 ![](/img/${STATUS_OPENGROK_WGXLS_EU_ORG}) ![](/img/China-Friendly-green.svg)
+### H3 https://opengrok.wgxls.eu.org:8443 ![](/img/${STATUS_OPENGROK_WGXLS_EU_ORG}) ![](/img/China-Friendly-green.svg)
 
 |  Uptime (7 Days)   |  Uptime (24 Hours)  | SSL certificate expiration period |
 | :----------------: | :-----------------: | :-------------------------------: |
@@ -60,7 +60,7 @@ academia: true
 | :----------------: | :-----------------: | :-------------------------------: |
 | ${X725_1881997_XYZ_UP_7} | ${X725_1881997_XYZ_UP_24} |         ${X725_1881997_XYZ_SSL}         |
 
-### H3 https://pdf.wgxls.eu.org:86 ![](/img/${STATUS_PDF_WGXLS_EU_ORG}) ![](/img/China-Friendly-green.svg)
+### H3 https://pdf.wgxls.eu.org:8443 ![](/img/${STATUS_PDF_WGXLS_EU_ORG}) ![](/img/China-Friendly-green.svg)
 
 |  Uptime (7 Days)   |  Uptime (24 Hours)  | SSL certificate expiration period |
 | :----------------: | :-----------------: | :-------------------------------: |
@@ -75,7 +75,7 @@ academia: true
 | ${IMAGE_HOST_PAGES_UP_7} | ${IMAGE_HOST_PAGES_UP_24} |         ${IMAGE_HOST_PAGES_SSL}         |
 
 
-### H3 https://lsky.wgxls.eu.org:86 ![](/img/${STATUS_LSKY_WGXLS_EU_ORG}) ![](/img/China-Friendly-green.svg)
+### H3 https://lsky.wgxls.eu.org:8443 ![](/img/${STATUS_LSKY_WGXLS_EU_ORG}) ![](/img/China-Friendly-green.svg)
 
 |  Uptime (7 Days)   |  Uptime (24 Hours)  | SSL certificate expiration period |
 | :----------------: | :-----------------: | :-------------------------------: |

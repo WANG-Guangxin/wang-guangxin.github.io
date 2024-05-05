@@ -23,7 +23,7 @@ g_config = {
         "uptime24h": "X1881997_XYZ_UP_24='",
         "ssl": "X1881997_XYZ_SSL='"
     },
-    "https://blog.wgxls.eu.org:86":
+    "https://blog.wgxls.eu.org:8443":
     {
         "status": "STATUS_BLOG_WGXLS_EU_ORG='",
         "uptime7d": "BLOG_WGXLS_EU_ORG_UP_7='",
@@ -44,7 +44,7 @@ g_config = {
         "uptime24h": "X423_1881997_XYZ_UP_24='",
         "ssl": "X423_1881997_XYZ_SSL='"
     },
-    "https://opengrok.wgxls.eu.org:86":
+    "https://opengrok.wgxls.eu.org:8443":
     {
         "status": "STATUS_OPENGROK_WGXLS_EU_ORG='",
         "uptime7d": "OPENGROK_WGXLS_EU_ORG_UP_7='",
@@ -65,7 +65,7 @@ g_config = {
         "uptime24h": "X725_1881997_XYZ_UP_24='",
         "ssl": "X725_1881997_XYZ_SSL='"
     },
-    "https://pdf.wgxls.eu.org:86":
+    "https://pdf.wgxls.eu.org:8443":
     {
         "status": "STATUS_PDF_WGXLS_EU_ORG='",
         "uptime7d": "PDF_WGXLS_EU_ORG_UP_7='",
@@ -79,7 +79,7 @@ g_config = {
         "uptime24h": "IMAGE_HOST_PAGES_UP_24='",
         "ssl": "IMAGE_HOST_PAGES_SSL='"
     },
-    "https://lsky.wgxls.eu.org:86":
+    "https://lsky.wgxls.eu.org:8443":
     {
         "status": "STATUS_LSKY_WGXLS_EU_ORG='",
         "uptime7d": "LSKY_WGXLS_EU_ORG_UP_7='",
