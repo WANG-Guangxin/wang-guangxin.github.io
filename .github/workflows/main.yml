@@ -60,7 +60,7 @@ jobs:
       with:
         commit_message: Auto Commit
         branch: ${{ github.head_ref }}
-        file_pattern: 
-          - data.csv
-          - siteenv
+        file_pattern: |
+          data.csv
+          siteenv
         
