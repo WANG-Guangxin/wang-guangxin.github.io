@@ -78,14 +78,7 @@ g_config = {
         "uptime7d": "IMAGE_HOST_PAGES_UP_7='",
         "uptime24h": "IMAGE_HOST_PAGES_UP_24='",
         "ssl": "IMAGE_HOST_PAGES_SSL='"
-    },
-    "https://lsky.wgxls.eu.org:8443":
-    {
-        "status": "STATUS_LSKY_WGXLS_EU_ORG='",
-        "uptime7d": "LSKY_WGXLS_EU_ORG_UP_7='",
-        "uptime24h": "LSKY_WGXLS_EU_ORG_UP_24='",
-        "ssl": "LSKY_WGXLS_EU_ORG_SSL='"
-    }    
+    }
 }
 
 g_data_file = 'data.csv'

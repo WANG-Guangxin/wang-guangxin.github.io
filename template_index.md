@@ -73,10 +73,3 @@ academia: true
 |  Uptime (7 Days)   |  Uptime (24 Hours)  | SSL certificate expiration period |
 | :----------------: | :-----------------: | :-------------------------------: |
 | ${IMAGE_HOST_PAGES_UP_7} | ${IMAGE_HOST_PAGES_UP_24} |         ${IMAGE_HOST_PAGES_SSL}         |
-
-
-### H3 https://lsky.wgxls.eu.org:8443 ![](/img/${STATUS_LSKY_WGXLS_EU_ORG}) ![](/img/China-Friendly-green.svg)
-
-|  Uptime (7 Days)   |  Uptime (24 Hours)  | SSL certificate expiration period |
-| :----------------: | :-----------------: | :-------------------------------: |
-| ${LSKY_WGXLS_EU_ORG_UP_7} | ${LSKY_WGXLS_EU_ORG_UP_24} |         ${LSKY_WGXLS_EU_ORG_SSL}         |
