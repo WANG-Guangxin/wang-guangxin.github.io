@@ -7,6 +7,10 @@ from requests import Session, exceptions
 import requests
 from collections import deque
 import json
+import os
+from email.mime.text import MIMEText
+from email.header import Header
+from smtplib import SMTP_SSL
 
 g_config = {
     "https://wgxls.site": 
@@ -14,21 +18,7 @@ g_config = {
         "status": "STATUS_WGXLS_SITE='",
         "uptime7d": "WGXLS_SITE_UP_7='",
         "uptime24h": "WGXLS_SITE_UP_24='",
-        "ssl": "WGXLS_SITE_SSL='"
-    },
-    "https://1881997.xyz":
-    {
-        "status": "STATUS_1881997_XYZ='",
-        "uptime7d": "X1881997_XYZ_UP_7='",
-        "uptime24h": "X1881997_XYZ_UP_24='",
-        "ssl": "X1881997_XYZ_SSL='"
-    },
-    "https://blog.wgxls.eu.org:8443":
-    {
-        "status": "STATUS_BLOG_WGXLS_EU_ORG='",
-        "uptime7d": "BLOG_WGXLS_EU_ORG_UP_7='",
-        "uptime24h": "BLOG_WGXLS_EU_ORG_UP_24='",
-        "ssl": "BLOG_WGXLS_EU_ORG_SSL='"
+        "ssl": "WGXLS_SITE_SSL='",
     },
     "https://opengrok.dijk.eu.org":
     {
@@ -36,13 +26,6 @@ g_config = {
         "uptime7d": "OPENGROK_DIJK_EU_ORG_UP_7='",
         "uptime24h": "OPENGROK_DIJK_EU_ORG_UP_24='",
         "ssl": "OPENGROK_DIJK_EU_ORG_SSL='"
-    },
-    "https://423.1881997.xyz":
-    {
-        "status": "STATUS_423_1881997_XYZ='",
-        "uptime7d": "X423_1881997_XYZ_UP_7='",
-        "uptime24h": "X423_1881997_XYZ_UP_24='",
-        "ssl": "X423_1881997_XYZ_SSL='"
     },
     "https://opengrok.wgxls.eu.org:8443":
     {
@@ -58,13 +41,6 @@ g_config = {
         "uptime24h": "PDF_DIJK_EU_ORG_UP_24='",
         "ssl": "PDF_DIJK_EU_ORG_SSL='"
     },
-    "https://725.1881997.xyz":
-    {
-        "status": "STATUS_725_1881997_XYZ='",
-        "uptime7d": "X725_1881997_XYZ_UP_7='",
-        "uptime24h": "X725_1881997_XYZ_UP_24='",
-        "ssl": "X725_1881997_XYZ_SSL='"
-    },
     "https://pdf.wgxls.eu.org:8443":
     {
         "status": "STATUS_PDF_WGXLS_EU_ORG='",
@@ -78,12 +54,20 @@ g_config = {
         "uptime7d": "IMAGE_HOST_PAGES_UP_7='",
         "uptime24h": "IMAGE_HOST_PAGES_UP_24='",
         "ssl": "IMAGE_HOST_PAGES_SSL='"
+    },
+    "https://alist.wgxls.eu.org:8443":
+    {
+        "status": "STATUS_ALIST_WGXLS_EU_ORG='",
+        "uptime7d": "ALIST_WGXLS_EU_ORG_UP_7='",
+        "uptime24h": "ALIST_WGXLS_EU_ORG_UP_24='",
+        "ssl": "ALIST_WGXLS_EU_ORG_SSL='"
     }
 }
 
 g_data_file = 'data.csv'
 g_data_list = []
 g_data_list.append([])
+g_notice_enable = True
 
 def write_list_to_csv():
     global g_data_list
@@ -219,12 +203,111 @@ def write_env():
     with open('./siteenv','w') as f:
         f.write(env)
 
+
+
+def send_mail(notice_title, notice_message):
+    notice_host_server = os.environ.get("notice_host_server")
+    notice_user = os.environ.get("notice_user")
+    notice_pwd = os.environ.get("notice_pwd")
+    notice_mail = os.environ.get("notice_mail")
+    notice_receiver = os.environ.get("notice_receiver")
+    #ssl登录
+    smtp = SMTP_SSL(notice_host_server)
+    #set_debuglevel()是用来调试的。参数值为1表示开启调试模式，参数值为0关闭调试模式
+    smtp.set_debuglevel(0)
+    smtp.ehlo(notice_host_server)
+    smtp.login(notice_user, notice_pwd)
+
+    msg = MIMEText(notice_message, "html", 'utf-8')
+    msg["Subject"] = Header(notice_title, 'utf-8')
+    msg["From"] = notice_mail
+    msg["To"] = notice_receiver
+    smtp.sendmail(notice_mail, notice_receiver, msg.as_string())
+    smtp.quit()
+
+def do_notice():
+    notice_title = f"Uptime Report {get_current_time()}"
+    notice_message_pre = f"""<html>
+    <head></head>
+    <body>
+    <h2>Status Changed: </h2>
+    """
+    ssl_warning = f""" 
+    <h2>SSL Warning: </h2>
+    """
+    notice_message_post = f""" 
+    </body>
+    </html>"""
+
+    notice_message = notice_message_pre 
+    message_body = ''
+    send_status_change = False
+    send_ssl_warning = False
+
+    # 根据 g_config 初始化一个 notice_dict
+    notice_dict = {}
+    for key, value in g_config.items():
+        notice_dict[key] = {}
+        notice_dict[key]['status'] = None
+        notice_dict[key]['ssl'] = None
+        notice_dict[key]['ssl_warning'] = False
+        notice_dict[key]['seen'] = 0
+    
+    
+    # 逆序遍历 g_data_list
+    for data in reversed(g_data_list):
+        brk = True
+        if len(data) == 0:
+            continue
+        url = data[1]
+        if notice_dict[url]['seen'] == 0:
+            notice_dict[url]['status'] = data[2]
+            notice_dict[url]['ssl'] = data[3]
+            if notice_dict[url]['ssl'] <= 15:
+                ssl_warning += f"""<h3>{url} SSL Warning: {url} Remaining {notice_dict[url]['ssl']} Days</h3>"""
+                notice_dict[url]['ssl_warning'] = True
+            notice_dict[url]['seen'] = 1
+        elif notice_dict[url]['seen'] == 1:
+            if notice_dict[url]['status'] != data[2]:
+                message_body += f"""<h3>{url} Status Changed: From {notice_dict[url]['status']} to {data[2]}</h3>"""
+                send_status_change = True
+            if data[3] == notice_dict[url]['ssl']:
+                notice_dict[url]['ssl_warning'] = False
+            notice_dict[url]['seen'] = 2
+        
+        for key, value in notice_dict.items():
+            if value['seen'] == 1:
+                brk = False
+                break
+        if brk:
+            break
+    
+    for key, value in notice_dict.items():
+        if value['ssl_warning']:
+            send_ssl_warning = True
+            break
+    
+    notice_message += message_body
+    notice_message += ssl_warning
+    notice_message += notice_message_post
+
+    # if send_status_change or send_ssl_warning:
+    send_mail(notice_title, notice_message)
+
+        
+
+
+    
+
+
 def main():
     read_csv_to_list()
     remove_data_before_seven_days()
     for key, value in g_config.items():
         check_url(key)
     calc_uptime()
+    if g_notice_enable:
+        do_notice()
     write_list_to_csv()
     write_env()
 
