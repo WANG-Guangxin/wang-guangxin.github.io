@@ -30,6 +30,12 @@ jobs:
 
     - name: Billd-0
       run: bash ./build.sh
+      env:
+        notice_host_server: ${{ secrets.notice_host_server }}
+        notice_user: ${{ secrets.notice_user }}
+        notice_pwd: ${{ secrets.notice_pwd }}
+        notice_mail: ${{ secrets.notice_mail }}
+        notice_receiver: ${{ secrets.notice_receiver }}
 
     - name: Deploying-0
       uses: peaceiris/actions-gh-pages@v3
@@ -39,6 +45,12 @@ jobs:
 
     - name: Billd-1
       run: sleep 300 && bash ./build.sh
+      env:
+        notice_host_server: ${{ secrets.notice_host_server }}
+        notice_user: ${{ secrets.notice_user }}
+        notice_pwd: ${{ secrets.notice_pwd }}
+        notice_mail: ${{ secrets.notice_mail }}
+        notice_receiver: ${{ secrets.notice_receiver }}
 
     - name: Deploying-1
       uses: peaceiris/actions-gh-pages@v3
@@ -48,6 +60,12 @@ jobs:
 
     - name: Billd-2
       run: sleep 300 && bash ./build.sh
+      env:
+        notice_host_server: ${{ secrets.notice_host_server }}
+        notice_user: ${{ secrets.notice_user }}
+        notice_pwd: ${{ secrets.notice_pwd }}
+        notice_mail: ${{ secrets.notice_mail }}
+        notice_receiver: ${{ secrets.notice_receiver }}
 
     - name: Deploying-2
       uses: peaceiris/actions-gh-pages@v3
