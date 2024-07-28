@@ -306,10 +306,10 @@ def main():
     for key, value in g_config.items():
         check_url(key)
     calc_uptime()
-    if g_notice_enable:
-        do_notice()
     write_list_to_csv()
     write_env()
+    if g_notice_enable:
+        do_notice()
 
 if __name__ == '__main__':
     main()
