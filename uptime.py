@@ -266,12 +266,13 @@ def do_notice():
             notice_dict[url]['status'] = data[2]
             notice_dict[url]['ssl'] = data[3]
             if notice_dict[url]['ssl'] <= 15:
-                ssl_warning += f"""<h3>{url} SSL Warning: {url} Remaining {notice_dict[url]['ssl']} Days</h3>"""
+                ssl_warning += f"""<h3>{url} Remaining {notice_dict[url]['ssl']} Days</h3>"""
                 notice_dict[url]['ssl_warning'] = True
             notice_dict[url]['seen'] = 1
         elif notice_dict[url]['seen'] == 1:
             if notice_dict[url]['status'] != data[2]:
-                message_body += f"""<h3>{url} Status Changed: From {notice_dict[url]['status']} to {data[2]}</h3>"""
+                print(f"Status Changed: {url} From {notice_dict[url]['status']} to {data[2]}")
+                message_body += f"""<h3>{url} From {notice_dict[url]['status']} to {data[2]}</h3>"""
                 send_status_change = True
             if data[3] == notice_dict[url]['ssl']:
                 notice_dict[url]['ssl_warning'] = False
