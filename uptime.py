@@ -211,8 +211,7 @@ def send_mail(notice_title, notice_message):
     notice_pwd = os.environ.get("notice_pwd")
     notice_mail = os.environ.get("notice_mail")
     notice_receiver = os.environ.get("notice_receiver")
-    print(notice_host_server)
-    print(notice_user)
+
     #ssl登录
     smtp = SMTP_SSL(notice_host_server)
     #set_debuglevel()是用来调试的。参数值为1表示开启调试模式，参数值为0关闭调试模式
@@ -274,7 +273,8 @@ def do_notice():
                 print(f"Status Changed: {url} From {notice_dict[url]['status']} to {data[2]}")
                 message_body += f"""<p>{url} From {notice_dict[url]['status']} to {data[2]}</p>"""
                 send_status_change = True
-            if data[3] == notice_dict[url]['ssl']:
+            if int(data[3]) == int(notice_dict[url]['ssl']):
+                print(f"SSL Warning: {url} From {notice_dict[url]['ssl']} to {data[3]}")
                 notice_dict[url]['ssl_warning'] = False
             notice_dict[url]['seen'] = 2
         
