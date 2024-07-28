@@ -296,7 +296,7 @@ def do_notice():
 
     notice_message = notice_message.replace("True", "🟢<span style='color: green;'>Up</span>").replace("False", "🔴<span style='color: red;'>Down</span>")
 
-    # if send_status_change or send_ssl_warning:
+    if send_status_change or send_ssl_warning:
     send_mail(notice_title, notice_message)
 
         
