@@ -270,8 +270,8 @@ def do_notice():
             notice_dict[url]['seen'] = 1
         elif notice_dict[url]['seen'] == 1:
             if str(notice_dict[url]['status']) != str(data[2]):
-                print(f"Status Changed: {url} From {notice_dict[url]['status']} to {data[2]}")
-                message_body += f"""<p>{url} From {notice_dict[url]['status']} to {data[2]}</p>"""
+                print(f"Status Changed: {url} From {data[2]} to {notice_dict[url]['status']}")
+                message_body += f"""<p>{url} From {data[2]} to {notice_dict[url]['status']}</p>"""
                 send_status_change = True
             if int(data[3]) == int(notice_dict[url]['ssl']):
                 print(f"SSL Warning: {url} From {notice_dict[url]['ssl']} to {data[3]}")
