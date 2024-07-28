@@ -266,13 +266,13 @@ def do_notice():
             notice_dict[url]['status'] = data[2]
             notice_dict[url]['ssl'] = data[3]
             if notice_dict[url]['ssl'] <= 15:
-                ssl_warning += f"""<h3>{url} Remaining {notice_dict[url]['ssl']} Days</h3>"""
+                ssl_warning += f"""<p>{url} Remaining {notice_dict[url]['ssl']} Days</p>"""
                 notice_dict[url]['ssl_warning'] = True
             notice_dict[url]['seen'] = 1
         elif notice_dict[url]['seen'] == 1:
-            if notice_dict[url]['status'] != data[2]:
+            if str(notice_dict[url]['status']) != str(data[2]):
                 print(f"Status Changed: {url} From {notice_dict[url]['status']} to {data[2]}")
-                message_body += f"""<h3>{url} From {notice_dict[url]['status']} to {data[2]}</h3>"""
+                message_body += f"""<p>{url} From {notice_dict[url]['status']} to {data[2]}</p>"""
                 send_status_change = True
             if data[3] == notice_dict[url]['ssl']:
                 notice_dict[url]['ssl_warning'] = False
@@ -293,6 +293,8 @@ def do_notice():
     notice_message += message_body
     notice_message += ssl_warning
     notice_message += notice_message_post
+
+    notice_message = notice_message.replace("True", "🟢<span style='color: green;'>Up</span>").replace("False", "🔴<span style='color: red;'>Down</span>")
 
     # if send_status_change or send_ssl_warning:
     send_mail(notice_title, notice_message)
