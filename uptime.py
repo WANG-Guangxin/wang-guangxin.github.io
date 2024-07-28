@@ -211,6 +211,7 @@ def send_mail(notice_title, notice_message):
     notice_pwd = os.environ.get("notice_pwd")
     notice_mail = os.environ.get("notice_mail")
     notice_receiver = os.environ.get("notice_receiver")
+    print(notice_host_server)
     #ssl登录
     smtp = SMTP_SSL(notice_host_server)
     #set_debuglevel()是用来调试的。参数值为1表示开启调试模式，参数值为0关闭调试模式
