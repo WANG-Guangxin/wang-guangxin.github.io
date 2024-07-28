@@ -204,7 +204,6 @@ def write_env():
         f.write(env)
 
 
-
 def send_mail(notice_title, notice_message):
     notice_host_server = os.environ.get("notice_host_server")
     notice_user = os.environ.get("notice_user")
@@ -261,6 +260,7 @@ def do_notice():
         if len(data) == 0:
             continue
         url = data[1]
+        print("Checking: ", data)
         if notice_dict[url]['seen'] == 0:
             notice_dict[url]['status'] = data[2]
             notice_dict[url]['ssl'] = data[3]
