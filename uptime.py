@@ -294,16 +294,11 @@ def do_notice():
     notice_message += ssl_warning
     notice_message += notice_message_post
 
-    notice_message = notice_message.replace("True", "🟢<span style='color: green;'>Up</span>").replace("False", "🔴<span style='color: red;'>Down</span>")
+    notice_message = notice_message.replace("From True to False", "From <strong>Up</strong> to 🔴<strong><span style='color: red;'>Down</span></strong>")
+    notice_message = notice_message.replace("From False to True", "From <strong>Down</strong> to 🟢<strong><span style='color: green;'>Up</span></strong>")
 
     if send_status_change or send_ssl_warning:
         send_mail(notice_title, notice_message)
-
-        
-
-
-    
-
 
 def main():
     read_csv_to_list()
