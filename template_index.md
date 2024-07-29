@@ -12,14 +12,15 @@ academia: true
 
 ## H2 Blog
 
-### H3 https://wgxls.site 
-
 <table>
   <tr>
     <th colspan="3"> https://wgxls.site </th>
   </tr>
   <tr>
-    <td colspan="3"> ![](/img/${STATUS_WGXLS_SITE}) ![](/img/Public-Access-blue.svg) </td>
+    <td colspan="3">
+    <img src="/img/${STATUS_WGXLS_SITE}" alt="">
+    <img src="/img/Public-Access-blue.svg" alt=""> 
+    </td>
   </tr>
   <tr>
     <td> Uptime (7 Days) </td>
@@ -35,58 +36,146 @@ academia: true
 
 ## H2 Opengrok
 
-### H3 https://opengrok.dijk.eu.org 
 
-![](/img/${STATUS_OPENGROK_DIJK_EU_ORG}) ![](/img/Public-Access-blue.svg)
+<table>
+    <tr>
+        <th colspan="3"> https://opengrok.dijk.eu.org </th>
+    </tr>
+    <tr>
+        <td colspan="3">
+        <img src="/img/${STATUS_OPENGROK_DIJK_EU_ORG}" alt="">
+        <img src="/img/Public-Access-blue.svg" alt=""> 
+        </td>
+    </tr>
+    <tr>
+        <td> Uptime (7 Days) </td>
+        <td> Uptime (24 Hours) </td>
+        <td> SSL certificate expiration period </td>
+    </tr>
+    <tr>
+        <td> ${OPENGROK_DIJK_EU_ORG_UP_7} </td>
+        <td> ${OPENGROK_DIJK_EU_ORG_UP_24} </td>
+        <td> ${OPENGROK_DIJK_EU_ORG_SSL} </td>
+    </tr>
+</table>
 
-|  Uptime (7 Days)   |  Uptime (24 Hours)  | SSL certificate expiration period |
-| :----------------: | :-----------------: | :-------------------------------: |
-| ${OPENGROK_DIJK_EU_ORG_UP_7} | ${OPENGROK_DIJK_EU_ORG_UP_24} |         ${OPENGROK_DIJK_EU_ORG_SSL}         |
-
-
-### H3 https://opengrok.wgxls.eu.org:8443 
-
-![](/img/${STATUS_OPENGROK_WGXLS_EU_ORG}) ![](/img/China-Friendly-green.svg) ![](/img/Public-Access-blue.svg)
-
-|  Uptime (7 Days)   |  Uptime (24 Hours)  | SSL certificate expiration period |
-| :----------------: | :-----------------: | :-------------------------------: |
-| ${OPENGROK_WGXLS_EU_ORG_UP_7} | ${OPENGROK_WGXLS_EU_ORG_UP_24} |         ${OPENGROK_WGXLS_EU_ORG_SSL}         |
+<table>
+    <tr>
+        <th colspan="3"> https://opengrok.wgxls.eu.org:8443 </th>
+    </tr>
+    <tr>
+        <td colspan="3">
+        <img src="/img/${STATUS_OPENGROK_WGXLS_EU_ORG}" alt="">
+        <img src="/img/China-Friendly-green.svg" alt=""> 
+        <img src="/img/Public-Access-blue.svg" alt=""> 
+        </td>
+    </tr>
+    <tr>
+        <td> Uptime (7 Days) </td>
+        <td> Uptime (24 Hours) </td>
+        <td> SSL certificate expiration period </td>
+    </tr>
+    <tr>
+        <td> ${OPENGROK_WGXLS_EU_ORG_UP_7} </td>
+        <td> ${OPENGROK_WGXLS_EU_ORG_UP_24} </td>
+        <td> ${OPENGROK_WGXLS_EU_ORG_SSL} </td>
+    </tr>
+</table>
 
 ## H2 PDF Tool
 
 ### H3 https://pdf.dijk.eu.org 
 
-![](/img/${STATUS_PDF_DIJK_EU_ORG}) ![](/img/Public-Access-blue.svg)
+<table>
+    <tr>
+        <th colspan="3"> https://pdf.dijk.eu.org </th>
+    </tr>
+    <tr>
+        <td colspan="3">
+        <img src="/img/${STATUS_PDF_DIJK_EU_ORG}" alt="">
+        <img src="/img/Public-Access-blue.svg" alt=""> 
+        </td>
+    </tr>
+    <tr>
+        <td> Uptime (7 Days) </td>
+        <td> Uptime (24 Hours) </td>
+        <td> SSL certificate expiration period </td>
+    </tr>
+    <tr>
+        <td> ${PDF_DIJK_EU_ORG_UP_7} </td>
+        <td> ${PDF_DIJK_EU_ORG_UP_24} </td>
+        <td> ${PDF_DIJK_EU_ORG_SSL} </td>
+    </tr>
+</table>
 
-|  Uptime (7 Days)   |  Uptime (24 Hours)  | SSL certificate expiration period |
-| :----------------: | :-----------------: | :-------------------------------: |
-| ${PDF_DIJK_EU_ORG_UP_7} | ${PDF_DIJK_EU_ORG_UP_24} |         ${PDF_DIJK_EU_ORG_SSL}         |
-
-
-### H3 https://pdf.wgxls.eu.org:8443 
-
-![](/img/${STATUS_PDF_WGXLS_EU_ORG}) ![](/img/China-Friendly-green.svg) ![](/img/Public-Access-blue.svg)
-
-|  Uptime (7 Days)   |  Uptime (24 Hours)  | SSL certificate expiration period |
-| :----------------: | :-----------------: | :-------------------------------: |
-| ${PDF_WGXLS_EU_ORG_UP_7} | ${PDF_WGXLS_EU_ORG_UP_24} |         ${PDF_WGXLS_EU_ORG_SSL}         |
+<table>
+    <tr>
+        <th colspan="3"> https://pdf.wgxls.eu.org:8443 </th>
+    </tr>
+    <tr>
+        <td colspan="3">
+        <img src="/img/${STATUS_PDF_WGXLS_EU_ORG}" alt="">
+        <img src="/img/China-Friendly-green.svg" alt=""> 
+        <img src="/img/Public-Access-blue.svg" alt=""> 
+        </td>
+    </tr>
+    <tr>
+        <td> Uptime (7 Days) </td>
+        <td> Uptime (24 Hours) </td>
+        <td> SSL certificate expiration period </td>
+    </tr>
+    <tr>
+        <td> ${PDF_WGXLS_EU_ORG_UP_7} </td>
+        <td> ${PDF_WGXLS_EU_ORG_UP_24} </td>
+        <td> ${PDF_WGXLS_EU_ORG_SSL} </td>
+    </tr>
+</table>
 
 ## H2 Alist
 
-### H3 https://alist.wgxls.eu.org:8443 
-
-![](/img/${STATUS_ALIST_WGXLS_EU_ORG}) ![](/img/China-Friendly-green.svg) ![](/img/Public-Access-blue.svg)
-
-|  Uptime (7 Days)   |  Uptime (24 Hours)  | SSL certificate expiration period |
-| :----------------: | :-----------------: | :-------------------------------: |
-| ${ALIST_WGXLS_EU_ORG_UP_7} | ${ALIST_WGXLS_EU_ORG_UP_24} |         ${ALIST_WGXLS_EU_ORG_SSL}         |
+<table>
+    <tr>
+        <th colspan="3"> https://alist.wgxls.eu.org:8443 </th>
+    </tr>
+    <tr>
+        <td colspan="3">
+        <img src="/img/${STATUS_ALIST_WGXLS_EU_ORG}" alt="">
+        <img src="/img/China-Friendly-green.svg" alt=""> 
+        <img src="/img/Public-Access-blue.svg" alt=""> 
+        </td>
+    </tr>
+    <tr>
+        <td> Uptime (7 Days) </td>
+        <td> Uptime (24 Hours) </td>
+        <td> SSL certificate expiration period </td>
+    </tr>
+    <tr>
+        <td> ${ALIST_WGXLS_EU_ORG_UP_7} </td>
+        <td> ${ALIST_WGXLS_EU_ORG_UP_24} </td>
+        <td> ${ALIST_WGXLS_EU_ORG_SSL} </td>
+    </tr>
+</table>
 
 ## H2 Image host
 
-### H3 https://image-host-wgx.pages.dev 
-
-![](/img/${STATUS_IMAGE_HOST_PAGES}) ![](/img/Public-Access-blue.svg)
-
-|  Uptime (7 Days)   |  Uptime (24 Hours)  | SSL certificate expiration period |
-| :----------------: | :-----------------: | :-------------------------------: |
-| ${IMAGE_HOST_PAGES_UP_7} | ${IMAGE_HOST_PAGES_UP_24} |         ${IMAGE_HOST_PAGES_SSL}         |
+<table>
+    <tr>
+        <th colspan="3"> https://image-host-wgx.pages.dev </th>
+    </tr>
+    <tr>
+        <td colspan="3">
+        <img src="/img/${STATUS_IMAGE_HOST_PAGES}" alt="">
+        <img src="/img/Public-Access-blue.svg" alt=""> 
+        </td>
+    </tr>
+    <tr>
+        <td> Uptime (7 Days) </td>
+        <td> Uptime (24 Hours) </td>
+        <td> SSL certificate expiration period </td>
+    </tr>
+    <tr>
+        <td> ${IMAGE_HOST_PAGES_UP_7} </td>
+        <td> ${IMAGE_HOST_PAGES_UP_24} </td>
+        <td> ${IMAGE_HOST_PAGES_SSL} </td>
+    </tr>
+</table>
