@@ -3,6 +3,7 @@ import ssl
 import socket
 from urllib.parse import urlparse
 from datetime import  datetime, timedelta
+import pytz
 from requests import Session, exceptions
 import requests
 from collections import deque
@@ -90,6 +91,10 @@ def remove_data_before_seven_days():
 
 def get_current_time():
     now = datetime.now()
+    return now.strftime('%Y-%m-%d %H:%M:%S')
+
+def get_current_time_cst():
+    now = datetime.now(pytz.timezone('Asia/Shanghai'))
     return now.strftime('%Y-%m-%d %H:%M:%S')
 
 def check_uptime(url):
@@ -196,6 +201,7 @@ def calc_uptime():
 
 def write_env():
     env = f"export CURRENT_TIME='{get_current_time()}'\n"
+    env += f"export CURRENT_TIME_CST='{get_current_time_cst()}'\n"
     for key, value in g_config.items():
         for k,v in value.items():
             env += f"export {v}\n"

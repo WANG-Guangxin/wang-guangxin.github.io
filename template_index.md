@@ -4,7 +4,11 @@ date: 2024-04-05 12:26:53
 academia: true
 ---
 
-## Update Time: UTC ${CURRENT_TIME}
+## Update Time
+
+### UTC ${CURRENT_TIME}
+
+### CST ${CURRENT_TIME_CST}
 
 ## H2 Blog
 
