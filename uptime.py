@@ -203,7 +203,6 @@ def write_env():
     with open('./siteenv','w') as f:
         f.write(env)
 
-
 def send_mail(notice_title, notice_message):
     notice_host_server = os.environ.get("notice_host_server")
     notice_user = os.environ.get("notice_user")
