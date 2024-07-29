@@ -14,12 +14,24 @@ academia: true
 
 ### H3 https://wgxls.site 
 
-![](/img/${STATUS_WGXLS_SITE}) ![](/img/Public-Access-blue.svg)
-
-|  Uptime (7 Days)   |  Uptime (24 Hours)  | SSL certificate expiration period |
-| :----------------: | :-----------------: | :-------------------------------: |
-| ${WGXLS_SITE_UP_7} | ${WGXLS_SITE_UP_24} |         ${WGXLS_SITE_SSL}         |
-
+<table>
+  <tr>
+    <th colspan="3"> https://wgxls.site </th>
+  </tr>
+  <tr>
+    <td colspan="3"> ![](/img/${STATUS_WGXLS_SITE}) ![](/img/Public-Access-blue.svg) </td>
+  </tr>
+  <tr>
+    <td> Uptime (7 Days) </td>
+    <td> Uptime (24 Hours) </td>
+    <td> SSL certificate expiration period </td>
+  </tr>
+  <tr>
+    <td> ${WGXLS_SITE_UP_7} </td>
+    <td> ${WGXLS_SITE_UP_24} </td>
+    <td> ${WGXLS_SITE_SSL} </td>
+  </tr>
+</table>
 
 ## H2 Opengrok
 
