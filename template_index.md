@@ -14,7 +14,9 @@ academia: true
 
 <table>
   <tr>
-    <th colspan="3"> https://wgxls.site </th>
+    <th colspan="3"> 
+      <a href="https://wgxls.site">https://wgxls.site </a> 
+    </th>
   </tr>
   <tr>
     <td colspan="3">
@@ -39,7 +41,9 @@ academia: true
 
 <table>
     <tr>
-        <th colspan="3"> https://opengrok.dijk.eu.org </th>
+        <th colspan="3"> 
+            <a href="https://opengrok.dijk.eu.org"> https://opengrok.dijk.eu.org </a>
+        </th>
     </tr>
     <tr>
         <td colspan="3">
@@ -59,9 +63,13 @@ academia: true
     </tr>
 </table>
 
+<br>
+
 <table>
     <tr>
-        <th colspan="3"> https://opengrok.wgxls.eu.org:8443 </th>
+        <th colspan="3"> 
+            <a href="https://opengrok.wgxls.eu.org:8443"> https://opengrok.wgxls.eu.org:8443 </a>
+        </th>
     </tr>
     <tr>
         <td colspan="3">
@@ -84,11 +92,11 @@ academia: true
 
 ## H2 PDF Tool
 
-### H3 https://pdf.dijk.eu.org 
-
 <table>
     <tr>
-        <th colspan="3"> https://pdf.dijk.eu.org </th>
+        <th colspan="3">  
+            <a href="https://pdf.dijk.eu.org"> https://pdf.dijk.eu.org </a>
+        </th>
     </tr>
     <tr>
         <td colspan="3">
@@ -108,9 +116,13 @@ academia: true
     </tr>
 </table>
 
+<br>
+
 <table>
     <tr>
-        <th colspan="3"> https://pdf.wgxls.eu.org:8443 </th>
+        <th colspan="3"> 
+            <a href="https://pdf.wgxls.eu.org:8443"> https://pdf.wgxls.eu.org:8443 </a>
+        </th>
     </tr>
     <tr>
         <td colspan="3">
@@ -135,7 +147,9 @@ academia: true
 
 <table>
     <tr>
-        <th colspan="3"> https://alist.wgxls.eu.org:8443 </th>
+        <th colspan="3">  
+            <a href="https://alist.wgxls.eu.org:8443"> https://alist.wgxls.eu.org:8443 </a>
+        </th>
     </tr>
     <tr>
         <td colspan="3">
@@ -160,7 +174,9 @@ academia: true
 
 <table>
     <tr>
-        <th colspan="3"> https://image-host-wgx.pages.dev </th>
+        <th colspan="3">  
+            <a href="https://image-host-wgx.pages.dev"> https://image-host-wgx.pages.dev </a>
+        </th>
     </tr>
     <tr>
         <td colspan="3">
