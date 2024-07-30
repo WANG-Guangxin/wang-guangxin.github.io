@@ -13,7 +13,8 @@ https://doi.org/10.1007/s11042-022-12267-7
 Multimedia Tools and Applications
 
 Cite:
-```bib
+
+```bash
 @Article{Yan2022,
 author={Yan, Xiaohong
 and Wang, Guangxin
@@ -44,7 +45,8 @@ https://doi.org/10.1016/j.image.2022.116670
 Signal Processing: Image Communication
 
 Cite:
-```bib
+
+```bash
 @article{YAN2022116670,
 title = {A novel biologically-inspired method for underwater image enhancement},
 journal = {Signal Processing: Image Communication},
@@ -67,7 +69,8 @@ abstract = {Underwater images are usually characterized by color distortion, blu
 https://kns.cnki.net/kcms2/article/abstract?v=eoCTaIZmBONhPM4L1JEn4QMh6JvGVb7InF89IykMmLzvZSBK86mVG-GuL-2eoF4yN3gCttr-UptZ7eV4JoWiIS83MjEaXwbtypAOisB_vI-pjxwpfSHVf-4uegffKNx3j9j_yibN9RA=&uniplatform=NZKPT&language=CHS
 
 Cite:
-```bib
+```bash
+
 @manual{CN116402721A,
 author = {  付先平 and     曹楠 and     汪广鑫 and     闫小红 and 王亚飞},
  title = {基于对比感知损失的水下图像增强方法},
