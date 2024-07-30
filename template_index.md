@@ -195,3 +195,26 @@ academia: true
         <td> ${IMAGE_HOST_PAGES_SSL} </td>
     </tr>
 </table>
+
+
+{% raw %}
+
+<script>
+var tables = document.getElementsByTagName('table');
+for (var i = 0; i < tables.length; i++) {
+    var table = tables[i];
+    var tr = table.getElementsByTagName('tr')[1];
+    var imgdown = tr.querySelector('img[src="/img/Status-Down-red.svg"]');
+    if (imgdown) {
+        var th = table.getElementsByTagName('tr')[0].querySelector('th');
+        th.innerHTML = '🔴 ' + th.innerHTML;
+    }
+    var imgup = tr.querySelector('img[src="/img/Status-Up-green.svg"]');
+    if (imgup) {
+        var th = table.getElementsByTagName('tr')[0].querySelector('th');
+        th.innerHTML = '🟢 ' + th.innerHTML;
+    }
+}
+</script>
+
+{% endraw %}
