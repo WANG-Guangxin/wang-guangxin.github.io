@@ -170,6 +170,34 @@ academia: true
     </tr>
 </table>
 
+## H2 phpMyAdmin
+
+<table>
+    <tr>
+        <th colspan="3">  
+            <a href="https://pma.wgxls.eu.org:8443"> https://pma.wgxls.eu.org:8443 </a>
+        </th>
+    </tr>
+    <tr>
+        <td colspan="3">
+        <img src="/img/${STATUS_PHPMYADMIN_WGXLS_EU_ORG}" alt="">
+        <img src="/img/China-Friendly-green.svg" alt=""> 
+        <img src="/img/Public-Access-blue.svg" alt=""> 
+        </td>
+    </tr>
+    <tr>
+        <td> Uptime (7 Days) </td>
+        <td> Uptime (24 Hours) </td>
+        <td> SSL certificate expiration period </td>
+    </tr>
+    <tr>
+        <td> ${PHPMYADMIN_WGXLS_EU_ORG_UP_7} </td>
+        <td> ${PHPMYADMIN_WGXLS_EU_ORG_UP_24} </td>
+        <td> ${PHPMYADMIN_WGXLS_EU_ORG_SSL} </td>
+    </tr>
+</table>
+
+
 ## H2 Image host
 
 <table>
@@ -193,6 +221,32 @@ academia: true
         <td> ${IMAGE_HOST_PAGES_UP_7} </td>
         <td> ${IMAGE_HOST_PAGES_UP_24} </td>
         <td> ${IMAGE_HOST_PAGES_SSL} </td>
+    </tr>
+</table>
+
+## H2 Hide IP Network
+
+<table>
+    <tr>
+        <th colspan="3">  
+            <a href="https://web.dijk.eu.org"> https://web.dijk.eu.org </a>
+        </th>
+    </tr>
+    <tr>
+        <td colspan="3">
+        <img src="/img/${STATUS_WEB_DIJK_EU_ORG}" alt="">
+        <img src="/img/Public-Access-blue.svg" alt=""> 
+        </td>
+    </tr>
+    <tr>
+        <td> Uptime (7 Days) </td>
+        <td> Uptime (24 Hours) </td>
+        <td> SSL certificate expiration period </td>
+    </tr>
+    <tr>
+        <td> ${WEB_DIJK_EU_ORG_UP_7} </td>
+        <td> ${WEB_DIJK_EU_ORG_UP_24} </td>
+        <td> ${WEB_DIJK_EU_ORG_SSL} </td>
     </tr>
 </table>
 

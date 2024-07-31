@@ -62,6 +62,20 @@ g_config = {
         "uptime7d": "ALIST_WGXLS_EU_ORG_UP_7='",
         "uptime24h": "ALIST_WGXLS_EU_ORG_UP_24='",
         "ssl": "ALIST_WGXLS_EU_ORG_SSL='"
+    },
+    "https://pma.wgxls.eu.org:8443":
+    {
+        "status": "STATUS_PHPMYADMIN_WGXLS_EU_ORG='",
+        "uptime7d": "PHPMYADMIN_WGXLS_EU_ORG_UP_7='",
+        "uptime24h": "PHPMYADMIN_WGXLS_EU_ORG_UP_24='",
+        "ssl": "PHPMYADMIN_WGXLS_EU_ORG_SSL='"
+    },
+    "https://web.dijk.eu.org":
+    {
+        "status": "STATUS_WEB_DIJK_EU_ORG='",
+        "uptime7d": "WEB_DIJK_EU_ORG_UP_7='",
+        "uptime24h": "WEB_DIJK_EU_ORG_UP_24='",
+        "ssl": "WEB_DIJK_EU_ORG_SSL='"
     }
 }
 
@@ -302,7 +316,7 @@ def do_notice():
     notice_message = notice_message.replace("From True to False", "From <strong>Up</strong> to 🔴<strong><span style='color: red;'>Down</span></strong>")
     notice_message = notice_message.replace("From False to True", "From <strong>Down</strong> to 🟢<strong><span style='color: green;'>Up</span></strong>")
 
-    if send_status_change or send_ssl_warning:
+    if send_status_change: # or send_ssl_warning:
         send_mail(notice_title, notice_message)
 
 def main():
