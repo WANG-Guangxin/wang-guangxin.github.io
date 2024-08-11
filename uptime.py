@@ -255,7 +255,7 @@ def do_notice():
     <h2>SSL Warning: </h2>
     """
     notice_message_post = f"""
-    <p>点击查看全部网站：<a href='https://wang-guangxin.github.op/sites'>https://wang-guangxin.github.op/sites</p> 
+    <p>点击查看全部网站：<a href='https://wang-guangxin.github.io/sites'>https://wang-guangxin.github.io/sites</a></p> 
     </body>
     </html>"""
 
