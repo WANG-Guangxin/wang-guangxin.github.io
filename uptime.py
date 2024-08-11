@@ -254,7 +254,8 @@ def do_notice():
     ssl_warning = f""" 
     <h2>SSL Warning: </h2>
     """
-    notice_message_post = f""" 
+    notice_message_post = f"""
+    <p>点击查看全部网站：<a href='https://wang-guangxin.github.op/sites'>https://wang-guangxin.github.op/sites</p> 
     </body>
     </html>"""
 
@@ -290,7 +291,7 @@ def do_notice():
         elif notice_dict[url]['seen'] == 1:
             if str(notice_dict[url]['status']) != str(data[2]):
                 print(f"Status Changed: {url} From {data[2]} to {notice_dict[url]['status']}")
-                message_body += f"""<p>{url} From {data[2]} to {notice_dict[url]['status']}</p>"""
+                message_body += f"""<p><a href='{url}'>{url}</a> From {data[2]} to {notice_dict[url]['status']}</p>"""
                 send_status_change = True
             if int(data[3]) == int(notice_dict[url]['ssl']):
                 print(f"SSL Warning: {url} From {notice_dict[url]['ssl']} to {data[3]}")
