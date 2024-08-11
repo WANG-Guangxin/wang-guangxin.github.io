@@ -28,7 +28,7 @@ jobs:
     - name: Install Hexo
       run: npm install -g hexo-cli
 
-    - name: Billd-0
+    - name: Build-0
       run: bash ./build.sh
       env:
         notice_host_server: ${{ secrets.notice_host_server }}
@@ -43,7 +43,7 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./public
 
-    - name: Billd-1
+    - name: Build-1
       run: sleep 300 && bash ./build.sh
       env:
         notice_host_server: ${{ secrets.notice_host_server }}
@@ -58,7 +58,7 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./public
 
-    - name: Billd-2
+    - name: Build-2
       run: sleep 300 && bash ./build.sh
       env:
         notice_host_server: ${{ secrets.notice_host_server }}
