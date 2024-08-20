@@ -12,6 +12,7 @@ import os
 from email.mime.text import MIMEText
 from email.header import Header
 from smtplib import SMTP_SSL
+import inspect
 
 g_config = {
     "https://wgxls.site": 
@@ -84,6 +85,10 @@ g_data_list = []
 g_data_list.append([])
 g_notice_enable = True
 
+def log_print(msg):
+    caller = inspect.currentframe().f_back.f_code.co_name
+    print(f"{get_current_time()} [{caller}] {msg}")
+
 def write_list_to_csv():
     global g_data_list
     with open(g_data_file, 'w', newline='') as file:
@@ -95,6 +100,8 @@ def read_csv_to_list():
     with open(g_data_file, 'r') as file:
         reader = csv.reader(file)
         g_data_list = list(reader)
+        # print the last 10 items
+        log_print(g_data_list[-10:])
 
 def remove_data_before_seven_days():
     global g_data_list  
@@ -139,7 +146,7 @@ def check_ssl_expiry(url):
         return (datetime.strptime(ssl_info['notAfter'], ssl_date_fmt) - datetime.utcnow()).days
 
     except Exception as e:
-        print(f"An error occurred when checking SSL expiry for {url}: {e}")
+        log_print(f"An error occurred when checking SSL expiry for {url}: {e}")
         return -1
 
 def to_bool(s):
@@ -204,7 +211,7 @@ def calc_uptime():
             temp[data[1]]['S24'] += 1
             if to_bool(data[2]):
                 temp[data[1]]['u24h'] += 1
-    print(temp)
+    log_print(temp)
     for key, value in temp.items():
         u7d = temp[key]['u7d'] / temp[key]['S7'] * 100.0
         u24h = temp[key]['u24h'] / temp[key]['S24'] * 100.0
@@ -280,7 +287,7 @@ def do_notice():
         if len(data) == 0:
             continue
         url = data[1]
-        print("Checking: ", data)
+        log_print("Checking: ", data)
         if notice_dict[url]['seen'] == 0:
             notice_dict[url]['status'] = data[2]
             notice_dict[url]['ssl'] = data[3]
@@ -290,11 +297,11 @@ def do_notice():
             notice_dict[url]['seen'] = 1
         elif notice_dict[url]['seen'] == 1:
             if str(notice_dict[url]['status']) != str(data[2]):
-                print(f"Status Changed: {url} From {data[2]} to {notice_dict[url]['status']}")
+                log_print(f"Status Changed: {url} From {data[2]} to {notice_dict[url]['status']}")
                 message_body += f"""<p><a href='{url}'>{url}</a> From {data[2]} to {notice_dict[url]['status']}</p>"""
                 send_status_change = True
             if int(data[3]) == int(notice_dict[url]['ssl']):
-                print(f"SSL Warning: {url} From {notice_dict[url]['ssl']} to {data[3]}")
+                log_print(f"SSL Warning: {url} From {notice_dict[url]['ssl']} to {data[3]}")
                 notice_dict[url]['ssl_warning'] = False
             notice_dict[url]['seen'] = 2
         

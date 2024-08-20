@@ -28,23 +28,8 @@ jobs:
     - name: Install Hexo
       run: npm install -g hexo-cli
 
-    - name: Build-0
-      run: bash ./build.sh
-      env:
-        notice_host_server: ${{ secrets.notice_host_server }}
-        notice_user: ${{ secrets.notice_user }}
-        notice_pwd: ${{ secrets.notice_pwd }}
-        notice_mail: ${{ secrets.notice_mail }}
-        notice_receiver: ${{ secrets.notice_receiver }}
-
-    - name: Deploying-0
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./public
-
     - name: Build-1
-      run: sleep 300 && bash ./build.sh
+      run: bash ./build.sh
       env:
         notice_host_server: ${{ secrets.notice_host_server }}
         notice_user: ${{ secrets.notice_user }}
