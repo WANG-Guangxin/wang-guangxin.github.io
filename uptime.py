@@ -287,7 +287,7 @@ def do_notice():
         if len(data) == 0:
             continue
         url = data[1]
-        log_print("Checking: ", data)
+        log_print(f"Checking: {data}")
         if notice_dict[url]['seen'] == 0:
             notice_dict[url]['status'] = data[2]
             notice_dict[url]['ssl'] = data[3]
