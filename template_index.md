@@ -224,6 +224,32 @@ academia: true
     </tr>
 </table>
 
+<table>
+    <tr>
+        <th colspan="3">  
+            <a href="https://lsky.wgxls.eu.org:8443"> https://lsky.wgxls.eu.org:8443 </a>
+        </th>
+    </tr>
+    <tr>
+        <td colspan="3">
+        <img src="/img/${STATUS_LSKY_WGXLS_EU_ORG}" alt="">
+        <img src="/img/Public-Access-blue.svg" alt="">
+        <img src="/img/China-Friendly-green.svg" alt=""> 
+        </td>
+    </tr>
+    <tr>
+        <td> Uptime (7 Days) </td>
+        <td> Uptime (24 Hours) </td>
+        <td> SSL certificate expiration period </td>
+    </tr>
+    <tr>
+        <td> ${LSKY_WGXLS_EU_ORG_UP_7} </td>
+        <td> ${LSKY_WGXLS_EU_ORG_UP_24} </td>
+        <td> ${LSKY_WGXLS_EU_ORG_SSL} </td>
+    </tr>
+
+</table>
+
 ## H2 Hide IP Network
 
 <table>
@@ -250,6 +276,34 @@ academia: true
     </tr>
 </table>
 
+
+## Remote PC
+
+<table>
+    <tr>
+        <th colspan="3">  
+            <a href="https://windows.wgxls.eu.org:8443"> https://windows.wgxls.eu.org:8443 </a>
+        </th>
+    </tr>
+    <tr>
+        <td colspan="3">
+        <img src="/img/${STATUS_WINDOWS_WGXLS_EU_ORG}" alt="">
+        <img src="/img/Public-Access-blue.svg" alt="">
+        <img src="/img/Private.svg" alt=""> 
+        </td>
+    </tr>
+    <tr>
+        <td> Uptime (7 Days) </td>
+        <td> Uptime (24 Hours) </td>
+        <td> SSL certificate expiration period </td>
+    </tr>
+    <tr>
+        <td> ${WINDOWS_WGXLS_EU_ORG_UP_7} </td>
+        <td> ${WINDOWS_WGXLS_EU_ORG_UP_24} </td>
+        <td> ${WINDOWS_WGXLS_EU_ORG_SSL} </td>
+    </tr>
+
+</table>
 
 {% raw %}
 
