@@ -224,6 +224,8 @@ academia: true
     </tr>
 </table>
 
+<br>
+
 <table>
     <tr>
         <th colspan="3">  
@@ -288,7 +290,6 @@ academia: true
     <tr>
         <td colspan="3">
         <img src="/img/${STATUS_WINDOWS_WGXLS_EU_ORG}" alt="">
-        <img src="/img/Public-Access-blue.svg" alt="">
         <img src="/img/Private.svg" alt=""> 
         </td>
     </tr>
