@@ -278,6 +278,33 @@ academia: true
     </tr>
 </table>
 
+## Drawio
+
+<table>
+    <tr>
+        <th colspan="3">  
+            <a href="https://draw.wgxls.eu.org:8443"> https://draw.wgxls.eu.org:8443 </a>
+        </th>
+    </tr>
+    <tr>
+        <td colspan="3">
+        <img src="/img/${STATUS_DRAW_WGXLS_EU_ORG}" alt="">
+        <img src="/img/Public-Access-blue.svg" alt="">
+        <img src="/img/China-Friendly-green.svg" alt=""> 
+        </td>
+    </tr>
+    <tr>
+        <td> Uptime (7 Days) </td>
+        <td> Uptime (24 Hours) </td>
+        <td> SSL certificate expiration period </td>
+    </tr>
+    <tr>
+        <td> ${DRAW_WGXLS_EU_ORG_UP_7} </td>
+        <td> ${DRAW_WGXLS_EU_ORG_UP_24} </td>
+        <td> ${DRAW_WGXLS_EU_ORG_SSL} </td>
+    </tr>
+</table>
+
 
 ## Remote PC
 

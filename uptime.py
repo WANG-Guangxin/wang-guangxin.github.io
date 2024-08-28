@@ -78,7 +78,7 @@ g_config = {
         "uptime24h": "WEB_DIJK_EU_ORG_UP_24='",
         "ssl": "WEB_DIJK_EU_ORG_SSL='"
     },
-    "https://lsky.wgxls.ue.org:8443":
+    "https://lsky.wgxls.eu.org:8443":
     {
         "status": "STATUS_LSKY_WGXLS_EU_ORG='",
         "uptime7d": "LSKY_WGXLS_EU_ORG_UP_7='",
@@ -91,6 +91,13 @@ g_config = {
         "uptime7d": "WINDOWS_WGXLS_EU_ORG_UP_7='",
         "uptime24h": "WINDOWS_WGXLS_EU_ORG_UP_24='",
         "ssl": "WINDOWS_WGXLS_EU_ORG_SSL='"
+    },
+    "https://draw.wgxls.eu.org:8443":
+    {
+        "status": "STATUS_DRAW_WGXLS_EU_ORG='",
+        "uptime7d": "DRAW_WGXLS_EU_ORG_UP_7='",
+        "uptime24h": "DRAW_WGXLS_EU_ORG_UP_24='",
+        "ssl": "DRAW_WGXLS_EU_ORG_SSL='"
     }
 }
 
