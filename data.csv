@@ -1,57 +1,3 @@
-2024-08-21 14:36:04,https://wgxls.site,True,69
-2024-08-21 14:36:04,https://opengrok.dijk.eu.org,True,61
-2024-08-21 14:36:05,https://opengrok.wgxls.eu.org:8443,True,58
-2024-08-21 14:36:06,https://pdf.dijk.eu.org,False,-1
-2024-08-21 14:36:07,https://pdf.wgxls.eu.org:8443,True,58
-2024-08-21 14:36:08,https://image-host-wgx.pages.dev,True,63
-2024-08-21 14:36:09,https://alist.wgxls.eu.org:8443,True,58
-2024-08-21 14:36:10,https://pma.wgxls.eu.org:8443,True,58
-2024-08-21 14:36:11,https://web.dijk.eu.org,True,61
-2024-08-21 14:43:38,https://wgxls.site,True,69
-2024-08-21 14:43:38,https://opengrok.dijk.eu.org,True,61
-2024-08-21 14:43:39,https://opengrok.wgxls.eu.org:8443,True,58
-2024-08-21 14:43:41,https://pdf.dijk.eu.org,False,-1
-2024-08-21 14:43:41,https://pdf.wgxls.eu.org:8443,True,58
-2024-08-21 14:43:44,https://image-host-wgx.pages.dev,True,63
-2024-08-21 14:43:44,https://alist.wgxls.eu.org:8443,True,58
-2024-08-21 14:43:45,https://pma.wgxls.eu.org:8443,True,58
-2024-08-21 14:43:47,https://web.dijk.eu.org,True,61
-2024-08-21 14:48:57,https://wgxls.site,True,69
-2024-08-21 14:48:57,https://opengrok.dijk.eu.org,True,61
-2024-08-21 14:48:58,https://opengrok.wgxls.eu.org:8443,True,58
-2024-08-21 14:48:59,https://pdf.dijk.eu.org,False,-1
-2024-08-21 14:49:05,https://pdf.wgxls.eu.org:8443,True,58
-2024-08-21 14:49:07,https://image-host-wgx.pages.dev,True,63
-2024-08-21 14:49:07,https://alist.wgxls.eu.org:8443,True,58
-2024-08-21 14:49:09,https://pma.wgxls.eu.org:8443,True,58
-2024-08-21 14:49:11,https://web.dijk.eu.org,True,61
-2024-08-21 14:54:16,https://wgxls.site,True,69
-2024-08-21 14:54:16,https://opengrok.dijk.eu.org,True,61
-2024-08-21 14:54:16,https://opengrok.wgxls.eu.org:8443,True,58
-2024-08-21 14:54:18,https://pdf.dijk.eu.org,False,-1
-2024-08-21 14:54:19,https://pdf.wgxls.eu.org:8443,True,58
-2024-08-21 14:54:20,https://image-host-wgx.pages.dev,True,63
-2024-08-21 14:54:21,https://alist.wgxls.eu.org:8443,True,58
-2024-08-21 14:54:22,https://pma.wgxls.eu.org:8443,True,58
-2024-08-21 14:54:24,https://web.dijk.eu.org,True,61
-2024-08-21 14:59:28,https://wgxls.site,True,69
-2024-08-21 14:59:29,https://opengrok.dijk.eu.org,True,61
-2024-08-21 14:59:29,https://opengrok.wgxls.eu.org:8443,False,58
-2024-08-21 14:59:31,https://pdf.dijk.eu.org,False,-1
-2024-08-21 14:59:31,https://pdf.wgxls.eu.org:8443,True,58
-2024-08-21 14:59:33,https://image-host-wgx.pages.dev,True,63
-2024-08-21 14:59:33,https://alist.wgxls.eu.org:8443,True,58
-2024-08-21 14:59:35,https://pma.wgxls.eu.org:8443,True,58
-2024-08-21 14:59:37,https://web.dijk.eu.org,True,61
-2024-08-21 15:04:47,https://wgxls.site,True,69
-2024-08-21 15:04:48,https://opengrok.dijk.eu.org,True,61
-2024-08-21 15:04:48,https://opengrok.wgxls.eu.org:8443,False,58
-2024-08-21 15:04:50,https://pdf.dijk.eu.org,False,-1
-2024-08-21 15:04:50,https://pdf.wgxls.eu.org:8443,True,58
-2024-08-21 15:04:52,https://image-host-wgx.pages.dev,True,63
-2024-08-21 15:04:52,https://alist.wgxls.eu.org:8443,True,58
-2024-08-21 15:04:54,https://pma.wgxls.eu.org:8443,True,58
-2024-08-21 15:04:55,https://web.dijk.eu.org,True,61
 2024-08-21 15:15:02,https://wgxls.site,True,69
 2024-08-21 15:15:02,https://opengrok.dijk.eu.org,True,61
 2024-08-21 15:15:03,https://opengrok.wgxls.eu.org:8443,False,58
@@ -10906,7 +10852,6 @@
 2024-08-27 12:49:41,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 12:49:42,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 12:49:43,https://web.dijk.eu.org,True,55
-2024-08-27 12:49:44,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 12:49:44,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 12:54:51,https://wgxls.site,True,63
 2024-08-27 12:54:51,https://opengrok.dijk.eu.org,True,55
@@ -10917,7 +10862,6 @@
 2024-08-27 12:54:55,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 12:54:57,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 12:54:58,https://web.dijk.eu.org,True,55
-2024-08-27 12:54:59,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 12:54:59,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 13:00:05,https://wgxls.site,True,63
 2024-08-27 13:00:06,https://opengrok.dijk.eu.org,True,55
@@ -10928,7 +10872,6 @@
 2024-08-27 13:00:11,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 13:00:12,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 13:00:13,https://web.dijk.eu.org,True,55
-2024-08-27 13:00:14,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 13:00:14,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 13:05:21,https://wgxls.site,True,63
 2024-08-27 13:05:21,https://opengrok.dijk.eu.org,True,55
@@ -10939,7 +10882,6 @@
 2024-08-27 13:05:26,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 13:05:27,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 13:05:28,https://web.dijk.eu.org,True,55
-2024-08-27 13:05:29,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 13:05:29,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 13:10:35,https://wgxls.site,True,63
 2024-08-27 13:10:36,https://opengrok.dijk.eu.org,True,55
@@ -10950,7 +10892,6 @@
 2024-08-27 13:10:40,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 13:10:41,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 13:10:43,https://web.dijk.eu.org,True,55
-2024-08-27 13:10:44,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 13:10:44,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 13:23:44,https://wgxls.site,True,63
 2024-08-27 13:23:44,https://opengrok.dijk.eu.org,True,55
@@ -10961,7 +10902,6 @@
 2024-08-27 13:23:49,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 13:23:51,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 13:23:52,https://web.dijk.eu.org,True,55
-2024-08-27 13:23:58,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 13:23:58,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 13:29:05,https://wgxls.site,True,63
 2024-08-27 13:29:05,https://opengrok.dijk.eu.org,True,55
@@ -10972,7 +10912,6 @@
 2024-08-27 13:29:09,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 13:29:10,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 13:29:12,https://web.dijk.eu.org,True,55
-2024-08-27 13:29:12,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 13:29:13,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 13:34:20,https://wgxls.site,True,63
 2024-08-27 13:34:20,https://opengrok.dijk.eu.org,True,55
@@ -10983,7 +10922,6 @@
 2024-08-27 13:34:24,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 13:34:25,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 13:34:26,https://web.dijk.eu.org,True,55
-2024-08-27 13:34:27,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 13:34:28,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 13:39:34,https://wgxls.site,True,63
 2024-08-27 13:39:34,https://opengrok.dijk.eu.org,True,55
@@ -10994,7 +10932,6 @@
 2024-08-27 13:39:38,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 13:39:39,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 13:39:41,https://web.dijk.eu.org,True,55
-2024-08-27 13:39:41,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 13:39:42,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 13:44:48,https://wgxls.site,True,63
 2024-08-27 13:44:48,https://opengrok.dijk.eu.org,True,55
@@ -11005,7 +10942,6 @@
 2024-08-27 13:44:52,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 13:44:53,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 13:44:55,https://web.dijk.eu.org,True,55
-2024-08-27 13:44:55,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 13:44:55,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 13:49:36,https://wgxls.site,True,63
 2024-08-27 13:49:37,https://opengrok.dijk.eu.org,True,55
@@ -11016,7 +10952,6 @@
 2024-08-27 13:49:43,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 13:49:45,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 13:49:47,https://web.dijk.eu.org,True,55
-2024-08-27 13:49:48,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 13:49:49,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 13:54:55,https://wgxls.site,True,63
 2024-08-27 13:54:55,https://opengrok.dijk.eu.org,True,55
@@ -11027,7 +10962,6 @@
 2024-08-27 13:55:06,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 13:55:08,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 13:55:10,https://web.dijk.eu.org,True,55
-2024-08-27 13:55:10,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 13:55:11,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 14:00:17,https://wgxls.site,True,63
 2024-08-27 14:00:17,https://opengrok.dijk.eu.org,True,55
@@ -11038,7 +10972,6 @@
 2024-08-27 14:00:22,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 14:00:23,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 14:00:25,https://web.dijk.eu.org,True,55
-2024-08-27 14:00:26,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 14:00:26,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 14:05:32,https://wgxls.site,True,63
 2024-08-27 14:05:32,https://opengrok.dijk.eu.org,True,55
@@ -11049,7 +10982,6 @@
 2024-08-27 14:05:37,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 14:05:38,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 14:05:40,https://web.dijk.eu.org,True,55
-2024-08-27 14:05:40,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 14:05:41,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 14:10:47,https://wgxls.site,True,63
 2024-08-27 14:10:47,https://opengrok.dijk.eu.org,True,55
@@ -11060,7 +10992,6 @@
 2024-08-27 14:10:52,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 14:10:53,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 14:10:55,https://web.dijk.eu.org,True,55
-2024-08-27 14:10:55,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 14:10:56,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 14:13:57,https://wgxls.site,True,63
 2024-08-27 14:13:57,https://opengrok.dijk.eu.org,True,55
@@ -11071,7 +11002,6 @@
 2024-08-27 14:14:02,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 14:14:04,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 14:14:05,https://web.dijk.eu.org,True,55
-2024-08-27 14:14:06,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 14:14:06,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 14:19:14,https://wgxls.site,True,63
 2024-08-27 14:19:14,https://opengrok.dijk.eu.org,True,55
@@ -11082,7 +11012,6 @@
 2024-08-27 14:19:19,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 14:19:20,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 14:19:22,https://web.dijk.eu.org,True,55
-2024-08-27 14:19:23,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 14:19:23,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 14:24:29,https://wgxls.site,True,63
 2024-08-27 14:24:29,https://opengrok.dijk.eu.org,True,55
@@ -11093,7 +11022,6 @@
 2024-08-27 14:24:34,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 14:24:35,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 14:24:37,https://web.dijk.eu.org,True,55
-2024-08-27 14:24:37,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 14:24:37,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 14:29:44,https://wgxls.site,True,63
 2024-08-27 14:29:44,https://opengrok.dijk.eu.org,True,55
@@ -11104,7 +11032,6 @@
 2024-08-27 14:29:49,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 14:29:51,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 14:29:52,https://web.dijk.eu.org,True,55
-2024-08-27 14:29:53,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 14:29:53,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 14:35:00,https://wgxls.site,True,63
 2024-08-27 14:35:00,https://opengrok.dijk.eu.org,True,55
@@ -11115,7 +11042,6 @@
 2024-08-27 14:35:05,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 14:35:07,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 14:35:09,https://web.dijk.eu.org,True,55
-2024-08-27 14:35:09,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 14:35:09,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 14:49:29,https://wgxls.site,True,63
 2024-08-27 14:49:29,https://opengrok.dijk.eu.org,True,55
@@ -11126,7 +11052,6 @@
 2024-08-27 14:49:34,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 14:49:36,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 14:49:37,https://web.dijk.eu.org,True,55
-2024-08-27 14:49:38,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 14:49:39,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 14:54:45,https://wgxls.site,True,63
 2024-08-27 14:54:45,https://opengrok.dijk.eu.org,True,55
@@ -11137,7 +11062,6 @@
 2024-08-27 14:54:55,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 14:54:57,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 14:54:59,https://web.dijk.eu.org,True,55
-2024-08-27 14:55:00,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 14:55:00,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 15:00:07,https://wgxls.site,True,63
 2024-08-27 15:00:07,https://opengrok.dijk.eu.org,True,55
@@ -11148,7 +11072,6 @@
 2024-08-27 15:00:12,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 15:00:13,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 15:00:15,https://web.dijk.eu.org,True,55
-2024-08-27 15:00:16,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 15:00:16,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 15:05:22,https://wgxls.site,True,63
 2024-08-27 15:05:22,https://opengrok.dijk.eu.org,True,55
@@ -11159,7 +11082,6 @@
 2024-08-27 15:05:27,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 15:05:29,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 15:05:31,https://web.dijk.eu.org,True,55
-2024-08-27 15:05:31,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 15:05:32,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 15:10:38,https://wgxls.site,True,63
 2024-08-27 15:10:38,https://opengrok.dijk.eu.org,True,55
@@ -11170,7 +11092,6 @@
 2024-08-27 15:10:42,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 15:10:44,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 15:10:47,https://web.dijk.eu.org,True,55
-2024-08-27 15:10:47,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 15:10:47,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 15:16:15,https://wgxls.site,True,63
 2024-08-27 15:16:15,https://opengrok.dijk.eu.org,True,55
@@ -11181,7 +11102,6 @@
 2024-08-27 15:16:27,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 15:16:29,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 15:16:30,https://web.dijk.eu.org,True,55
-2024-08-27 15:16:31,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 15:16:31,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 15:21:38,https://wgxls.site,True,63
 2024-08-27 15:21:38,https://opengrok.dijk.eu.org,True,55
@@ -11192,7 +11112,6 @@
 2024-08-27 15:21:43,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 15:21:45,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 15:21:46,https://web.dijk.eu.org,True,55
-2024-08-27 15:21:47,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 15:21:47,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 15:26:54,https://wgxls.site,True,63
 2024-08-27 15:26:54,https://opengrok.dijk.eu.org,True,55
@@ -11203,7 +11122,6 @@
 2024-08-27 15:27:00,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 15:27:02,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 15:27:03,https://web.dijk.eu.org,True,55
-2024-08-27 15:27:04,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 15:27:04,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 15:32:11,https://wgxls.site,True,63
 2024-08-27 15:32:11,https://opengrok.dijk.eu.org,True,55
@@ -11214,7 +11132,6 @@
 2024-08-27 15:32:16,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 15:32:17,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 15:32:18,https://web.dijk.eu.org,True,55
-2024-08-27 15:32:19,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 15:32:19,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 15:37:26,https://wgxls.site,True,63
 2024-08-27 15:37:26,https://opengrok.dijk.eu.org,True,55
@@ -11225,7 +11142,6 @@
 2024-08-27 15:37:30,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 15:37:32,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 15:37:33,https://web.dijk.eu.org,True,55
-2024-08-27 15:37:34,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 15:37:34,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 15:49:42,https://wgxls.site,True,63
 2024-08-27 15:49:42,https://opengrok.dijk.eu.org,True,55
@@ -11236,7 +11152,6 @@
 2024-08-27 15:49:52,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 15:49:54,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 15:49:56,https://web.dijk.eu.org,True,55
-2024-08-27 15:49:56,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 15:49:57,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 15:55:03,https://wgxls.site,True,63
 2024-08-27 15:55:03,https://opengrok.dijk.eu.org,True,55
@@ -11247,7 +11162,6 @@
 2024-08-27 15:55:08,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 15:55:09,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 15:55:16,https://web.dijk.eu.org,True,55
-2024-08-27 15:55:17,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 15:55:17,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 16:00:23,https://wgxls.site,True,63
 2024-08-27 16:00:23,https://opengrok.dijk.eu.org,True,55
@@ -11258,7 +11172,6 @@
 2024-08-27 16:00:27,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 16:00:29,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 16:00:30,https://web.dijk.eu.org,True,55
-2024-08-27 16:00:31,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 16:00:31,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 16:05:37,https://wgxls.site,True,63
 2024-08-27 16:05:37,https://opengrok.dijk.eu.org,True,55
@@ -11269,7 +11182,6 @@
 2024-08-27 16:05:42,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 16:05:43,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 16:05:45,https://web.dijk.eu.org,True,55
-2024-08-27 16:05:45,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 16:05:45,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 16:10:51,https://wgxls.site,True,63
 2024-08-27 16:10:51,https://opengrok.dijk.eu.org,True,55
@@ -11280,7 +11192,6 @@
 2024-08-27 16:10:56,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 16:10:58,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 16:10:59,https://web.dijk.eu.org,True,55
-2024-08-27 16:11:00,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 16:11:00,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 16:18:17,https://wgxls.site,True,63
 2024-08-27 16:18:17,https://opengrok.dijk.eu.org,True,55
@@ -11291,7 +11202,6 @@
 2024-08-27 16:18:22,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 16:18:23,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 16:18:25,https://web.dijk.eu.org,True,55
-2024-08-27 16:18:26,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 16:18:26,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 16:23:32,https://wgxls.site,True,63
 2024-08-27 16:23:32,https://opengrok.dijk.eu.org,True,55
@@ -11302,7 +11212,6 @@
 2024-08-27 16:23:37,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 16:23:38,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 16:23:40,https://web.dijk.eu.org,True,55
-2024-08-27 16:23:40,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 16:23:41,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 16:28:47,https://wgxls.site,True,63
 2024-08-27 16:28:47,https://opengrok.dijk.eu.org,True,55
@@ -11313,7 +11222,6 @@
 2024-08-27 16:28:52,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 16:28:53,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 16:28:55,https://web.dijk.eu.org,True,55
-2024-08-27 16:28:55,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 16:28:55,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 16:34:01,https://wgxls.site,True,63
 2024-08-27 16:34:02,https://opengrok.dijk.eu.org,True,55
@@ -11324,7 +11232,6 @@
 2024-08-27 16:34:06,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 16:34:07,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 16:34:09,https://web.dijk.eu.org,True,55
-2024-08-27 16:34:09,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 16:34:09,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 16:39:16,https://wgxls.site,True,63
 2024-08-27 16:39:16,https://opengrok.dijk.eu.org,True,55
@@ -11335,7 +11242,6 @@
 2024-08-27 16:39:20,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 16:39:22,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 16:39:23,https://web.dijk.eu.org,True,55
-2024-08-27 16:39:24,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 16:39:24,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 16:49:34,https://wgxls.site,True,63
 2024-08-27 16:49:35,https://opengrok.dijk.eu.org,True,55
@@ -11346,7 +11252,6 @@
 2024-08-27 16:49:39,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 16:49:41,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 16:49:43,https://web.dijk.eu.org,True,55
-2024-08-27 16:49:43,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 16:49:43,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 16:54:50,https://wgxls.site,True,63
 2024-08-27 16:54:50,https://opengrok.dijk.eu.org,True,55
@@ -11357,7 +11262,6 @@
 2024-08-27 16:54:54,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 16:54:55,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 16:54:57,https://web.dijk.eu.org,True,55
-2024-08-27 16:54:57,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 16:54:57,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 17:00:03,https://wgxls.site,True,63
 2024-08-27 17:00:04,https://opengrok.dijk.eu.org,True,55
@@ -11368,7 +11272,6 @@
 2024-08-27 17:00:08,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 17:00:09,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 17:00:10,https://web.dijk.eu.org,True,55
-2024-08-27 17:00:11,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 17:00:11,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 17:05:17,https://wgxls.site,True,63
 2024-08-27 17:05:17,https://opengrok.dijk.eu.org,True,55
@@ -11379,7 +11282,6 @@
 2024-08-27 17:05:21,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 17:05:23,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 17:05:24,https://web.dijk.eu.org,True,55
-2024-08-27 17:05:25,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 17:05:25,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 17:10:31,https://wgxls.site,True,63
 2024-08-27 17:10:31,https://opengrok.dijk.eu.org,True,55
@@ -11390,7 +11292,6 @@
 2024-08-27 17:10:35,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 17:10:36,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 17:10:38,https://web.dijk.eu.org,True,55
-2024-08-27 17:10:38,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 17:10:39,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 17:13:12,https://wgxls.site,True,63
 2024-08-27 17:13:12,https://opengrok.dijk.eu.org,True,55
@@ -11401,7 +11302,6 @@
 2024-08-27 17:13:17,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 17:13:18,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 17:13:19,https://web.dijk.eu.org,True,55
-2024-08-27 17:13:20,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 17:13:20,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 17:18:26,https://wgxls.site,True,63
 2024-08-27 17:18:27,https://opengrok.dijk.eu.org,True,55
@@ -11412,7 +11312,6 @@
 2024-08-27 17:18:31,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 17:18:32,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 17:18:33,https://web.dijk.eu.org,True,55
-2024-08-27 17:18:34,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 17:18:35,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 17:23:41,https://wgxls.site,True,63
 2024-08-27 17:23:41,https://opengrok.dijk.eu.org,True,55
@@ -11423,7 +11322,6 @@
 2024-08-27 17:23:46,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 17:23:47,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 17:23:48,https://web.dijk.eu.org,True,55
-2024-08-27 17:23:49,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 17:23:49,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 17:28:55,https://wgxls.site,True,63
 2024-08-27 17:28:55,https://opengrok.dijk.eu.org,True,55
@@ -11434,7 +11332,6 @@
 2024-08-27 17:28:59,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 17:29:01,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 17:29:02,https://web.dijk.eu.org,True,55
-2024-08-27 17:29:03,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 17:29:03,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 17:34:09,https://wgxls.site,True,63
 2024-08-27 17:34:09,https://opengrok.dijk.eu.org,True,55
@@ -11445,7 +11342,6 @@
 2024-08-27 17:34:13,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 17:34:15,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 17:34:16,https://web.dijk.eu.org,True,55
-2024-08-27 17:34:17,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 17:34:17,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 17:49:07,https://wgxls.site,True,63
 2024-08-27 17:49:07,https://opengrok.dijk.eu.org,True,55
@@ -11456,7 +11352,6 @@
 2024-08-27 17:49:12,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 17:49:13,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 17:49:15,https://web.dijk.eu.org,True,55
-2024-08-27 17:49:15,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 17:49:16,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 17:54:22,https://wgxls.site,True,63
 2024-08-27 17:54:22,https://opengrok.dijk.eu.org,True,55
@@ -11467,7 +11362,6 @@
 2024-08-27 17:54:26,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 17:54:27,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 17:54:29,https://web.dijk.eu.org,True,55
-2024-08-27 17:54:29,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 17:54:30,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 17:59:35,https://wgxls.site,True,63
 2024-08-27 17:59:35,https://opengrok.dijk.eu.org,True,55
@@ -11478,7 +11372,6 @@
 2024-08-27 17:59:39,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 17:59:41,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 17:59:42,https://web.dijk.eu.org,True,55
-2024-08-27 17:59:43,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 17:59:43,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 18:04:49,https://wgxls.site,True,63
 2024-08-27 18:04:49,https://opengrok.dijk.eu.org,True,55
@@ -11489,7 +11382,6 @@
 2024-08-27 18:04:53,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 18:04:55,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 18:04:56,https://web.dijk.eu.org,True,55
-2024-08-27 18:04:56,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 18:04:57,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 18:10:02,https://wgxls.site,True,63
 2024-08-27 18:10:02,https://opengrok.dijk.eu.org,True,55
@@ -11500,7 +11392,6 @@
 2024-08-27 18:10:06,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 18:10:08,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 18:10:09,https://web.dijk.eu.org,True,55
-2024-08-27 18:10:10,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 18:10:10,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 18:19:46,https://wgxls.site,True,63
 2024-08-27 18:19:46,https://opengrok.dijk.eu.org,True,55
@@ -11511,7 +11402,6 @@
 2024-08-27 18:19:51,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 18:19:53,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 18:19:54,https://web.dijk.eu.org,True,55
-2024-08-27 18:19:55,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 18:19:55,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 18:25:02,https://wgxls.site,True,63
 2024-08-27 18:25:02,https://opengrok.dijk.eu.org,True,55
@@ -11522,7 +11412,6 @@
 2024-08-27 18:25:06,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 18:25:08,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 18:25:09,https://web.dijk.eu.org,True,55
-2024-08-27 18:25:10,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 18:25:10,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 18:30:16,https://wgxls.site,True,63
 2024-08-27 18:30:17,https://opengrok.dijk.eu.org,True,55
@@ -11533,7 +11422,6 @@
 2024-08-27 18:30:21,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 18:30:22,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 18:30:23,https://web.dijk.eu.org,True,55
-2024-08-27 18:30:24,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 18:30:24,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 18:35:31,https://wgxls.site,True,63
 2024-08-27 18:35:31,https://opengrok.dijk.eu.org,True,55
@@ -11544,7 +11432,6 @@
 2024-08-27 18:35:35,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 18:35:36,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 18:35:37,https://web.dijk.eu.org,True,55
-2024-08-27 18:35:38,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 18:35:38,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 18:40:45,https://wgxls.site,True,63
 2024-08-27 18:40:45,https://opengrok.dijk.eu.org,True,55
@@ -11555,7 +11442,6 @@
 2024-08-27 18:40:49,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 18:40:50,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 18:40:52,https://web.dijk.eu.org,True,55
-2024-08-27 18:40:53,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 18:40:53,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 18:49:22,https://wgxls.site,True,63
 2024-08-27 18:49:22,https://opengrok.dijk.eu.org,True,55
@@ -11566,7 +11452,6 @@
 2024-08-27 18:49:26,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 18:49:28,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 18:49:30,https://web.dijk.eu.org,True,55
-2024-08-27 18:49:30,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 18:49:31,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 18:54:37,https://wgxls.site,True,63
 2024-08-27 18:54:37,https://opengrok.dijk.eu.org,True,55
@@ -11577,7 +11462,6 @@
 2024-08-27 18:54:42,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 18:54:43,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 18:54:45,https://web.dijk.eu.org,True,55
-2024-08-27 18:54:45,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 18:54:46,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 18:59:52,https://wgxls.site,True,63
 2024-08-27 18:59:52,https://opengrok.dijk.eu.org,True,55
@@ -11588,7 +11472,6 @@
 2024-08-27 18:59:56,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 18:59:58,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 18:59:59,https://web.dijk.eu.org,True,55
-2024-08-27 19:00:00,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 19:00:00,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 19:05:06,https://wgxls.site,True,63
 2024-08-27 19:05:06,https://opengrok.dijk.eu.org,True,55
@@ -11599,7 +11482,6 @@
 2024-08-27 19:05:11,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 19:05:12,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 19:05:14,https://web.dijk.eu.org,True,55
-2024-08-27 19:05:14,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 19:05:15,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 19:10:20,https://wgxls.site,True,63
 2024-08-27 19:10:21,https://opengrok.dijk.eu.org,True,55
@@ -11610,7 +11492,6 @@
 2024-08-27 19:10:25,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 19:10:27,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 19:10:28,https://web.dijk.eu.org,True,55
-2024-08-27 19:10:28,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 19:10:29,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 19:11:58,https://wgxls.site,True,63
 2024-08-27 19:11:58,https://opengrok.dijk.eu.org,True,55
@@ -11621,7 +11502,6 @@
 2024-08-27 19:12:03,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 19:12:04,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 19:12:06,https://web.dijk.eu.org,True,55
-2024-08-27 19:12:06,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 19:12:07,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 19:17:13,https://wgxls.site,True,63
 2024-08-27 19:17:13,https://opengrok.dijk.eu.org,True,55
@@ -11632,7 +11512,6 @@
 2024-08-27 19:17:18,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 19:17:19,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 19:17:21,https://web.dijk.eu.org,True,55
-2024-08-27 19:17:22,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 19:17:22,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 19:22:28,https://wgxls.site,True,63
 2024-08-27 19:22:28,https://opengrok.dijk.eu.org,True,55
@@ -11643,7 +11522,6 @@
 2024-08-27 19:22:33,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 19:22:34,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 19:22:35,https://web.dijk.eu.org,True,55
-2024-08-27 19:22:36,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 19:22:36,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 19:27:43,https://wgxls.site,True,63
 2024-08-27 19:27:43,https://opengrok.dijk.eu.org,True,55
@@ -11654,7 +11532,6 @@
 2024-08-27 19:27:47,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 19:27:48,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 19:27:49,https://web.dijk.eu.org,True,55
-2024-08-27 19:27:50,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 19:27:51,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 19:32:57,https://wgxls.site,True,63
 2024-08-27 19:32:57,https://opengrok.dijk.eu.org,True,55
@@ -11665,7 +11542,6 @@
 2024-08-27 19:33:01,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 19:33:02,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 19:33:03,https://web.dijk.eu.org,True,55
-2024-08-27 19:33:04,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 19:33:04,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 19:49:35,https://wgxls.site,True,63
 2024-08-27 19:49:35,https://opengrok.dijk.eu.org,True,55
@@ -11676,7 +11552,6 @@
 2024-08-27 19:49:39,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 19:49:41,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 19:49:43,https://web.dijk.eu.org,True,55
-2024-08-27 19:49:43,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 19:49:44,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 19:54:49,https://wgxls.site,True,63
 2024-08-27 19:54:49,https://opengrok.dijk.eu.org,True,55
@@ -11687,7 +11562,6 @@
 2024-08-27 19:54:54,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 19:54:55,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 19:54:57,https://web.dijk.eu.org,True,55
-2024-08-27 19:54:57,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 19:54:58,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 20:00:04,https://wgxls.site,True,63
 2024-08-27 20:00:04,https://opengrok.dijk.eu.org,True,55
@@ -11698,7 +11572,6 @@
 2024-08-27 20:00:09,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 20:00:10,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 20:00:12,https://web.dijk.eu.org,True,55
-2024-08-27 20:00:13,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 20:00:13,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 20:05:19,https://wgxls.site,True,63
 2024-08-27 20:05:19,https://opengrok.dijk.eu.org,True,55
@@ -11709,7 +11582,6 @@
 2024-08-27 20:05:23,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 20:05:25,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 20:05:26,https://web.dijk.eu.org,True,55
-2024-08-27 20:05:26,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 20:05:27,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 20:10:33,https://wgxls.site,True,63
 2024-08-27 20:10:33,https://opengrok.dijk.eu.org,True,55
@@ -11720,7 +11592,6 @@
 2024-08-27 20:10:37,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 20:10:38,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 20:10:39,https://web.dijk.eu.org,True,55
-2024-08-27 20:10:40,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 20:10:40,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 20:16:30,https://wgxls.site,True,63
 2024-08-27 20:16:30,https://opengrok.dijk.eu.org,True,55
@@ -11731,7 +11602,6 @@
 2024-08-27 20:16:35,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 20:16:36,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 20:16:38,https://web.dijk.eu.org,True,55
-2024-08-27 20:16:39,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 20:16:39,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 20:21:45,https://wgxls.site,True,63
 2024-08-27 20:21:46,https://opengrok.dijk.eu.org,True,55
@@ -11742,7 +11612,6 @@
 2024-08-27 20:21:50,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 20:21:51,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 20:21:53,https://web.dijk.eu.org,True,55
-2024-08-27 20:21:54,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 20:21:54,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 20:27:00,https://wgxls.site,True,63
 2024-08-27 20:27:00,https://opengrok.dijk.eu.org,True,55
@@ -11753,7 +11622,6 @@
 2024-08-27 20:27:04,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 20:27:06,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 20:27:07,https://web.dijk.eu.org,True,55
-2024-08-27 20:27:07,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 20:27:08,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 20:32:14,https://wgxls.site,True,63
 2024-08-27 20:32:14,https://opengrok.dijk.eu.org,True,55
@@ -11764,7 +11632,6 @@
 2024-08-27 20:32:18,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 20:32:19,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 20:32:20,https://web.dijk.eu.org,True,55
-2024-08-27 20:32:21,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 20:32:21,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 20:37:27,https://wgxls.site,True,63
 2024-08-27 20:37:27,https://opengrok.dijk.eu.org,True,55
@@ -11775,7 +11642,6 @@
 2024-08-27 20:37:30,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 20:37:32,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 20:37:33,https://web.dijk.eu.org,True,55
-2024-08-27 20:37:34,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 20:37:34,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 20:49:43,https://wgxls.site,True,63
 2024-08-27 20:49:43,https://opengrok.dijk.eu.org,True,55
@@ -11786,7 +11652,6 @@
 2024-08-27 20:49:54,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 20:49:55,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 20:49:56,https://web.dijk.eu.org,True,55
-2024-08-27 20:49:57,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 20:49:57,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 20:55:03,https://wgxls.site,True,63
 2024-08-27 20:55:04,https://opengrok.dijk.eu.org,True,55
@@ -11797,7 +11662,6 @@
 2024-08-27 20:55:08,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 20:55:09,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 20:55:11,https://web.dijk.eu.org,True,55
-2024-08-27 20:55:11,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 20:55:12,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 21:00:18,https://wgxls.site,True,63
 2024-08-27 21:00:18,https://opengrok.dijk.eu.org,True,55
@@ -11808,7 +11672,6 @@
 2024-08-27 21:00:22,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 21:00:23,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 21:00:25,https://web.dijk.eu.org,True,55
-2024-08-27 21:00:25,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 21:00:25,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 21:05:31,https://wgxls.site,True,63
 2024-08-27 21:05:31,https://opengrok.dijk.eu.org,True,55
@@ -11819,7 +11682,6 @@
 2024-08-27 21:05:36,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 21:05:37,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 21:05:38,https://web.dijk.eu.org,True,55
-2024-08-27 21:05:39,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 21:05:39,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 21:10:45,https://wgxls.site,True,63
 2024-08-27 21:10:45,https://opengrok.dijk.eu.org,True,55
@@ -11830,7 +11692,6 @@
 2024-08-27 21:10:49,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 21:10:51,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 21:10:52,https://web.dijk.eu.org,True,55
-2024-08-27 21:10:52,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 21:10:53,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 21:13:28,https://wgxls.site,True,63
 2024-08-27 21:13:28,https://opengrok.dijk.eu.org,True,55
@@ -11841,7 +11702,6 @@
 2024-08-27 21:13:33,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 21:13:35,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 21:13:36,https://web.dijk.eu.org,True,55
-2024-08-27 21:13:37,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 21:13:37,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 21:18:43,https://wgxls.site,True,63
 2024-08-27 21:18:43,https://opengrok.dijk.eu.org,True,55
@@ -11852,7 +11712,6 @@
 2024-08-27 21:18:48,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 21:18:49,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 21:18:51,https://web.dijk.eu.org,True,55
-2024-08-27 21:18:52,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 21:18:52,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 21:23:58,https://wgxls.site,True,63
 2024-08-27 21:23:58,https://opengrok.dijk.eu.org,True,55
@@ -11863,7 +11722,6 @@
 2024-08-27 21:24:03,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 21:24:05,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 21:24:06,https://web.dijk.eu.org,True,55
-2024-08-27 21:24:07,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 21:24:07,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 21:29:13,https://wgxls.site,True,63
 2024-08-27 21:29:13,https://opengrok.dijk.eu.org,True,55
@@ -11874,7 +11732,6 @@
 2024-08-27 21:29:18,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 21:29:19,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 21:29:21,https://web.dijk.eu.org,True,55
-2024-08-27 21:29:21,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 21:29:22,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 21:34:27,https://wgxls.site,True,63
 2024-08-27 21:34:28,https://opengrok.dijk.eu.org,True,55
@@ -11885,7 +11742,6 @@
 2024-08-27 21:34:32,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 21:34:33,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 21:34:35,https://web.dijk.eu.org,True,55
-2024-08-27 21:34:35,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 21:34:36,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 21:49:37,https://wgxls.site,True,63
 2024-08-27 21:49:37,https://opengrok.dijk.eu.org,True,55
@@ -11896,7 +11752,6 @@
 2024-08-27 21:49:41,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 21:49:43,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 21:49:44,https://web.dijk.eu.org,True,55
-2024-08-27 21:49:45,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 21:49:45,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 21:54:52,https://wgxls.site,True,63
 2024-08-27 21:54:52,https://opengrok.dijk.eu.org,True,55
@@ -11907,7 +11762,6 @@
 2024-08-27 21:54:56,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 21:54:58,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 21:54:59,https://web.dijk.eu.org,True,55
-2024-08-27 21:55:00,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 21:55:00,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 22:00:07,https://wgxls.site,True,63
 2024-08-27 22:00:07,https://opengrok.dijk.eu.org,True,55
@@ -11918,7 +11772,6 @@
 2024-08-27 22:00:11,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 22:00:12,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 22:00:14,https://web.dijk.eu.org,True,55
-2024-08-27 22:00:15,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 22:00:15,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 22:05:21,https://wgxls.site,True,63
 2024-08-27 22:05:21,https://opengrok.dijk.eu.org,True,55
@@ -11929,7 +11782,6 @@
 2024-08-27 22:05:26,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 22:05:27,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 22:05:28,https://web.dijk.eu.org,True,55
-2024-08-27 22:05:29,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 22:05:29,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 22:10:35,https://wgxls.site,True,63
 2024-08-27 22:10:35,https://opengrok.dijk.eu.org,True,55
@@ -11940,7 +11792,6 @@
 2024-08-27 22:10:39,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 22:10:41,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 22:10:42,https://web.dijk.eu.org,True,55
-2024-08-27 22:10:42,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 22:10:43,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 22:15:16,https://wgxls.site,True,63
 2024-08-27 22:15:16,https://opengrok.dijk.eu.org,True,55
@@ -11951,7 +11802,6 @@
 2024-08-27 22:15:21,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 22:15:23,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 22:15:24,https://web.dijk.eu.org,True,55
-2024-08-27 22:15:25,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 22:15:25,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 22:20:31,https://wgxls.site,True,63
 2024-08-27 22:20:31,https://opengrok.dijk.eu.org,True,55
@@ -11962,7 +11812,6 @@
 2024-08-27 22:20:36,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 22:20:37,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 22:20:38,https://web.dijk.eu.org,True,55
-2024-08-27 22:20:39,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 22:20:40,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 22:25:46,https://wgxls.site,True,63
 2024-08-27 22:25:46,https://opengrok.dijk.eu.org,True,55
@@ -11973,7 +11822,6 @@
 2024-08-27 22:25:51,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 22:25:52,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 22:25:53,https://web.dijk.eu.org,True,55
-2024-08-27 22:25:54,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 22:25:55,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 22:31:01,https://wgxls.site,True,63
 2024-08-27 22:31:01,https://opengrok.dijk.eu.org,True,55
@@ -11984,7 +11832,6 @@
 2024-08-27 22:31:05,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 22:31:06,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 22:31:07,https://web.dijk.eu.org,True,55
-2024-08-27 22:31:08,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 22:31:09,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 22:36:15,https://wgxls.site,True,63
 2024-08-27 22:36:15,https://opengrok.dijk.eu.org,True,55
@@ -11995,7 +11842,6 @@
 2024-08-27 22:36:19,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 22:36:20,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 22:36:21,https://web.dijk.eu.org,True,55
-2024-08-27 22:36:22,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 22:36:22,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 22:49:31,https://wgxls.site,True,62
 2024-08-27 22:49:31,https://opengrok.dijk.eu.org,True,55
@@ -12006,7 +11852,6 @@
 2024-08-27 22:49:37,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 22:49:38,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 22:49:40,https://web.dijk.eu.org,True,55
-2024-08-27 22:49:40,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 22:49:41,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 22:54:47,https://wgxls.site,True,62
 2024-08-27 22:54:47,https://opengrok.dijk.eu.org,True,55
@@ -12017,7 +11862,6 @@
 2024-08-27 22:54:52,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 22:54:53,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 22:54:55,https://web.dijk.eu.org,True,55
-2024-08-27 22:54:55,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 22:54:56,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 23:00:02,https://wgxls.site,True,62
 2024-08-27 23:00:02,https://opengrok.dijk.eu.org,True,55
@@ -12028,7 +11872,6 @@
 2024-08-27 23:00:07,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 23:00:08,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 23:00:10,https://web.dijk.eu.org,True,55
-2024-08-27 23:00:10,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 23:00:11,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 23:05:17,https://wgxls.site,True,62
 2024-08-27 23:05:17,https://opengrok.dijk.eu.org,True,55
@@ -12039,7 +11882,6 @@
 2024-08-27 23:05:21,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 23:05:23,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 23:05:25,https://web.dijk.eu.org,True,55
-2024-08-27 23:05:25,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 23:05:26,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 23:10:31,https://wgxls.site,True,62
 2024-08-27 23:10:32,https://opengrok.dijk.eu.org,True,55
@@ -12050,7 +11892,6 @@
 2024-08-27 23:10:36,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 23:10:38,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 23:10:39,https://web.dijk.eu.org,True,55
-2024-08-27 23:10:40,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 23:10:40,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 23:15:21,https://wgxls.site,True,62
 2024-08-27 23:15:21,https://opengrok.dijk.eu.org,True,55
@@ -12061,7 +11902,6 @@
 2024-08-27 23:15:32,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 23:15:33,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 23:15:35,https://web.dijk.eu.org,True,55
-2024-08-27 23:15:36,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 23:15:37,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 23:20:43,https://wgxls.site,True,62
 2024-08-27 23:20:43,https://opengrok.dijk.eu.org,True,55
@@ -12072,7 +11912,6 @@
 2024-08-27 23:20:47,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 23:20:49,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 23:20:51,https://web.dijk.eu.org,True,55
-2024-08-27 23:20:51,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 23:20:52,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 23:25:58,https://wgxls.site,True,62
 2024-08-27 23:25:58,https://opengrok.dijk.eu.org,True,55
@@ -12083,7 +11922,6 @@
 2024-08-27 23:26:02,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 23:26:04,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 23:26:05,https://web.dijk.eu.org,True,55
-2024-08-27 23:26:06,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 23:26:06,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 23:31:12,https://wgxls.site,True,62
 2024-08-27 23:31:12,https://opengrok.dijk.eu.org,True,55
@@ -12094,7 +11932,6 @@
 2024-08-27 23:31:16,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 23:31:18,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 23:31:19,https://web.dijk.eu.org,True,55
-2024-08-27 23:31:20,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 23:31:20,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 23:36:26,https://wgxls.site,True,62
 2024-08-27 23:36:26,https://opengrok.dijk.eu.org,True,55
@@ -12105,7 +11942,6 @@
 2024-08-27 23:36:30,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 23:36:31,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 23:36:33,https://web.dijk.eu.org,True,55
-2024-08-27 23:36:33,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 23:36:34,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 23:49:34,https://wgxls.site,True,62
 2024-08-27 23:49:34,https://opengrok.dijk.eu.org,True,55
@@ -12116,7 +11952,6 @@
 2024-08-27 23:49:39,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 23:49:41,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 23:49:42,https://web.dijk.eu.org,True,55
-2024-08-27 23:49:43,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 23:49:43,https://windows.wgxls.eu.org:8443,True,52
 2024-08-27 23:54:49,https://wgxls.site,True,62
 2024-08-27 23:54:50,https://opengrok.dijk.eu.org,True,55
@@ -12127,7 +11962,6 @@
 2024-08-27 23:54:54,https://alist.wgxls.eu.org:8443,True,52
 2024-08-27 23:54:55,https://pma.wgxls.eu.org:8443,True,52
 2024-08-27 23:54:56,https://web.dijk.eu.org,True,55
-2024-08-27 23:54:57,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-27 23:54:57,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 00:00:03,https://wgxls.site,True,62
 2024-08-28 00:00:04,https://opengrok.dijk.eu.org,True,55
@@ -12138,7 +11972,6 @@
 2024-08-28 00:00:08,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 00:00:10,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 00:00:11,https://web.dijk.eu.org,True,55
-2024-08-28 00:00:12,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 00:00:12,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 00:05:19,https://wgxls.site,True,62
 2024-08-28 00:05:19,https://opengrok.dijk.eu.org,True,55
@@ -12149,7 +11982,6 @@
 2024-08-28 00:05:23,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 00:05:24,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 00:05:25,https://web.dijk.eu.org,True,55
-2024-08-28 00:05:26,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 00:05:26,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 00:10:32,https://wgxls.site,True,62
 2024-08-28 00:10:32,https://opengrok.dijk.eu.org,True,55
@@ -12160,7 +11992,6 @@
 2024-08-28 00:10:36,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 00:10:38,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 00:10:39,https://web.dijk.eu.org,True,55
-2024-08-28 00:10:40,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 00:10:40,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 01:08:26,https://wgxls.site,True,62
 2024-08-28 01:08:26,https://opengrok.dijk.eu.org,True,55
@@ -12171,7 +12002,6 @@
 2024-08-28 01:08:31,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 01:08:33,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 01:08:34,https://web.dijk.eu.org,True,55
-2024-08-28 01:08:35,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 01:08:35,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 01:13:41,https://wgxls.site,True,62
 2024-08-28 01:13:41,https://opengrok.dijk.eu.org,True,55
@@ -12182,7 +12012,6 @@
 2024-08-28 01:13:46,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 01:13:47,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 01:13:49,https://web.dijk.eu.org,True,55
-2024-08-28 01:13:54,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 01:13:55,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 01:19:00,https://wgxls.site,True,62
 2024-08-28 01:19:00,https://opengrok.dijk.eu.org,True,55
@@ -12193,7 +12022,6 @@
 2024-08-28 01:19:05,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 01:19:06,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 01:19:07,https://web.dijk.eu.org,True,55
-2024-08-28 01:19:08,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 01:19:08,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 01:24:14,https://wgxls.site,True,62
 2024-08-28 01:24:14,https://opengrok.dijk.eu.org,True,55
@@ -12204,7 +12032,6 @@
 2024-08-28 01:24:18,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 01:24:20,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 01:24:21,https://web.dijk.eu.org,True,55
-2024-08-28 01:24:22,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 01:24:22,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 01:29:28,https://wgxls.site,True,62
 2024-08-28 01:29:28,https://opengrok.dijk.eu.org,True,55
@@ -12215,7 +12042,6 @@
 2024-08-28 01:29:32,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 01:29:34,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 01:29:35,https://web.dijk.eu.org,True,55
-2024-08-28 01:29:35,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 01:29:36,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 02:17:25,https://wgxls.site,True,62
 2024-08-28 02:17:25,https://opengrok.dijk.eu.org,True,55
@@ -12226,7 +12052,6 @@
 2024-08-28 02:17:30,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 02:17:31,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 02:17:33,https://web.dijk.eu.org,True,55
-2024-08-28 02:17:34,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 02:17:34,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 02:22:40,https://wgxls.site,True,62
 2024-08-28 02:22:40,https://opengrok.dijk.eu.org,True,55
@@ -12237,7 +12062,6 @@
 2024-08-28 02:22:45,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 02:22:46,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 02:22:48,https://web.dijk.eu.org,True,55
-2024-08-28 02:22:48,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 02:22:49,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 02:27:55,https://wgxls.site,True,62
 2024-08-28 02:27:55,https://opengrok.dijk.eu.org,True,55
@@ -12248,7 +12072,6 @@
 2024-08-28 02:28:00,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 02:28:01,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 02:28:03,https://web.dijk.eu.org,True,55
-2024-08-28 02:28:03,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 02:28:03,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 02:33:09,https://wgxls.site,True,62
 2024-08-28 02:33:09,https://opengrok.dijk.eu.org,True,55
@@ -12259,7 +12082,6 @@
 2024-08-28 02:33:14,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 02:33:15,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 02:33:17,https://web.dijk.eu.org,True,55
-2024-08-28 02:33:17,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 02:33:17,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 02:38:23,https://wgxls.site,True,62
 2024-08-28 02:38:23,https://opengrok.dijk.eu.org,True,55
@@ -12270,7 +12092,6 @@
 2024-08-28 02:38:27,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 02:38:29,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 02:38:30,https://web.dijk.eu.org,True,55
-2024-08-28 02:38:31,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 02:38:31,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 02:48:37,https://wgxls.site,True,62
 2024-08-28 02:48:37,https://opengrok.dijk.eu.org,True,55
@@ -12281,7 +12102,6 @@
 2024-08-28 02:48:43,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 02:48:44,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 02:48:46,https://web.dijk.eu.org,True,55
-2024-08-28 02:48:46,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 02:48:47,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 02:53:52,https://wgxls.site,True,62
 2024-08-28 02:53:52,https://opengrok.dijk.eu.org,True,55
@@ -12292,7 +12112,6 @@
 2024-08-28 02:53:58,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 02:53:59,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 02:54:01,https://web.dijk.eu.org,True,55
-2024-08-28 02:54:02,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 02:54:03,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 02:59:08,https://wgxls.site,True,62
 2024-08-28 02:59:08,https://opengrok.dijk.eu.org,True,55
@@ -12303,7 +12122,6 @@
 2024-08-28 02:59:18,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 02:59:20,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 02:59:21,https://web.dijk.eu.org,True,55
-2024-08-28 02:59:22,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 02:59:22,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 03:04:28,https://wgxls.site,True,62
 2024-08-28 03:04:28,https://opengrok.dijk.eu.org,True,55
@@ -12314,7 +12132,6 @@
 2024-08-28 03:04:32,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 03:04:34,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 03:04:35,https://web.dijk.eu.org,True,55
-2024-08-28 03:04:36,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 03:04:36,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 03:09:42,https://wgxls.site,True,62
 2024-08-28 03:09:42,https://opengrok.dijk.eu.org,True,55
@@ -12325,7 +12142,6 @@
 2024-08-28 03:09:47,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 03:09:48,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 03:09:50,https://web.dijk.eu.org,True,55
-2024-08-28 03:09:50,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 03:09:51,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 03:17:02,https://wgxls.site,True,62
 2024-08-28 03:17:03,https://opengrok.dijk.eu.org,True,55
@@ -12336,7 +12152,6 @@
 2024-08-28 03:17:07,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 03:17:09,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 03:17:11,https://web.dijk.eu.org,True,55
-2024-08-28 03:17:11,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 03:17:12,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 03:22:18,https://wgxls.site,True,62
 2024-08-28 03:22:18,https://opengrok.dijk.eu.org,True,55
@@ -12347,7 +12162,6 @@
 2024-08-28 03:22:23,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 03:22:24,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 03:22:26,https://web.dijk.eu.org,True,55
-2024-08-28 03:22:27,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 03:22:27,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 03:27:33,https://wgxls.site,True,62
 2024-08-28 03:27:33,https://opengrok.dijk.eu.org,True,55
@@ -12358,7 +12172,6 @@
 2024-08-28 03:27:37,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 03:27:39,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 03:27:40,https://web.dijk.eu.org,True,55
-2024-08-28 03:27:41,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 03:27:41,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 03:32:47,https://wgxls.site,True,62
 2024-08-28 03:32:47,https://opengrok.dijk.eu.org,True,55
@@ -12369,7 +12182,6 @@
 2024-08-28 03:32:51,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 03:32:53,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 03:32:54,https://web.dijk.eu.org,True,55
-2024-08-28 03:32:55,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 03:32:55,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 03:38:01,https://wgxls.site,True,62
 2024-08-28 03:38:01,https://opengrok.dijk.eu.org,True,55
@@ -12380,7 +12192,6 @@
 2024-08-28 03:38:05,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 03:38:07,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 03:38:08,https://web.dijk.eu.org,True,55
-2024-08-28 03:38:09,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 03:38:09,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 03:49:13,https://wgxls.site,True,62
 2024-08-28 03:49:13,https://opengrok.dijk.eu.org,True,55
@@ -12391,7 +12202,6 @@
 2024-08-28 03:49:17,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 03:49:19,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 03:49:20,https://web.dijk.eu.org,True,55
-2024-08-28 03:49:21,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 03:49:21,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 03:54:27,https://wgxls.site,True,62
 2024-08-28 03:54:27,https://opengrok.dijk.eu.org,True,55
@@ -12402,7 +12212,6 @@
 2024-08-28 03:54:31,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 03:54:32,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 03:54:33,https://web.dijk.eu.org,True,55
-2024-08-28 03:54:34,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 03:54:34,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 03:59:40,https://wgxls.site,True,62
 2024-08-28 03:59:40,https://opengrok.dijk.eu.org,True,55
@@ -12413,7 +12222,6 @@
 2024-08-28 03:59:44,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 03:59:45,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 03:59:46,https://web.dijk.eu.org,True,55
-2024-08-28 03:59:47,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 03:59:47,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 04:04:53,https://wgxls.site,True,62
 2024-08-28 04:04:53,https://opengrok.dijk.eu.org,True,55
@@ -12424,7 +12232,6 @@
 2024-08-28 04:04:57,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 04:04:57,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 04:04:58,https://web.dijk.eu.org,True,55
-2024-08-28 04:04:59,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 04:04:59,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 04:10:05,https://wgxls.site,True,62
 2024-08-28 04:10:05,https://opengrok.dijk.eu.org,True,55
@@ -12435,7 +12242,6 @@
 2024-08-28 04:10:09,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 04:10:10,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 04:10:11,https://web.dijk.eu.org,True,55
-2024-08-28 04:10:12,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 04:10:12,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 04:18:34,https://wgxls.site,True,62
 2024-08-28 04:18:34,https://opengrok.dijk.eu.org,True,55
@@ -12446,7 +12252,6 @@
 2024-08-28 04:18:39,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 04:18:40,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 04:18:42,https://web.dijk.eu.org,True,55
-2024-08-28 04:18:42,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 04:18:43,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 04:23:48,https://wgxls.site,True,62
 2024-08-28 04:23:48,https://opengrok.dijk.eu.org,True,55
@@ -12457,7 +12262,6 @@
 2024-08-28 04:23:53,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 04:23:54,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 04:23:55,https://web.dijk.eu.org,True,55
-2024-08-28 04:23:56,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 04:23:56,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 04:29:02,https://wgxls.site,True,62
 2024-08-28 04:29:02,https://opengrok.dijk.eu.org,True,55
@@ -12468,7 +12272,6 @@
 2024-08-28 04:29:06,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 04:29:08,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 04:29:09,https://web.dijk.eu.org,True,55
-2024-08-28 04:29:10,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 04:29:10,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 04:34:16,https://wgxls.site,True,62
 2024-08-28 04:34:16,https://opengrok.dijk.eu.org,True,55
@@ -12479,7 +12282,6 @@
 2024-08-28 04:34:20,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 04:34:21,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 04:34:22,https://web.dijk.eu.org,True,55
-2024-08-28 04:34:23,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 04:34:23,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 04:39:29,https://wgxls.site,True,62
 2024-08-28 04:39:29,https://opengrok.dijk.eu.org,True,55
@@ -12490,7 +12292,6 @@
 2024-08-28 04:39:34,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 04:39:35,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 04:39:36,https://web.dijk.eu.org,True,55
-2024-08-28 04:39:37,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 04:39:37,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 04:49:35,https://wgxls.site,True,62
 2024-08-28 04:49:35,https://opengrok.dijk.eu.org,True,55
@@ -12501,7 +12302,6 @@
 2024-08-28 04:49:44,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 04:49:46,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 04:49:47,https://web.dijk.eu.org,True,55
-2024-08-28 04:49:48,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 04:49:49,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 04:54:54,https://wgxls.site,True,62
 2024-08-28 04:54:55,https://opengrok.dijk.eu.org,True,55
@@ -12512,7 +12312,6 @@
 2024-08-28 04:54:59,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 04:55:00,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 04:55:02,https://web.dijk.eu.org,True,55
-2024-08-28 04:55:02,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 04:55:03,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 05:00:09,https://wgxls.site,True,62
 2024-08-28 05:00:09,https://opengrok.dijk.eu.org,True,55
@@ -12523,7 +12322,6 @@
 2024-08-28 05:00:14,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 05:00:15,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 05:00:16,https://web.dijk.eu.org,True,55
-2024-08-28 05:00:17,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 05:00:17,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 05:05:23,https://wgxls.site,True,62
 2024-08-28 05:05:23,https://opengrok.dijk.eu.org,True,55
@@ -12534,7 +12332,6 @@
 2024-08-28 05:05:27,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 05:05:29,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 05:05:30,https://web.dijk.eu.org,True,55
-2024-08-28 05:05:31,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 05:05:31,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 05:10:37,https://wgxls.site,True,62
 2024-08-28 05:10:37,https://opengrok.dijk.eu.org,True,55
@@ -12545,7 +12342,6 @@
 2024-08-28 05:10:41,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 05:10:43,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 05:10:44,https://web.dijk.eu.org,True,55
-2024-08-28 05:10:45,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 05:10:45,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 05:15:04,https://wgxls.site,True,62
 2024-08-28 05:15:04,https://opengrok.dijk.eu.org,True,55
@@ -12556,7 +12352,6 @@
 2024-08-28 05:15:10,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 05:15:11,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 05:15:12,https://web.dijk.eu.org,True,55
-2024-08-28 05:15:13,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 05:15:14,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 05:20:20,https://wgxls.site,True,62
 2024-08-28 05:20:20,https://opengrok.dijk.eu.org,True,55
@@ -12567,7 +12362,6 @@
 2024-08-28 05:20:25,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 05:20:26,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 05:20:28,https://web.dijk.eu.org,True,55
-2024-08-28 05:20:28,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 05:20:29,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 05:25:35,https://wgxls.site,True,62
 2024-08-28 05:25:35,https://opengrok.dijk.eu.org,True,55
@@ -12578,7 +12372,6 @@
 2024-08-28 05:25:39,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 05:25:41,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 05:25:42,https://web.dijk.eu.org,True,55
-2024-08-28 05:25:43,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 05:25:43,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 05:30:49,https://wgxls.site,True,62
 2024-08-28 05:30:49,https://opengrok.dijk.eu.org,True,55
@@ -12589,7 +12382,6 @@
 2024-08-28 05:30:54,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 05:30:55,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 05:30:56,https://web.dijk.eu.org,True,55
-2024-08-28 05:30:57,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 05:30:57,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 05:36:03,https://wgxls.site,True,62
 2024-08-28 05:36:03,https://opengrok.dijk.eu.org,True,55
@@ -12600,7 +12392,6 @@
 2024-08-28 05:36:08,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 05:36:09,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 05:36:10,https://web.dijk.eu.org,True,55
-2024-08-28 05:36:11,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 05:36:11,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 05:49:25,https://wgxls.site,True,62
 2024-08-28 05:49:25,https://opengrok.dijk.eu.org,True,55
@@ -12611,7 +12402,6 @@
 2024-08-28 05:49:30,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 05:49:32,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 05:49:33,https://web.dijk.eu.org,True,55
-2024-08-28 05:49:34,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 05:49:34,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 05:54:40,https://wgxls.site,True,62
 2024-08-28 05:54:41,https://opengrok.dijk.eu.org,True,55
@@ -12622,7 +12412,6 @@
 2024-08-28 05:54:46,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 05:54:47,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 05:54:49,https://web.dijk.eu.org,True,55
-2024-08-28 05:54:49,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 05:54:50,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 05:59:56,https://wgxls.site,True,62
 2024-08-28 05:59:56,https://opengrok.dijk.eu.org,True,55
@@ -12633,7 +12422,6 @@
 2024-08-28 06:00:01,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 06:00:02,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 06:00:04,https://web.dijk.eu.org,True,55
-2024-08-28 06:00:04,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 06:00:05,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 06:05:11,https://wgxls.site,True,62
 2024-08-28 06:05:11,https://opengrok.dijk.eu.org,True,55
@@ -12644,7 +12432,6 @@
 2024-08-28 06:05:16,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 06:05:17,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 06:05:19,https://web.dijk.eu.org,True,55
-2024-08-28 06:05:19,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 06:05:20,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 06:10:25,https://wgxls.site,True,62
 2024-08-28 06:10:26,https://opengrok.dijk.eu.org,True,55
@@ -12655,7 +12442,6 @@
 2024-08-28 06:10:30,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 06:10:31,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 06:10:33,https://web.dijk.eu.org,True,55
-2024-08-28 06:10:34,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 06:10:34,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 06:21:04,https://wgxls.site,True,62
 2024-08-28 06:21:04,https://opengrok.dijk.eu.org,True,55
@@ -12666,7 +12452,6 @@
 2024-08-28 06:21:11,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 06:21:18,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 06:21:19,https://web.dijk.eu.org,True,55
-2024-08-28 06:21:20,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 06:21:21,https://windows.wgxls.eu.org:8443,True,-1
 2024-08-28 06:27:06,https://wgxls.site,True,62
 2024-08-28 06:27:06,https://opengrok.dijk.eu.org,True,55
@@ -12677,7 +12462,6 @@
 2024-08-28 06:27:13,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 06:27:15,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 06:27:16,https://web.dijk.eu.org,True,55
-2024-08-28 06:27:17,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 06:27:17,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 06:32:24,https://wgxls.site,True,62
 2024-08-28 06:32:24,https://opengrok.dijk.eu.org,True,55
@@ -12688,7 +12472,6 @@
 2024-08-28 06:32:30,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 06:32:32,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 06:32:33,https://web.dijk.eu.org,True,55
-2024-08-28 06:32:34,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 06:32:34,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 06:37:40,https://wgxls.site,True,62
 2024-08-28 06:37:40,https://opengrok.dijk.eu.org,True,55
@@ -12699,7 +12482,6 @@
 2024-08-28 06:40:02,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 06:40:04,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 06:40:05,https://web.dijk.eu.org,True,55
-2024-08-28 06:40:06,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 06:40:06,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 06:45:12,https://wgxls.site,True,62
 2024-08-28 06:45:12,https://opengrok.dijk.eu.org,True,55
@@ -12710,7 +12492,6 @@
 2024-08-28 06:47:32,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 06:47:33,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 06:47:34,https://web.dijk.eu.org,True,55
-2024-08-28 06:47:35,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 06:47:35,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 06:49:30,https://wgxls.site,True,62
 2024-08-28 06:49:30,https://opengrok.dijk.eu.org,True,55
@@ -12721,7 +12502,6 @@
 2024-08-28 06:49:40,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 06:49:41,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 06:49:43,https://web.dijk.eu.org,True,55
-2024-08-28 06:49:43,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 06:49:44,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 06:54:51,https://wgxls.site,True,62
 2024-08-28 06:54:51,https://opengrok.dijk.eu.org,True,55
@@ -12732,7 +12512,6 @@
 2024-08-28 06:54:56,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 06:54:57,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 06:54:58,https://web.dijk.eu.org,True,55
-2024-08-28 06:54:59,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 06:54:59,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 07:00:06,https://wgxls.site,True,62
 2024-08-28 07:00:06,https://opengrok.dijk.eu.org,True,55
@@ -12743,7 +12522,6 @@
 2024-08-28 07:00:10,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 07:00:12,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 07:00:13,https://web.dijk.eu.org,True,55
-2024-08-28 07:00:14,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 07:00:14,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 07:05:25,https://wgxls.site,True,62
 2024-08-28 07:05:26,https://opengrok.dijk.eu.org,True,55
@@ -12754,7 +12532,6 @@
 2024-08-28 07:05:30,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 07:05:31,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 07:05:33,https://web.dijk.eu.org,True,55
-2024-08-28 07:05:33,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 07:05:33,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 07:10:40,https://wgxls.site,True,62
 2024-08-28 07:10:40,https://opengrok.dijk.eu.org,True,55
@@ -12765,7 +12542,6 @@
 2024-08-28 07:10:44,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 07:10:46,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 07:10:47,https://web.dijk.eu.org,True,55
-2024-08-28 07:10:48,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 07:10:48,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 07:13:43,https://wgxls.site,True,62
 2024-08-28 07:13:43,https://opengrok.dijk.eu.org,True,55
@@ -12776,7 +12552,6 @@
 2024-08-28 07:13:48,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 07:13:50,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 07:13:52,https://web.dijk.eu.org,True,55
-2024-08-28 07:13:52,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 07:13:53,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 07:18:59,https://wgxls.site,True,62
 2024-08-28 07:18:59,https://opengrok.dijk.eu.org,True,55
@@ -12787,7 +12562,6 @@
 2024-08-28 07:19:09,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 07:19:11,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 07:19:13,https://web.dijk.eu.org,True,55
-2024-08-28 07:19:14,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 07:19:14,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 07:24:21,https://wgxls.site,True,62
 2024-08-28 07:24:21,https://opengrok.dijk.eu.org,True,55
@@ -12798,7 +12572,6 @@
 2024-08-28 07:24:26,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 07:24:27,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 07:24:29,https://web.dijk.eu.org,True,55
-2024-08-28 07:24:30,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 07:24:30,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 07:29:36,https://wgxls.site,True,62
 2024-08-28 07:29:36,https://opengrok.dijk.eu.org,True,55
@@ -12809,7 +12582,6 @@
 2024-08-28 07:29:41,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 07:29:42,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 07:29:44,https://web.dijk.eu.org,True,55
-2024-08-28 07:29:44,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 07:29:45,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 07:34:51,https://wgxls.site,True,62
 2024-08-28 07:34:51,https://opengrok.dijk.eu.org,True,55
@@ -12820,7 +12592,6 @@
 2024-08-28 07:34:55,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 07:34:57,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 07:34:58,https://web.dijk.eu.org,True,55
-2024-08-28 07:34:59,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 07:34:59,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 07:49:25,https://wgxls.site,True,62
 2024-08-28 07:49:25,https://opengrok.dijk.eu.org,True,55
@@ -12831,7 +12602,6 @@
 2024-08-28 07:49:30,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 07:49:36,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 07:49:38,https://web.dijk.eu.org,True,55
-2024-08-28 07:49:39,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 07:49:40,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 07:54:46,https://wgxls.site,True,62
 2024-08-28 07:54:46,https://opengrok.dijk.eu.org,True,55
@@ -12842,7 +12612,6 @@
 2024-08-28 07:54:50,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 07:54:52,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 07:54:53,https://web.dijk.eu.org,True,55
-2024-08-28 07:54:54,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 07:54:55,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 08:00:00,https://wgxls.site,True,62
 2024-08-28 08:00:01,https://opengrok.dijk.eu.org,True,55
@@ -12853,7 +12622,6 @@
 2024-08-28 08:00:05,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 08:00:07,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 08:00:08,https://web.dijk.eu.org,True,55
-2024-08-28 08:00:09,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 08:00:10,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 08:05:15,https://wgxls.site,True,62
 2024-08-28 08:05:16,https://opengrok.dijk.eu.org,True,55
@@ -12864,7 +12632,6 @@
 2024-08-28 08:05:20,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 08:05:22,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 08:05:23,https://web.dijk.eu.org,True,55
-2024-08-28 08:05:24,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 08:05:24,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 08:10:30,https://wgxls.site,True,62
 2024-08-28 08:10:30,https://opengrok.dijk.eu.org,True,55
@@ -12875,7 +12642,6 @@
 2024-08-28 08:10:40,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 08:10:42,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 08:10:43,https://web.dijk.eu.org,True,55
-2024-08-28 08:10:44,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 08:10:45,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 08:19:21,https://wgxls.site,True,62
 2024-08-28 08:19:21,https://opengrok.dijk.eu.org,True,55
@@ -12886,7 +12652,6 @@
 2024-08-28 08:19:26,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 08:19:28,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 08:19:29,https://web.dijk.eu.org,True,55
-2024-08-28 08:19:30,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 08:19:30,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 08:24:36,https://wgxls.site,True,62
 2024-08-28 08:24:36,https://opengrok.dijk.eu.org,True,55
@@ -12897,7 +12662,6 @@
 2024-08-28 08:24:42,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 08:24:44,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 08:24:45,https://web.dijk.eu.org,True,55
-2024-08-28 08:24:46,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 08:24:47,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 08:29:53,https://wgxls.site,True,62
 2024-08-28 08:29:53,https://opengrok.dijk.eu.org,True,55
@@ -12908,7 +12672,6 @@
 2024-08-28 08:29:57,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 08:29:59,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 08:30:00,https://web.dijk.eu.org,True,55
-2024-08-28 08:30:01,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 08:30:02,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 08:35:07,https://wgxls.site,True,62
 2024-08-28 08:35:08,https://opengrok.dijk.eu.org,True,55
@@ -12919,7 +12682,6 @@
 2024-08-28 08:35:12,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 08:35:14,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 08:35:15,https://web.dijk.eu.org,True,55
-2024-08-28 08:35:16,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 08:35:16,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 08:40:22,https://wgxls.site,True,62
 2024-08-28 08:40:22,https://opengrok.dijk.eu.org,True,55
@@ -12930,7 +12692,6 @@
 2024-08-28 08:40:26,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 08:40:27,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 08:40:29,https://web.dijk.eu.org,True,55
-2024-08-28 08:40:29,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 08:40:30,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 08:49:25,https://wgxls.site,True,62
 2024-08-28 08:49:25,https://opengrok.dijk.eu.org,True,55
@@ -12941,7 +12702,6 @@
 2024-08-28 08:49:31,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 08:49:32,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 08:49:34,https://web.dijk.eu.org,True,55
-2024-08-28 08:49:35,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 08:49:35,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 08:54:41,https://wgxls.site,True,62
 2024-08-28 08:54:41,https://opengrok.dijk.eu.org,True,55
@@ -12952,7 +12712,6 @@
 2024-08-28 08:54:46,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 08:54:53,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 08:54:54,https://web.dijk.eu.org,True,55
-2024-08-28 08:54:55,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 08:54:56,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 09:00:02,https://wgxls.site,True,62
 2024-08-28 09:00:02,https://opengrok.dijk.eu.org,True,55
@@ -12963,7 +12722,6 @@
 2024-08-28 09:00:06,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 09:00:08,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 09:00:09,https://web.dijk.eu.org,True,55
-2024-08-28 09:00:10,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 09:00:10,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 09:05:16,https://wgxls.site,True,62
 2024-08-28 09:05:16,https://opengrok.dijk.eu.org,True,55
@@ -12974,7 +12732,6 @@
 2024-08-28 09:05:20,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 09:05:22,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 09:05:23,https://web.dijk.eu.org,True,55
-2024-08-28 09:05:24,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 09:05:24,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 09:10:30,https://wgxls.site,True,62
 2024-08-28 09:10:30,https://opengrok.dijk.eu.org,True,55
@@ -12985,7 +12742,6 @@
 2024-08-28 09:10:34,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 09:10:36,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 09:10:37,https://web.dijk.eu.org,True,55
-2024-08-28 09:10:38,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 09:10:38,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 09:16:22,https://wgxls.site,True,62
 2024-08-28 09:16:22,https://opengrok.dijk.eu.org,True,55
@@ -12996,7 +12752,6 @@
 2024-08-28 09:16:26,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 09:16:28,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 09:16:30,https://web.dijk.eu.org,True,55
-2024-08-28 09:16:31,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 09:16:31,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 09:21:37,https://wgxls.site,True,62
 2024-08-28 09:21:37,https://opengrok.dijk.eu.org,True,55
@@ -13007,7 +12762,6 @@
 2024-08-28 09:21:41,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 09:21:43,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 09:21:44,https://web.dijk.eu.org,True,55
-2024-08-28 09:21:45,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 09:21:45,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 09:26:51,https://wgxls.site,True,62
 2024-08-28 09:26:52,https://opengrok.dijk.eu.org,True,55
@@ -13018,7 +12772,6 @@
 2024-08-28 09:26:56,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 09:26:57,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 09:26:58,https://web.dijk.eu.org,True,55
-2024-08-28 09:26:59,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 09:26:59,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 09:32:05,https://wgxls.site,True,62
 2024-08-28 09:32:05,https://opengrok.dijk.eu.org,True,55
@@ -13029,7 +12782,6 @@
 2024-08-28 09:32:09,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 09:32:11,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 09:32:12,https://web.dijk.eu.org,True,55
-2024-08-28 09:32:13,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 09:32:13,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 09:37:19,https://wgxls.site,True,62
 2024-08-28 09:37:19,https://opengrok.dijk.eu.org,True,55
@@ -13040,7 +12792,6 @@
 2024-08-28 09:37:23,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 09:37:25,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 09:37:26,https://web.dijk.eu.org,True,55
-2024-08-28 09:37:26,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 09:37:27,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 09:49:38,https://wgxls.site,True,62
 2024-08-28 09:49:38,https://opengrok.dijk.eu.org,True,55
@@ -13051,7 +12802,6 @@
 2024-08-28 09:49:43,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 09:49:44,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 09:49:45,https://web.dijk.eu.org,True,55
-2024-08-28 09:49:46,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 09:49:47,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 09:54:53,https://wgxls.site,True,62
 2024-08-28 09:54:53,https://opengrok.dijk.eu.org,True,55
@@ -13062,7 +12812,6 @@
 2024-08-28 09:54:58,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 09:54:59,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 09:55:00,https://web.dijk.eu.org,True,55
-2024-08-28 09:55:01,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 09:55:01,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 10:00:08,https://wgxls.site,True,62
 2024-08-28 10:00:08,https://opengrok.dijk.eu.org,True,55
@@ -13073,7 +12822,6 @@
 2024-08-28 10:00:12,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 10:00:13,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 10:00:14,https://web.dijk.eu.org,True,55
-2024-08-28 10:00:15,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 10:00:15,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 10:05:21,https://wgxls.site,True,62
 2024-08-28 10:05:22,https://opengrok.dijk.eu.org,True,55
@@ -13084,7 +12832,6 @@
 2024-08-28 10:05:26,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 10:05:27,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 10:05:28,https://web.dijk.eu.org,True,55
-2024-08-28 10:05:29,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 10:05:29,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 10:10:36,https://wgxls.site,True,62
 2024-08-28 10:10:36,https://opengrok.dijk.eu.org,True,55
@@ -13095,7 +12842,6 @@
 2024-08-28 10:10:40,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 10:10:41,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 10:10:43,https://web.dijk.eu.org,True,55
-2024-08-28 10:10:43,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 10:10:43,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 10:15:28,https://wgxls.site,True,62
 2024-08-28 10:15:28,https://opengrok.dijk.eu.org,True,55
@@ -13106,7 +12852,6 @@
 2024-08-28 10:15:32,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 10:15:33,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 10:15:35,https://web.dijk.eu.org,True,55
-2024-08-28 10:15:35,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 10:15:36,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 10:20:42,https://wgxls.site,True,62
 2024-08-28 10:20:42,https://opengrok.dijk.eu.org,True,55
@@ -13117,7 +12862,6 @@
 2024-08-28 10:20:47,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 10:20:48,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 10:20:49,https://web.dijk.eu.org,True,55
-2024-08-28 10:20:50,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 10:20:50,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 10:25:56,https://wgxls.site,True,62
 2024-08-28 10:25:56,https://opengrok.dijk.eu.org,True,55
@@ -13128,7 +12872,6 @@
 2024-08-28 10:26:00,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 10:26:02,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 10:26:03,https://web.dijk.eu.org,True,55
-2024-08-28 10:26:03,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 10:26:04,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 10:31:10,https://wgxls.site,True,62
 2024-08-28 10:31:10,https://opengrok.dijk.eu.org,True,55
@@ -13139,7 +12882,6 @@
 2024-08-28 10:31:14,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 10:31:16,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 10:31:17,https://web.dijk.eu.org,True,55
-2024-08-28 10:31:18,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 10:31:18,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 10:36:23,https://wgxls.site,True,62
 2024-08-28 10:36:23,https://opengrok.dijk.eu.org,True,55
@@ -13150,7 +12892,6 @@
 2024-08-28 10:36:27,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 10:36:29,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 10:36:30,https://web.dijk.eu.org,True,55
-2024-08-28 10:36:30,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 10:36:30,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 10:49:17,https://wgxls.site,True,62
 2024-08-28 10:49:17,https://opengrok.dijk.eu.org,True,55
@@ -13161,7 +12902,6 @@
 2024-08-28 10:49:22,https://alist.wgxls.eu.org:8443,True,52
 2024-08-28 10:49:24,https://pma.wgxls.eu.org:8443,True,52
 2024-08-28 10:49:26,https://web.dijk.eu.org,True,55
-2024-08-28 10:49:27,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 10:49:27,https://windows.wgxls.eu.org:8443,True,52
 2024-08-28 10:54:33,https://wgxls.site,True,62
 2024-08-28 10:54:33,https://opengrok.dijk.eu.org,True,55
@@ -13172,7 +12912,6 @@
 2024-08-28 10:54:38,https://alist.wgxls.eu.org:8443,True,51
 2024-08-28 10:54:39,https://pma.wgxls.eu.org:8443,True,51
 2024-08-28 10:54:41,https://web.dijk.eu.org,True,55
-2024-08-28 10:54:41,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 10:54:42,https://windows.wgxls.eu.org:8443,True,51
 2024-08-28 10:59:48,https://wgxls.site,True,62
 2024-08-28 10:59:48,https://opengrok.dijk.eu.org,True,55
@@ -13183,7 +12922,6 @@
 2024-08-28 10:59:52,https://alist.wgxls.eu.org:8443,True,51
 2024-08-28 10:59:53,https://pma.wgxls.eu.org:8443,True,51
 2024-08-28 10:59:54,https://web.dijk.eu.org,True,55
-2024-08-28 10:59:55,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 10:59:56,https://windows.wgxls.eu.org:8443,True,51
 2024-08-28 11:05:02,https://wgxls.site,True,62
 2024-08-28 11:05:02,https://opengrok.dijk.eu.org,True,55
@@ -13194,7 +12932,6 @@
 2024-08-28 11:05:06,https://alist.wgxls.eu.org:8443,True,51
 2024-08-28 11:05:07,https://pma.wgxls.eu.org:8443,True,51
 2024-08-28 11:05:08,https://web.dijk.eu.org,True,55
-2024-08-28 11:05:09,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 11:05:09,https://windows.wgxls.eu.org:8443,True,51
 2024-08-28 11:10:15,https://wgxls.site,True,62
 2024-08-28 11:10:15,https://opengrok.dijk.eu.org,True,55
@@ -13205,7 +12942,6 @@
 2024-08-28 11:10:20,https://alist.wgxls.eu.org:8443,True,51
 2024-08-28 11:10:21,https://pma.wgxls.eu.org:8443,True,51
 2024-08-28 11:10:22,https://web.dijk.eu.org,True,55
-2024-08-28 11:10:23,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 11:10:23,https://windows.wgxls.eu.org:8443,True,51
 2024-08-28 11:12:36,https://wgxls.site,True,62
 2024-08-28 11:12:36,https://opengrok.dijk.eu.org,True,55
@@ -13216,7 +12952,6 @@
 2024-08-28 11:12:46,https://alist.wgxls.eu.org:8443,True,51
 2024-08-28 11:12:47,https://pma.wgxls.eu.org:8443,True,51
 2024-08-28 11:12:49,https://web.dijk.eu.org,True,55
-2024-08-28 11:12:49,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 11:12:50,https://windows.wgxls.eu.org:8443,True,51
 2024-08-28 11:17:56,https://wgxls.site,True,62
 2024-08-28 11:17:56,https://opengrok.dijk.eu.org,True,55
@@ -13227,7 +12962,6 @@
 2024-08-28 11:18:01,https://alist.wgxls.eu.org:8443,True,51
 2024-08-28 11:18:02,https://pma.wgxls.eu.org:8443,True,51
 2024-08-28 11:18:03,https://web.dijk.eu.org,True,55
-2024-08-28 11:18:04,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 11:18:04,https://windows.wgxls.eu.org:8443,True,51
 2024-08-28 11:23:10,https://wgxls.site,True,62
 2024-08-28 11:23:10,https://opengrok.dijk.eu.org,True,55
@@ -13238,7 +12972,6 @@
 2024-08-28 11:23:14,https://alist.wgxls.eu.org:8443,True,51
 2024-08-28 11:23:16,https://pma.wgxls.eu.org:8443,True,51
 2024-08-28 11:23:17,https://web.dijk.eu.org,True,55
-2024-08-28 11:23:18,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 11:23:18,https://windows.wgxls.eu.org:8443,True,51
 2024-08-28 11:28:24,https://wgxls.site,True,62
 2024-08-28 11:28:24,https://opengrok.dijk.eu.org,True,55
@@ -13249,7 +12982,6 @@
 2024-08-28 11:28:28,https://alist.wgxls.eu.org:8443,True,51
 2024-08-28 11:28:29,https://pma.wgxls.eu.org:8443,True,51
 2024-08-28 11:28:31,https://web.dijk.eu.org,True,55
-2024-08-28 11:28:32,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 11:28:32,https://windows.wgxls.eu.org:8443,True,51
 2024-08-28 11:33:38,https://wgxls.site,True,62
 2024-08-28 11:33:38,https://opengrok.dijk.eu.org,True,55
@@ -13260,7 +12992,6 @@
 2024-08-28 11:33:42,https://alist.wgxls.eu.org:8443,True,51
 2024-08-28 11:33:43,https://pma.wgxls.eu.org:8443,True,51
 2024-08-28 11:33:45,https://web.dijk.eu.org,True,55
-2024-08-28 11:33:45,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 11:33:45,https://windows.wgxls.eu.org:8443,True,51
 2024-08-28 11:49:15,https://wgxls.site,True,62
 2024-08-28 11:49:16,https://opengrok.dijk.eu.org,True,55
@@ -13271,7 +13002,6 @@
 2024-08-28 11:49:20,https://alist.wgxls.eu.org:8443,True,51
 2024-08-28 11:49:21,https://pma.wgxls.eu.org:8443,True,51
 2024-08-28 11:49:23,https://web.dijk.eu.org,True,55
-2024-08-28 11:49:24,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 11:49:24,https://windows.wgxls.eu.org:8443,True,51
 2024-08-28 11:54:31,https://wgxls.site,True,62
 2024-08-28 11:54:31,https://opengrok.dijk.eu.org,True,55
@@ -13282,7 +13012,6 @@
 2024-08-28 11:54:36,https://alist.wgxls.eu.org:8443,True,51
 2024-08-28 11:54:37,https://pma.wgxls.eu.org:8443,True,51
 2024-08-28 11:54:38,https://web.dijk.eu.org,True,55
-2024-08-28 11:54:39,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 11:54:39,https://windows.wgxls.eu.org:8443,True,51
 2024-08-28 11:59:45,https://wgxls.site,True,62
 2024-08-28 11:59:46,https://opengrok.dijk.eu.org,True,55
@@ -13293,7 +13022,6 @@
 2024-08-28 11:59:50,https://alist.wgxls.eu.org:8443,True,51
 2024-08-28 11:59:51,https://pma.wgxls.eu.org:8443,True,51
 2024-08-28 11:59:52,https://web.dijk.eu.org,True,55
-2024-08-28 11:59:53,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 11:59:53,https://windows.wgxls.eu.org:8443,True,51
 2024-08-28 12:05:00,https://wgxls.site,True,62
 2024-08-28 12:05:00,https://opengrok.dijk.eu.org,True,55
@@ -13304,7 +13032,6 @@
 2024-08-28 12:05:04,https://alist.wgxls.eu.org:8443,True,51
 2024-08-28 12:05:05,https://pma.wgxls.eu.org:8443,True,51
 2024-08-28 12:05:06,https://web.dijk.eu.org,True,55
-2024-08-28 12:05:07,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 12:05:07,https://windows.wgxls.eu.org:8443,True,51
 2024-08-28 12:10:14,https://wgxls.site,True,62
 2024-08-28 12:10:14,https://opengrok.dijk.eu.org,True,55
@@ -13315,7 +13042,6 @@
 2024-08-28 12:10:18,https://alist.wgxls.eu.org:8443,True,51
 2024-08-28 12:10:19,https://pma.wgxls.eu.org:8443,True,51
 2024-08-28 12:10:20,https://web.dijk.eu.org,True,55
-2024-08-28 12:10:21,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 12:10:21,https://windows.wgxls.eu.org:8443,True,51
 2024-08-28 12:30:08,https://wgxls.site,True,62
 2024-08-28 12:30:08,https://opengrok.dijk.eu.org,True,55
@@ -13326,7 +13052,6 @@
 2024-08-28 12:30:12,https://alist.wgxls.eu.org:8443,True,51
 2024-08-28 12:30:14,https://pma.wgxls.eu.org:8443,True,51
 2024-08-28 12:30:15,https://web.dijk.eu.org,True,55
-2024-08-28 12:30:16,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 12:30:17,https://windows.wgxls.eu.org:8443,True,51
 2024-08-28 12:35:23,https://wgxls.site,True,62
 2024-08-28 12:35:23,https://opengrok.dijk.eu.org,True,55
@@ -13337,7 +13062,6 @@
 2024-08-28 12:35:28,https://alist.wgxls.eu.org:8443,True,51
 2024-08-28 12:35:29,https://pma.wgxls.eu.org:8443,True,51
 2024-08-28 12:35:31,https://web.dijk.eu.org,True,55
-2024-08-28 12:35:31,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 12:35:32,https://windows.wgxls.eu.org:8443,True,51
 2024-08-28 12:40:37,https://wgxls.site,True,62
 2024-08-28 12:40:38,https://opengrok.dijk.eu.org,True,54
@@ -13348,7 +13072,6 @@
 2024-08-28 12:40:42,https://alist.wgxls.eu.org:8443,True,51
 2024-08-28 12:40:43,https://pma.wgxls.eu.org:8443,True,51
 2024-08-28 12:40:45,https://web.dijk.eu.org,True,54
-2024-08-28 12:40:45,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 12:40:45,https://windows.wgxls.eu.org:8443,True,51
 2024-08-28 12:45:51,https://wgxls.site,True,62
 2024-08-28 12:45:51,https://opengrok.dijk.eu.org,True,54
@@ -13359,7 +13082,6 @@
 2024-08-28 12:45:55,https://alist.wgxls.eu.org:8443,True,51
 2024-08-28 12:45:57,https://pma.wgxls.eu.org:8443,True,51
 2024-08-28 12:45:58,https://web.dijk.eu.org,True,54
-2024-08-28 12:45:59,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 12:45:59,https://windows.wgxls.eu.org:8443,True,51
 2024-08-28 12:51:05,https://wgxls.site,True,62
 2024-08-28 12:51:05,https://opengrok.dijk.eu.org,True,54
@@ -13370,7 +13092,6 @@
 2024-08-28 12:51:09,https://alist.wgxls.eu.org:8443,True,51
 2024-08-28 12:51:10,https://pma.wgxls.eu.org:8443,True,51
 2024-08-28 12:51:12,https://web.dijk.eu.org,True,54
-2024-08-28 12:51:12,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 12:51:13,https://windows.wgxls.eu.org:8443,True,51
 2024-08-28 13:01:51,https://wgxls.site,True,62
 2024-08-28 13:01:52,https://opengrok.dijk.eu.org,True,54
@@ -13381,7 +13102,6 @@
 2024-08-28 13:01:58,https://alist.wgxls.eu.org:8443,True,51
 2024-08-28 13:01:59,https://pma.wgxls.eu.org:8443,True,51
 2024-08-28 13:02:01,https://web.dijk.eu.org,True,54
-2024-08-28 13:02:01,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 13:02:02,https://windows.wgxls.eu.org:8443,True,51
 2024-08-28 13:07:08,https://wgxls.site,True,62
 2024-08-28 13:07:08,https://opengrok.dijk.eu.org,True,54
@@ -13392,7 +13112,6 @@
 2024-08-28 13:07:12,https://alist.wgxls.eu.org:8443,True,51
 2024-08-28 13:07:14,https://pma.wgxls.eu.org:8443,True,51
 2024-08-28 13:07:15,https://web.dijk.eu.org,True,54
-2024-08-28 13:07:16,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 13:07:16,https://windows.wgxls.eu.org:8443,True,51
 2024-08-28 13:12:22,https://wgxls.site,True,62
 2024-08-28 13:12:22,https://opengrok.dijk.eu.org,True,54
@@ -13403,7 +13122,6 @@
 2024-08-28 13:12:26,https://alist.wgxls.eu.org:8443,True,51
 2024-08-28 13:12:28,https://pma.wgxls.eu.org:8443,True,51
 2024-08-28 13:12:29,https://web.dijk.eu.org,True,54
-2024-08-28 13:12:30,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 13:12:30,https://windows.wgxls.eu.org:8443,True,51
 2024-08-28 13:17:36,https://wgxls.site,True,62
 2024-08-28 13:17:36,https://opengrok.dijk.eu.org,True,54
@@ -13414,7 +13132,6 @@
 2024-08-28 13:17:40,https://alist.wgxls.eu.org:8443,True,51
 2024-08-28 13:17:41,https://pma.wgxls.eu.org:8443,True,51
 2024-08-28 13:17:43,https://web.dijk.eu.org,True,54
-2024-08-28 13:17:43,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 13:17:44,https://windows.wgxls.eu.org:8443,True,51
 2024-08-28 13:22:49,https://wgxls.site,True,62
 2024-08-28 13:22:50,https://opengrok.dijk.eu.org,True,54
@@ -13425,7 +13142,6 @@
 2024-08-28 13:22:54,https://alist.wgxls.eu.org:8443,True,51
 2024-08-28 13:22:55,https://pma.wgxls.eu.org:8443,True,51
 2024-08-28 13:22:56,https://web.dijk.eu.org,True,54
-2024-08-28 13:22:57,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 13:22:57,https://windows.wgxls.eu.org:8443,True,51
 2024-08-28 13:31:29,https://wgxls.site,True,62
 2024-08-28 13:31:29,https://opengrok.dijk.eu.org,True,54
@@ -13436,7 +13152,6 @@
 2024-08-28 13:31:33,https://alist.wgxls.eu.org:8443,True,51
 2024-08-28 13:31:35,https://pma.wgxls.eu.org:8443,True,51
 2024-08-28 13:31:37,https://web.dijk.eu.org,True,54
-2024-08-28 13:31:38,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 13:31:38,https://windows.wgxls.eu.org:8443,True,51
 2024-08-28 13:36:44,https://wgxls.site,True,62
 2024-08-28 13:36:44,https://opengrok.dijk.eu.org,True,54
@@ -13447,7 +13162,6 @@
 2024-08-28 13:36:49,https://alist.wgxls.eu.org:8443,True,51
 2024-08-28 13:36:50,https://pma.wgxls.eu.org:8443,True,51
 2024-08-28 13:36:52,https://web.dijk.eu.org,True,54
-2024-08-28 13:36:52,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 13:36:53,https://windows.wgxls.eu.org:8443,True,51
 2024-08-28 13:41:59,https://wgxls.site,True,62
 2024-08-28 13:41:59,https://opengrok.dijk.eu.org,True,54
@@ -13458,7 +13172,6 @@
 2024-08-28 13:42:04,https://alist.wgxls.eu.org:8443,True,51
 2024-08-28 13:42:05,https://pma.wgxls.eu.org:8443,True,51
 2024-08-28 13:42:07,https://web.dijk.eu.org,True,54
-2024-08-28 13:42:07,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 13:42:08,https://windows.wgxls.eu.org:8443,True,51
 2024-08-28 13:47:14,https://wgxls.site,True,62
 2024-08-28 13:47:14,https://opengrok.dijk.eu.org,True,54
@@ -13469,7 +13182,6 @@
 2024-08-28 13:47:18,https://alist.wgxls.eu.org:8443,True,51
 2024-08-28 13:47:20,https://pma.wgxls.eu.org:8443,True,51
 2024-08-28 13:47:21,https://web.dijk.eu.org,True,54
-2024-08-28 13:47:22,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 13:47:22,https://windows.wgxls.eu.org:8443,True,51
 2024-08-28 13:52:28,https://wgxls.site,True,62
 2024-08-28 13:52:28,https://opengrok.dijk.eu.org,True,54
@@ -13480,7 +13192,6 @@
 2024-08-28 13:52:32,https://alist.wgxls.eu.org:8443,True,51
 2024-08-28 13:52:34,https://pma.wgxls.eu.org:8443,True,51
 2024-08-28 13:52:35,https://web.dijk.eu.org,True,54
-2024-08-28 13:52:36,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 13:52:36,https://windows.wgxls.eu.org:8443,True,51
 2024-08-28 14:14:02,https://wgxls.site,True,62
 2024-08-28 14:14:02,https://opengrok.dijk.eu.org,True,54
@@ -13491,7 +13202,6 @@
 2024-08-28 14:14:10,https://alist.wgxls.eu.org:8443,True,51
 2024-08-28 14:14:12,https://pma.wgxls.eu.org:8443,True,51
 2024-08-28 14:14:13,https://web.dijk.eu.org,True,54
-2024-08-28 14:14:14,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 14:14:14,https://windows.wgxls.eu.org:8443,True,51
 2024-08-28 14:19:21,https://wgxls.site,True,62
 2024-08-28 14:19:21,https://opengrok.dijk.eu.org,True,54
@@ -13502,7 +13212,6 @@
 2024-08-28 14:19:26,https://alist.wgxls.eu.org:8443,True,51
 2024-08-28 14:19:27,https://pma.wgxls.eu.org:8443,True,51
 2024-08-28 14:19:28,https://web.dijk.eu.org,True,54
-2024-08-28 14:19:29,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 14:19:30,https://windows.wgxls.eu.org:8443,True,51
 2024-08-28 14:24:36,https://wgxls.site,True,62
 2024-08-28 14:24:36,https://opengrok.dijk.eu.org,True,54
@@ -13513,7 +13222,6 @@
 2024-08-28 14:24:40,https://alist.wgxls.eu.org:8443,True,51
 2024-08-28 14:24:42,https://pma.wgxls.eu.org:8443,True,51
 2024-08-28 14:24:43,https://web.dijk.eu.org,True,54
-2024-08-28 14:24:44,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 14:24:44,https://windows.wgxls.eu.org:8443,True,51
 2024-08-28 14:29:50,https://wgxls.site,True,62
 2024-08-28 14:29:50,https://opengrok.dijk.eu.org,True,54
@@ -13524,7 +13232,6 @@
 2024-08-28 14:29:55,https://alist.wgxls.eu.org:8443,True,51
 2024-08-28 14:29:56,https://pma.wgxls.eu.org:8443,True,51
 2024-08-28 14:29:57,https://web.dijk.eu.org,True,54
-2024-08-28 14:29:58,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 14:29:59,https://windows.wgxls.eu.org:8443,True,51
 2024-08-28 14:35:05,https://wgxls.site,True,62
 2024-08-28 14:35:05,https://opengrok.dijk.eu.org,True,54
@@ -13535,5 +13242,64 @@
 2024-08-28 14:35:10,https://alist.wgxls.eu.org:8443,True,51
 2024-08-28 14:35:11,https://pma.wgxls.eu.org:8443,True,51
 2024-08-28 14:35:12,https://web.dijk.eu.org,True,54
-2024-08-28 14:35:13,https://lsky.wgxls.ue.org:8443,False,-1
 2024-08-28 14:35:13,https://windows.wgxls.eu.org:8443,True,51
+2024-08-28 14:45:36,https://wgxls.site,True,62
+2024-08-28 14:45:36,https://opengrok.dijk.eu.org,True,54
+2024-08-28 14:45:37,https://opengrok.wgxls.eu.org:8443,False,51
+2024-08-28 14:45:39,https://pdf.dijk.eu.org,False,-1
+2024-08-28 14:45:39,https://pdf.wgxls.eu.org:8443,True,51
+2024-08-28 14:45:41,https://image-host-wgx.pages.dev,True,56
+2024-08-28 14:45:41,https://alist.wgxls.eu.org:8443,True,51
+2024-08-28 14:45:48,https://pma.wgxls.eu.org:8443,True,51
+2024-08-28 14:45:50,https://web.dijk.eu.org,True,54
+2024-08-28 14:45:51,https://lsky.wgxls.eu.org:8443,True,51
+2024-08-28 14:45:53,https://windows.wgxls.eu.org:8443,True,51
+2024-08-28 14:45:54,https://draw.wgxls.eu.org:8443,True,51
+2024-08-28 14:51:01,https://wgxls.site,True,62
+2024-08-28 14:51:01,https://opengrok.dijk.eu.org,True,54
+2024-08-28 14:51:02,https://opengrok.wgxls.eu.org:8443,False,51
+2024-08-28 14:51:03,https://pdf.dijk.eu.org,False,-1
+2024-08-28 14:51:04,https://pdf.wgxls.eu.org:8443,True,51
+2024-08-28 14:51:06,https://image-host-wgx.pages.dev,True,56
+2024-08-28 14:51:06,https://alist.wgxls.eu.org:8443,True,51
+2024-08-28 14:51:08,https://pma.wgxls.eu.org:8443,True,51
+2024-08-28 14:51:09,https://web.dijk.eu.org,True,54
+2024-08-28 14:51:10,https://lsky.wgxls.eu.org:8443,True,51
+2024-08-28 14:51:11,https://windows.wgxls.eu.org:8443,True,51
+2024-08-28 14:51:13,https://draw.wgxls.eu.org:8443,True,51
+2024-08-28 14:56:22,https://wgxls.site,True,62
+2024-08-28 14:56:22,https://opengrok.dijk.eu.org,True,54
+2024-08-28 14:56:22,https://opengrok.wgxls.eu.org:8443,False,51
+2024-08-28 14:56:24,https://pdf.dijk.eu.org,False,-1
+2024-08-28 14:56:25,https://pdf.wgxls.eu.org:8443,True,51
+2024-08-28 14:56:26,https://image-host-wgx.pages.dev,True,56
+2024-08-28 14:56:26,https://alist.wgxls.eu.org:8443,True,51
+2024-08-28 14:56:32,https://pma.wgxls.eu.org:8443,True,51
+2024-08-28 14:56:33,https://web.dijk.eu.org,True,54
+2024-08-28 14:56:34,https://lsky.wgxls.eu.org:8443,True,51
+2024-08-28 14:56:36,https://windows.wgxls.eu.org:8443,True,51
+2024-08-28 14:56:38,https://draw.wgxls.eu.org:8443,True,51
+2024-08-28 15:01:43,https://wgxls.site,True,62
+2024-08-28 15:01:43,https://opengrok.dijk.eu.org,True,54
+2024-08-28 15:01:44,https://opengrok.wgxls.eu.org:8443,False,51
+2024-08-28 15:01:45,https://pdf.dijk.eu.org,False,-1
+2024-08-28 15:01:46,https://pdf.wgxls.eu.org:8443,True,51
+2024-08-28 15:01:47,https://image-host-wgx.pages.dev,True,56
+2024-08-28 15:01:48,https://alist.wgxls.eu.org:8443,True,51
+2024-08-28 15:01:49,https://pma.wgxls.eu.org:8443,True,51
+2024-08-28 15:01:51,https://web.dijk.eu.org,True,54
+2024-08-28 15:01:51,https://lsky.wgxls.eu.org:8443,True,51
+2024-08-28 15:01:53,https://windows.wgxls.eu.org:8443,True,51
+2024-08-28 15:01:54,https://draw.wgxls.eu.org:8443,True,51
+2024-08-28 15:07:00,https://wgxls.site,True,62
+2024-08-28 15:07:00,https://opengrok.dijk.eu.org,True,54
+2024-08-28 15:07:01,https://opengrok.wgxls.eu.org:8443,False,51
+2024-08-28 15:07:02,https://pdf.dijk.eu.org,False,-1
+2024-08-28 15:07:03,https://pdf.wgxls.eu.org:8443,True,51
+2024-08-28 15:07:04,https://image-host-wgx.pages.dev,True,56
+2024-08-28 15:07:04,https://alist.wgxls.eu.org:8443,True,51
+2024-08-28 15:07:06,https://pma.wgxls.eu.org:8443,True,51
+2024-08-28 15:07:07,https://web.dijk.eu.org,True,54
+2024-08-28 15:07:08,https://lsky.wgxls.eu.org:8443,True,51
+2024-08-28 15:07:10,https://windows.wgxls.eu.org:8443,True,51
+2024-08-28 15:07:11,https://draw.wgxls.eu.org:8443,True,51
