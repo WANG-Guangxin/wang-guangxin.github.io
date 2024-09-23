@@ -1,9 +1,9 @@
 name: Deploy Hexo Site
 
 on:
-  push:
-    branches:
-      - master # Set a branch to trigger deployment
+  # push:
+  #   branches:
+  #     # - master # Set a branch to trigger deployment
   schedule:
     - cron: '*/22 * * * *' # Runs every 0 minutes
 jobs:
