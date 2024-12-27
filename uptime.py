@@ -64,6 +64,13 @@ g_config = {
         "uptime24h": "ALIST_WGXLS_EU_ORG_UP_24='",
         "ssl": "ALIST_WGXLS_EU_ORG_SSL='"
     },
+    "https://oss.1881997.xyz":
+    {
+        "status": "STATUS_OSS_1881997_XYZ='",
+        "uptime7d": "OSS_1881997_XYZ_UP_7='",
+        "uptime24h": "OSS_1881997_XYZ_UP_24='",
+        "ssl": "OSS_1881997_XYZ_SSL='"
+    },
     "https://pma.wgxls.eu.org:8443":
     {
         "status": "STATUS_PHPMYADMIN_WGXLS_EU_ORG='",
