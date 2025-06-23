@@ -57,12 +57,12 @@ g_config = {
         "uptime24h": "IMAGE_HOST_PAGES_UP_24='",
         "ssl": "IMAGE_HOST_PAGES_SSL='"
     },
-    "https://alist.wgxls.eu.org:8443":
+    "https://list.wgxls.eu.org:8443":
     {
-        "status": "STATUS_ALIST_WGXLS_EU_ORG='",
-        "uptime7d": "ALIST_WGXLS_EU_ORG_UP_7='",
-        "uptime24h": "ALIST_WGXLS_EU_ORG_UP_24='",
-        "ssl": "ALIST_WGXLS_EU_ORG_SSL='"
+        "status": "STATUS_LIST_WGXLS_EU_ORG='",
+        "uptime7d": "LIST_WGXLS_EU_ORG_UP_7='",
+        "uptime24h": "LIST_WGXLS_EU_ORG_UP_24='",
+        "ssl": "LIST_WGXLS_EU_ORG_SSL='"
     },
     "https://oss.1881997.xyz":
     {

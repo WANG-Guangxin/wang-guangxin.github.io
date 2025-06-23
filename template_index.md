@@ -143,17 +143,17 @@ academia: true
     </tr>
 </table>
 
-## H2 Alist
+## H2 Openlist
 
 <table>
     <tr>
         <th colspan="3">  
-            <a href="https://alist.wgxls.eu.org:8443"> https://alist.wgxls.eu.org:8443 </a>
+            <a href="https://list.wgxls.eu.org:8443"> https://list.wgxls.eu.org:8443 </a>
         </th>
     </tr>
     <tr>
         <td colspan="3">
-        <img src="/img/${STATUS_ALIST_WGXLS_EU_ORG}" alt="">
+        <img src="/img/${STATUS_LIST_WGXLS_EU_ORG}" alt="">
         <img src="/img/China-Friendly-green.svg" alt=""> 
         <img src="/img/Public-Access-blue.svg" alt=""> 
         </td>
@@ -164,9 +164,9 @@ academia: true
         <td> SSL certificate expiration period </td>
     </tr>
     <tr>
-        <td> ${ALIST_WGXLS_EU_ORG_UP_7} </td>
-        <td> ${ALIST_WGXLS_EU_ORG_UP_24} </td>
-        <td> ${ALIST_WGXLS_EU_ORG_SSL} </td>
+        <td> ${LIST_WGXLS_EU_ORG_UP_7} </td>
+        <td> ${LIST_WGXLS_EU_ORG_UP_24} </td>
+        <td> ${LIST_WGXLS_EU_ORG_SSL} </td>
     </tr>
 </table>
 
