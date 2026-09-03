@@ -1,9 +1,6 @@
 name: Deploy Vue Site
 
 on:
-  push:
-    branches:
-      - vue-migration
   schedule:
     - cron: '*/22 * * * *' # Runs every 22 minutes
   workflow_dispatch:

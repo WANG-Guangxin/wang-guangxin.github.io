@@ -2,14 +2,12 @@
 const education = [
   {
     school: 'Northeast Petroleum University',
-    icon: '/img/edu1.svg',
     period: 'September 2015 ~ June 2019',
     degree: 'Electronic Information Science and Technology',
     majors: ['Data Structures', 'Computer Networks', 'Operating Systems', 'Digital Image Processing'],
   },
   {
     school: 'Dalian Maritime University',
-    icon: '/img/edu2.svg',
     period: 'September 2020 ~ June 2023',
     degree: 'Computer Science and Technology',
     majors: ['Underwater image enhancement', 'Deep learning'],
@@ -19,7 +17,6 @@ const education = [
 const work = [
   {
     company: 'Hikvision',
-    icon: '/img/dev0.svg',
     period: 'June 2022 ~ September 2022',
     position: 'Video Surveillance Software Client Development Engineer',
     language: 'CPP, Qt',
@@ -27,7 +24,6 @@ const work = [
   },
   {
     company: 'Neusoft',
-    icon: '/img/dev1.svg',
     period: 'June 2023 ~ Now',
     position: 'Mobile Wireless Module Development Engineer',
     language: 'CPP, C',
@@ -48,7 +44,6 @@ const work = [
           <div class="timeline-marker"></div>
           <div class="card timeline-card">
             <div class="timeline-head">
-              <img class="timeline-icon" :src="item.icon" :alt="item.school" />
               <div>
                 <h3 class="timeline-title">{{ item.school }}</h3>
                 <p class="timeline-period">{{ item.period }}</p>
@@ -70,7 +65,6 @@ const work = [
           <div class="timeline-marker" :class="{ current: item.current }"></div>
           <div class="card timeline-card">
             <div class="timeline-head">
-              <img class="timeline-icon" :src="item.icon" :alt="item.company" />
               <div>
                 <h3 class="timeline-title">
                   {{ item.company }}
@@ -156,17 +150,7 @@ const work = [
 }
 
 .timeline-head {
-  display: flex;
-  align-items: center;
-  gap: 14px;
   margin-bottom: 10px;
-}
-
-.timeline-icon {
-  width: 44px;
-  height: 44px;
-  object-fit: contain;
-  flex-shrink: 0;
 }
 
 .timeline-title {
