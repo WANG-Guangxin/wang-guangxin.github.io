@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-03 14:00:33",
-  "updated_at_cst": "2026-09-03 22:00:45",
+  "updated_at": "2026-09-03 14:58:46",
+  "updated_at_cst": "2026-09-03 22:58:54",
   "sites": [
     {
       "name": "Blog",
@@ -15,17 +15,6 @@
     },
     {
       "name": "Opengrok",
-      "url": "https://opengrok.dijk.eu.org",
-      "badges": [
-        "Public Access"
-      ],
-      "up": false,
-      "ssl_days": null,
-      "uptime_7d": 0.0,
-      "uptime_24h": 0.0
-    },
-    {
-      "name": "Opengrok (8443)",
       "url": "https://opengrok.wgxls.eu.org:8443",
       "badges": [
         "China Friendly",
@@ -38,17 +27,6 @@
     },
     {
       "name": "PDF Tool",
-      "url": "https://pdf.dijk.eu.org",
-      "badges": [
-        "Public Access"
-      ],
-      "up": false,
-      "ssl_days": null,
-      "uptime_7d": 0.0,
-      "uptime_24h": 0.0
-    },
-    {
-      "name": "PDF Tool (8443)",
       "url": "https://pdf.wgxls.eu.org:8443",
       "badges": [
         "Public Access"
@@ -81,32 +59,10 @@
       "uptime_24h": 100.0
     },
     {
-      "name": "OSS",
-      "url": "https://oss.1881997.xyz",
-      "badges": [
-        "Public Access"
-      ],
-      "up": false,
-      "ssl_days": 63,
-      "uptime_7d": 0.0,
-      "uptime_24h": 0.0
-    },
-    {
       "name": "phpMyAdmin",
       "url": "https://pma.wgxls.eu.org:8443",
       "badges": [
         "Private"
-      ],
-      "up": false,
-      "ssl_days": null,
-      "uptime_7d": 0.0,
-      "uptime_24h": 0.0
-    },
-    {
-      "name": "Web",
-      "url": "https://web.dijk.eu.org",
-      "badges": [
-        "Public Access"
       ],
       "up": false,
       "ssl_days": null,
@@ -121,30 +77,8 @@
       ],
       "up": true,
       "ssl_days": 47,
-      "uptime_7d": 98.68,
+      "uptime_7d": 98.69,
       "uptime_24h": 100.0
-    },
-    {
-      "name": "Windows",
-      "url": "https://windows.wgxls.eu.org:8443",
-      "badges": [
-        "Public Access"
-      ],
-      "up": false,
-      "ssl_days": null,
-      "uptime_7d": 0.0,
-      "uptime_24h": 0.0
-    },
-    {
-      "name": "Draw",
-      "url": "https://draw.wgxls.eu.org:8443",
-      "badges": [
-        "Public Access"
-      ],
-      "up": false,
-      "ssl_days": null,
-      "uptime_7d": 0.0,
-      "uptime_24h": 0.0
     }
   ]
 }
