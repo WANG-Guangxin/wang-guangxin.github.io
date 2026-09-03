@@ -1,35 +1,40 @@
-name: Deploy Hexo Site
+name: Deploy Vue Site
 
 on:
-  # push:
-  #   branches:
-  #     # - master # Set a branch to trigger deployment
+  push:
+    branches:
+      - vue-migration
   schedule:
-    - cron: '*/22 * * * *' # Runs every 0 minutes
+    - cron: '*/22 * * * *' # Runs every 22 minutes
+  workflow_dispatch:
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
       with:
-        # This depth parameter is optional - fetching the full history can improve the accuracy of the GH Pages deployment action's change detection.
-        # However, it can also increase the time required for the checkout step to complete.
         fetch-depth: 0
 
-    - name: Use Node.js
-      uses: actions/setup-node@v2
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
       with:
-        node-version: '18' # Specify your Node.js version here
+        node-version: '20'
 
-    - name: Install Dependencies
-      run: npm install
+    - name: Setup Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
 
-    - name: Install Hexo
-      run: npm install -g hexo-cli
+    - name: Install Python deps
+      run: pip install -r requirements.txt
 
-    - name: Build-1
-      run: bash ./build.sh
+    - name: Install Node deps
+      run: npm ci
+
+    - name: Run uptime monitor
+      run: python3 uptime.py
       env:
         notice_host_server: ${{ secrets.notice_host_server }}
         notice_user: ${{ secrets.notice_user }}
@@ -37,78 +42,17 @@ jobs:
         notice_mail: ${{ secrets.notice_mail }}
         notice_receiver: ${{ secrets.notice_receiver }}
 
-    - name: Deploying-1
-      uses: peaceiris/actions-gh-pages@v3
+    - name: Build site
+      run: npm run build
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v4
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./public
 
-    - name: Build-2
-      run: sleep 300 && bash ./build.sh
-      env:
-        notice_host_server: ${{ secrets.notice_host_server }}
-        notice_user: ${{ secrets.notice_user }}
-        notice_pwd: ${{ secrets.notice_pwd }}
-        notice_mail: ${{ secrets.notice_mail }}
-        notice_receiver: ${{ secrets.notice_receiver }}
-
-    - name: Deploying-2
-      uses: peaceiris/actions-gh-pages@v3
+    - name: Commit updated data
+      uses: stefanzweifel/git-auto-commit-action@v5
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./public
-
-    - name: Build-3
-      run: sleep 300 && bash ./build.sh
-      env:
-        notice_host_server: ${{ secrets.notice_host_server }}
-        notice_user: ${{ secrets.notice_user }}
-        notice_pwd: ${{ secrets.notice_pwd }}
-        notice_mail: ${{ secrets.notice_mail }}
-        notice_receiver: ${{ secrets.notice_receiver }}
-
-    - name: Deploying-3
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./public
-
-    - name: Build-4
-      run: sleep 300 && bash ./build.sh
-      env:
-        notice_host_server: ${{ secrets.notice_host_server }}
-        notice_user: ${{ secrets.notice_user }}
-        notice_pwd: ${{ secrets.notice_pwd }}
-        notice_mail: ${{ secrets.notice_mail }}
-        notice_receiver: ${{ secrets.notice_receiver }}
-
-    - name: Deploying-4
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./public
-
-    - name: Build-5
-      run: sleep 300 && bash ./build.sh
-      env:
-        notice_host_server: ${{ secrets.notice_host_server }}
-        notice_user: ${{ secrets.notice_user }}
-        notice_pwd: ${{ secrets.notice_pwd }}
-        notice_mail: ${{ secrets.notice_mail }}
-        notice_receiver: ${{ secrets.notice_receiver }}
-
-    - name: Deploying-5
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./public
-
-    - name: Commit changes
-      uses: stefanzweifel/git-auto-commit-action@v4
-      with:
-        commit_message: Auto Commit
-        branch: ${{ github.head_ref }}
-        file_pattern: |
-          data.csv
-          siteenv
-        
+        commit_message: 'chore: update uptime data'
+        file_pattern: 'data.csv static/sites-data.json'

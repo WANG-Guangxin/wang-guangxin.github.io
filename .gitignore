@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Build output
+public/
+dist/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Env & secrets
+siteenv
+.env
+.env.local
+
+# Uptime history data
+# NOTE: data.csv is intentionally tracked in git (for GitHub Actions persistence).
+# It is listed here only as documentation; tracked files ignore .gitignore.
+# data.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/

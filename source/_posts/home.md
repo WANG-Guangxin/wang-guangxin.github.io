@@ -1,6 +1,0 @@
----
-title: Home
-academia: true
----
-
-

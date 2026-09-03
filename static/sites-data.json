@@ -1,0 +1,150 @@
+{
+  "updated_at": "2026-09-03 21:45:14",
+  "updated_at_cst": "2026-09-03 21:45:52",
+  "sites": [
+    {
+      "name": "Blog",
+      "url": "https://wgxls.site",
+      "badges": [
+        "Public Access"
+      ],
+      "up": true,
+      "ssl_days": 77,
+      "uptime_7d": 100.0,
+      "uptime_24h": 100.0
+    },
+    {
+      "name": "Opengrok",
+      "url": "https://opengrok.dijk.eu.org",
+      "badges": [
+        "Public Access"
+      ],
+      "up": false,
+      "ssl_days": null,
+      "uptime_7d": 0.0,
+      "uptime_24h": 0.0
+    },
+    {
+      "name": "Opengrok (8443)",
+      "url": "https://opengrok.wgxls.eu.org:8443",
+      "badges": [
+        "China Friendly",
+        "Public Access"
+      ],
+      "up": true,
+      "ssl_days": 47,
+      "uptime_7d": 100.0,
+      "uptime_24h": 100.0
+    },
+    {
+      "name": "PDF Tool",
+      "url": "https://pdf.dijk.eu.org",
+      "badges": [
+        "Public Access"
+      ],
+      "up": false,
+      "ssl_days": null,
+      "uptime_7d": 0.0,
+      "uptime_24h": 0.0
+    },
+    {
+      "name": "PDF Tool (8443)",
+      "url": "https://pdf.wgxls.eu.org:8443",
+      "badges": [
+        "Public Access"
+      ],
+      "up": false,
+      "ssl_days": null,
+      "uptime_7d": 0.0,
+      "uptime_24h": 0.0
+    },
+    {
+      "name": "Image Host",
+      "url": "https://image-host-wgx.pages.dev",
+      "badges": [
+        "Public Access"
+      ],
+      "up": true,
+      "ssl_days": 87,
+      "uptime_7d": 100.0,
+      "uptime_24h": 100.0
+    },
+    {
+      "name": "List",
+      "url": "https://list.wgxls.eu.org:8443",
+      "badges": [
+        "Public Access"
+      ],
+      "up": true,
+      "ssl_days": 47,
+      "uptime_7d": 100.0,
+      "uptime_24h": 100.0
+    },
+    {
+      "name": "OSS",
+      "url": "https://oss.1881997.xyz",
+      "badges": [
+        "Public Access"
+      ],
+      "up": false,
+      "ssl_days": 63,
+      "uptime_7d": 0.0,
+      "uptime_24h": 0.0
+    },
+    {
+      "name": "phpMyAdmin",
+      "url": "https://pma.wgxls.eu.org:8443",
+      "badges": [
+        "Private"
+      ],
+      "up": false,
+      "ssl_days": null,
+      "uptime_7d": 0.0,
+      "uptime_24h": 0.0
+    },
+    {
+      "name": "Web",
+      "url": "https://web.dijk.eu.org",
+      "badges": [
+        "Public Access"
+      ],
+      "up": false,
+      "ssl_days": null,
+      "uptime_7d": 0.0,
+      "uptime_24h": 0.0
+    },
+    {
+      "name": "Lsky",
+      "url": "https://lsky.wgxls.eu.org:8443",
+      "badges": [
+        "Public Access"
+      ],
+      "up": true,
+      "ssl_days": 47,
+      "uptime_7d": 98.67,
+      "uptime_24h": 100.0
+    },
+    {
+      "name": "Windows",
+      "url": "https://windows.wgxls.eu.org:8443",
+      "badges": [
+        "Public Access"
+      ],
+      "up": false,
+      "ssl_days": null,
+      "uptime_7d": 0.0,
+      "uptime_24h": 0.0
+    },
+    {
+      "name": "Draw",
+      "url": "https://draw.wgxls.eu.org:8443",
+      "badges": [
+        "Public Access"
+      ],
+      "up": false,
+      "ssl_days": null,
+      "uptime_7d": 0.0,
+      "uptime_24h": 0.0
+    }
+  ]
+}

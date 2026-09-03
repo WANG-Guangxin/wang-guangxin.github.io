@@ -1,9 +1,14 @@
-hexo clean
-python3 -m pip install --upgrade pip
+#!/bin/bash
+set -e
+
+# 1. Install dependencies
 pip install -r requirements.txt
+npm ci
+
+# 2. Run uptime monitor (writes public/sites-data.json)
 python3 uptime.py
-source siteenv
-cat siteenv
-envsubst < "./template_index.md" > "./source/sites/index.md"
-cat ./source/sites/index.md
-hexo generate
+
+# 3. Build the Vue site
+npm run build
+
+echo "Build complete. Output in ./public"

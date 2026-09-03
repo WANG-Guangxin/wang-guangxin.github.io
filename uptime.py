@@ -1,371 +1,239 @@
+#!/usr/bin/env python3
+"""
+Uptime monitor for wang-guangxin.github.io
+
+Reads site list from sites.json, checks HTTP status & SSL expiry,
+computes 7-day / 24h uptime from data.csv history, and writes a
+clean JSON data file consumed by the Vue frontend.
+
+Usage:
+    python3 uptime.py
+"""
+
 import csv
-import ssl
-import socket
-from urllib.parse import urlparse
-from datetime import  datetime, timedelta
-import pytz
-from requests import Session, exceptions
-import requests
-from collections import deque
 import json
 import os
-from email.mime.text import MIMEText
+import socket
+import ssl
+import sys
+from collections import defaultdict
+from datetime import datetime, timedelta
 from email.header import Header
+from email.mime.text import MIMEText
 from smtplib import SMTP_SSL
-import inspect
+from urllib.parse import urlparse
 
-g_config = {
-    "https://wgxls.site": 
-    {
-        "status": "STATUS_WGXLS_SITE='",
-        "uptime7d": "WGXLS_SITE_UP_7='",
-        "uptime24h": "WGXLS_SITE_UP_24='",
-        "ssl": "WGXLS_SITE_SSL='",
-    },
-    "https://opengrok.dijk.eu.org":
-    {
-        "status": "STATUS_OPENGROK_DIJK_EU_ORG='",
-        "uptime7d": "OPENGROK_DIJK_EU_ORG_UP_7='",
-        "uptime24h": "OPENGROK_DIJK_EU_ORG_UP_24='",
-        "ssl": "OPENGROK_DIJK_EU_ORG_SSL='"
-    },
-    "https://opengrok.wgxls.eu.org:8443":
-    {
-        "status": "STATUS_OPENGROK_WGXLS_EU_ORG='",
-        "uptime7d": "OPENGROK_WGXLS_EU_ORG_UP_7='",
-        "uptime24h": "OPENGROK_WGXLS_EU_ORG_UP_24='",
-        "ssl": "OPENGROK_WGXLS_EU_ORG_SSL='"
-    },
-    "https://pdf.dijk.eu.org":
-    {
-        "status": "STATUS_PDF_DIJK_EU_ORG='",
-        "uptime7d": "PDF_DIJK_EU_ORG_UP_7='",
-        "uptime24h": "PDF_DIJK_EU_ORG_UP_24='",
-        "ssl": "PDF_DIJK_EU_ORG_SSL='"
-    },
-    "https://pdf.wgxls.eu.org:8443":
-    {
-        "status": "STATUS_PDF_WGXLS_EU_ORG='",
-        "uptime7d": "PDF_WGXLS_EU_ORG_UP_7='",
-        "uptime24h": "PDF_WGXLS_EU_ORG_UP_24='",
-        "ssl": "PDF_WGXLS_EU_ORG_SSL='"
-    },
-    "https://image-host-wgx.pages.dev":
-    {
-        "status": "STATUS_IMAGE_HOST_PAGES='",
-        "uptime7d": "IMAGE_HOST_PAGES_UP_7='",
-        "uptime24h": "IMAGE_HOST_PAGES_UP_24='",
-        "ssl": "IMAGE_HOST_PAGES_SSL='"
-    },
-    "https://list.wgxls.eu.org:8443":
-    {
-        "status": "STATUS_LIST_WGXLS_EU_ORG='",
-        "uptime7d": "LIST_WGXLS_EU_ORG_UP_7='",
-        "uptime24h": "LIST_WGXLS_EU_ORG_UP_24='",
-        "ssl": "LIST_WGXLS_EU_ORG_SSL='"
-    },
-    "https://oss.1881997.xyz":
-    {
-        "status": "STATUS_OSS_1881997_XYZ='",
-        "uptime7d": "OSS_1881997_XYZ_UP_7='",
-        "uptime24h": "OSS_1881997_XYZ_UP_24='",
-        "ssl": "OSS_1881997_XYZ_SSL='"
-    },
-    "https://pma.wgxls.eu.org:8443":
-    {
-        "status": "STATUS_PHPMYADMIN_WGXLS_EU_ORG='",
-        "uptime7d": "PHPMYADMIN_WGXLS_EU_ORG_UP_7='",
-        "uptime24h": "PHPMYADMIN_WGXLS_EU_ORG_UP_24='",
-        "ssl": "PHPMYADMIN_WGXLS_EU_ORG_SSL='"
-    },
-    "https://web.dijk.eu.org":
-    {
-        "status": "STATUS_WEB_DIJK_EU_ORG='",
-        "uptime7d": "WEB_DIJK_EU_ORG_UP_7='",
-        "uptime24h": "WEB_DIJK_EU_ORG_UP_24='",
-        "ssl": "WEB_DIJK_EU_ORG_SSL='"
-    },
-    "https://lsky.wgxls.eu.org:8443":
-    {
-        "status": "STATUS_LSKY_WGXLS_EU_ORG='",
-        "uptime7d": "LSKY_WGXLS_EU_ORG_UP_7='",
-        "uptime24h": "LSKY_WGXLS_EU_ORG_UP_24='",
-        "ssl": "LSKY_WGXLS_EU_ORG_SSL='"
-    },
-    "https://windows.wgxls.eu.org:8443":
-    {
-        "status": "STATUS_WINDOWS_WGXLS_EU_ORG='",
-        "uptime7d": "WINDOWS_WGXLS_EU_ORG_UP_7='",
-        "uptime24h": "WINDOWS_WGXLS_EU_ORG_UP_24='",
-        "ssl": "WINDOWS_WGXLS_EU_ORG_SSL='"
-    },
-    "https://draw.wgxls.eu.org:8443":
-    {
-        "status": "STATUS_DRAW_WGXLS_EU_ORG='",
-        "uptime7d": "DRAW_WGXLS_EU_ORG_UP_7='",
-        "uptime24h": "DRAW_WGXLS_EU_ORG_UP_24='",
-        "ssl": "DRAW_WGXLS_EU_ORG_SSL='"
-    }
-}
+import pytz
+import requests
+from requests import exceptions
 
-g_data_file = 'data.csv'
-g_data_list = []
-g_data_list.append([])
-g_notice_enable = True
+# ---------------------------------------------------------------------------
+# Config
+# ---------------------------------------------------------------------------
+SITES_FILE = "sites.json"
+DATA_FILE = "data.csv"
+OUTPUT_FILE = "static/sites-data.json"
+HISTORY_DAYS = 7
+SSL_WARN_DAYS = 15  # warn when SSL cert expires within this many days
 
-def log_print(msg):
-    caller = inspect.currentframe().f_back.f_code.co_name
-    print(f"{get_current_time()} [{caller}] {msg}")
+# ---------------------------------------------------------------------------
+# Helpers
+# ---------------------------------------------------------------------------
+def now_str():
+    return datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-def write_list_to_csv():
-    global g_data_list
-    with open(g_data_file, 'w', newline='') as file:
-        writer = csv.writer(file)
-        writer.writerows(g_data_list)
 
-def read_csv_to_list():
-    global g_data_list  
-    with open(g_data_file, 'r') as file:
-        reader = csv.reader(file)
-        g_data_list = list(reader)
-        # print the last 10 items
-        log_print(g_data_list[-10:])
+def load_sites():
+    with open(SITES_FILE, "r", encoding="utf-8") as f:
+        return json.load(f)["sites"]
 
-def remove_data_before_seven_days():
-    global g_data_list  
-    seven_days_ago = datetime.now() - timedelta(days=7)
-    g_data_list = [data for data in g_data_list if len(data) > 0 and datetime.strptime(data[0], "%Y-%m-%d %H:%M:%S") >= seven_days_ago]
-    # Also remove itmes which are not in g_config
-    g_data_list = [data for data in g_data_list if data[1] in g_config]
 
-def get_current_time():
-    now = datetime.now()
-    return now.strftime('%Y-%m-%d %H:%M:%S')
+def load_history():
+    """Load CSV history into a dict: url -> list of (timestamp, is_up)."""
+    history = defaultdict(list)
+    if not os.path.exists(DATA_FILE):
+        return history
+    cutoff = datetime.now() - timedelta(days=HISTORY_DAYS)
+    with open(DATA_FILE, "r", newline="") as f:
+        for row in csv.reader(f):
+            if len(row) < 3:
+                continue
+            ts, url, is_up = row[0], row[1], row[2]
+            try:
+                t = datetime.strptime(ts, "%Y-%m-%d %H:%M:%S")
+            except ValueError:
+                continue
+            if t >= cutoff:
+                history[url].append((t, is_up == "True"))
+    return history
 
-def get_current_time_cst():
-    now = datetime.now(pytz.timezone('Asia/Shanghai'))
-    return now.strftime('%Y-%m-%d %H:%M:%S')
 
-def check_uptime(url):
+def save_history(history):
+    rows = []
+    for url, entries in history.items():
+        for t, is_up in entries:
+            rows.append([t.strftime("%Y-%m-%d %H:%M:%S"), url, str(is_up)])
+    rows.sort(key=lambda r: r[0])
+    with open(DATA_FILE, "w", newline="") as f:
+        csv.writer(f).writerows(rows)
+
+
+def check_http(url, timeout=10):
     try:
-        r = requests.get(url)
-        return r.status_code == 200
+        return requests.get(url, timeout=timeout).status_code == 200
     except exceptions.RequestException:
         return False
 
 
-def check_ssl_expiry(url):
+def check_ssl(url):
+    """Return days until SSL cert expiry, or None if unavailable."""
     try:
-        parsed_url = urlparse(url)
-        domain = parsed_url.hostname
-        port = parsed_url.port if parsed_url.port else 443
-        ssl_date_fmt = r'%b %d %H:%M:%S %Y %Z'
-        context = ssl.create_default_context()
+        host = urlparse(url).hostname
+        port = urlparse(url).port or 443
+        ctx = ssl.create_default_context()
+        with ctx.wrap_socket(socket.socket(socket.AF_INET), server_hostname=host) as s:
+            s.settimeout(5)
+            s.connect((host, port))
+            cert = s.getpeercert()
+        not_after = datetime.strptime(cert["notAfter"], "%b %d %H:%M:%S %Y %Z")
+        return (not_after - datetime.utcnow()).days
+    except Exception:
+        return None
 
-        conn = context.wrap_socket(
-            socket.socket(socket.AF_INET),
-            server_hostname=domain,
-        )
-        conn.settimeout(3.0)
 
-        conn.connect((domain, port))
-        
-        ssl_info = conn.getpeercert()
-        return (datetime.strptime(ssl_info['notAfter'], ssl_date_fmt) - datetime.utcnow()).days
+def uptime_pct(entries, since=None):
+    if not entries:
+        return None
+    if since is not None:
+        entries = [e for e in entries if e[0] >= since]
+    if not entries:
+        return None
+    up = sum(1 for _, is_up in entries if is_up)
+    return round(up / len(entries) * 100, 2)
 
-    except Exception as e:
-        log_print(f"An error occurred when checking SSL expiry for {url}: {e}")
-        return -1
 
-def to_bool(s):
-    if isinstance(s, bool):
-        return s
-    else:
-        return s == "True"
+# ---------------------------------------------------------------------------
+# Notification
+# ---------------------------------------------------------------------------
+def send_notice(title, body):
+    host = os.environ.get("notice_host_server")
+    user = os.environ.get("notice_user")
+    pwd = os.environ.get("notice_pwd")
+    mail = os.environ.get("notice_mail")
+    receiver = os.environ.get("notice_receiver")
+    if not all([host, user, pwd, mail, receiver]):
+        print("[notice] SMTP env vars missing, skip notification")
+        return
+    msg = MIMEText(body, "html", "utf-8")
+    msg["Subject"] = Header(title, "utf-8")
+    msg["From"] = mail
+    msg["To"] = receiver
+    with SMTP_SSL(host) as smtp:
+        smtp.login(user, pwd)
+        smtp.sendmail(mail, receiver, msg.as_string())
+    print("[notice] notification sent")
 
-def check_url(url):
-    global g_data_list
-    result = []
-    result.append(get_current_time())
-    result.append(url)
-    status = check_uptime(url)
-    result.append(status)
-    ssl_day = check_ssl_expiry(url)
-    result.append(ssl_day)
-    g_data_list.append(result)
-    if status:
-        g_config[url]['status'] += "Status-Up-green.svg'"
-    else:
-        g_config[url]['status'] += "Status-Down-red.svg'"
-    
-    ssl_msg = ''
-    if int(ssl_day) <= 0:
-        ssl_msg = f"""<span style="color: red;">{ssl_day} Days</span>'"""
-    elif int(ssl_day) <= 15:
-        ssl_msg = f"""<span style="color: orange;">{ssl_day} Days</span>'"""
-    elif int(ssl_day) >= 60:
-        ssl_msg = f"""<span style="color: green;">{ssl_day} Days</span>'"""
-    else:
-        ssl_msg = f"""<span style="color: blue;">{ssl_day} Days</span>'"""
-    g_config[url]['ssl'] += ssl_msg
 
-def get_uptime_msg(uptime):
-    msg = ''
-    if uptime >= 90.0:
-        msg = f"""<span style="color: green;">{uptime:.2f}%</span>'"""
-    elif uptime >= 70.0:
-        msg = f"""<span style="color: blue;">{uptime:.2f}%</span>'"""
-    elif uptime >= 50.0:
-        msg = f"""<span style="color: orange;">{uptime:.2f}%</span>'"""
-    else:
-        msg = f"""<span style="color: red;">{uptime:.2f}%</span>'"""
-    return msg
+def notify_changes(prev, curr):
+    """Compare previous run's status with current, send email on changes.
 
-def calc_uptime():
-    temp = {}
-    for key,value in g_config.items():
-        temp[key] = {}
-        temp[key]['S7'] = 0
-        temp[key]['S24'] = 0
-        temp[key]['u7d'] = 0
-        temp[key]['u24h'] = 0
-        
-    one_days_ago = datetime.now() - timedelta(days=1)
-    for data in g_data_list:
-        temp[data[1]]['S7'] += 1
-        if to_bool(data[2]):
-            temp[data[1]]['u7d'] += 1
-        if datetime.strptime(data[0], "%Y-%m-%d %H:%M:%S") >= one_days_ago:
-            temp[data[1]]['S24'] += 1
-            if to_bool(data[2]):
-                temp[data[1]]['u24h'] += 1
-    log_print(temp)
-    for key, value in temp.items():
-        u7d = temp[key]['u7d'] / temp[key]['S7'] * 100.0
-        u24h = temp[key]['u24h'] / temp[key]['S24'] * 100.0
-        u7d_msg = get_uptime_msg(u7d)
-        u24h_msg = get_uptime_msg(u24h)
-        g_config[key]['uptime7d'] += u7d_msg
-        g_config[key]['uptime24h'] += u24h_msg
-
-def write_env():
-    env = f"export CURRENT_TIME='{get_current_time()}'\n"
-    env += f"export CURRENT_TIME_CST='{get_current_time_cst()}'\n"
-    for key, value in g_config.items():
-        for k,v in value.items():
-            env += f"export {v}\n"
-    
-    with open('./siteenv','w') as f:
-        f.write(env)
-
-def send_mail(notice_title, notice_message):
-    notice_host_server = os.environ.get("notice_host_server")
-    notice_user = os.environ.get("notice_user")
-    notice_pwd = os.environ.get("notice_pwd")
-    notice_mail = os.environ.get("notice_mail")
-    notice_receiver = os.environ.get("notice_receiver")
-
-    #ssl登录
-    smtp = SMTP_SSL(notice_host_server)
-    #set_debuglevel()是用来调试的。参数值为1表示开启调试模式，参数值为0关闭调试模式
-    smtp.set_debuglevel(1)
-    smtp.ehlo(notice_host_server)
-    smtp.login(notice_user, notice_pwd)
-
-    msg = MIMEText(notice_message, "html", 'utf-8')
-    msg["Subject"] = Header(notice_title, 'utf-8')
-    msg["From"] = notice_mail
-    msg["To"] = notice_receiver
-    smtp.sendmail(notice_mail, notice_receiver, msg.as_string())
-    smtp.quit()
-
-def do_notice():
-    notice_title = f"Uptime Report {get_current_time()}"
-    notice_message_pre = f"""<html>
-    <head></head>
-    <body>
-    <h2>Status Changed: </h2>
+    Sends an email when:
+      1. A site's up/down status changed since last run.
+      2. A site's SSL cert crossed into the warning zone (<= SSL_WARN_DAYS).
     """
-    ssl_warning = f""" 
-    <h2>SSL Warning: </h2>
-    """
-    notice_message_post = f"""
-    <p>点击查看全部网站：<a href='https://wang-guangxin.github.io/sites'>https://wang-guangxin.github.io/sites</a></p> 
-    </body>
-    </html>"""
+    # No baseline yet (first run / fresh checkout) — skip to avoid false alarms.
+    if not prev:
+        print("[notice] no previous baseline, skip change notification")
+        return
 
-    notice_message = notice_message_pre 
-    message_body = ''
-    send_status_change = False
-    send_ssl_warning = False
+    changes = []
+    ssl_warnings = []
 
-    # 根据 g_config 初始化一个 notice_dict
-    notice_dict = {}
-    for key, value in g_config.items():
-        notice_dict[key] = {}
-        notice_dict[key]['status'] = None
-        notice_dict[key]['ssl'] = None
-        notice_dict[key]['ssl_warning'] = False
-        notice_dict[key]['seen'] = 0
-    
-    
-    # 逆序遍历 g_data_list
-    for data in reversed(g_data_list):
-        brk = True
-        if len(data) == 0:
-            continue
-        url = data[1]
-        log_print(f"Checking: {data}")
-        if notice_dict[url]['seen'] == 0:
-            notice_dict[url]['status'] = data[2]
-            notice_dict[url]['ssl'] = data[3]
-            if notice_dict[url]['ssl'] <= 15:
-                ssl_warning += f"""<p>{url} Remaining {notice_dict[url]['ssl']} Days</p>"""
-                notice_dict[url]['ssl_warning'] = True
-            notice_dict[url]['seen'] = 1
-        elif notice_dict[url]['seen'] == 1:
-            if str(notice_dict[url]['status']) != str(data[2]):
-                log_print(f"Status Changed: {url} From {data[2]} to {notice_dict[url]['status']}")
-                message_body += f"""<p><a href='{url}'>{url}</a> From {data[2]} to {notice_dict[url]['status']}</p>"""
-                send_status_change = True
-            if int(data[3]) == int(notice_dict[url]['ssl']):
-                log_print(f"SSL Warning: {url} From {notice_dict[url]['ssl']} to {data[3]}")
-                notice_dict[url]['ssl_warning'] = False
-            notice_dict[url]['seen'] = 2
-        
-        for key, value in notice_dict.items():
-            if value['seen'] == 1:
-                brk = False
-                break
-        if brk:
-            break
-    
-    for key, value in notice_dict.items():
-        if value['ssl_warning']:
-            send_ssl_warning = True
-            break
-    
-    notice_message += message_body
-    notice_message += ssl_warning
-    notice_message += notice_message_post
+    for site in curr:
+        url = site["url"]
+        old = prev.get(url)
 
-    notice_message = notice_message.replace("From True to False", "From <strong>Up</strong> to 🔴<strong><span style='color: red;'>Down</span></strong>")
-    notice_message = notice_message.replace("From False to True", "From <strong>Down</strong> to 🟢<strong><span style='color: green;'>Up</span></strong>")
+        # 1. Status change detection
+        if old is not None and old["up"] != site["up"]:
+            state = "🟢 Up" if site["up"] else "🔴 Down"
+            changes.append(f"<p><a href='{url}'>{site['name']}</a> → {state}</p>")
 
-    if send_status_change: # or send_ssl_warning:
-        send_mail(notice_title, notice_message)
+        # 2. SSL expiry warning (only when crossing into the warning zone)
+        days = site["ssl_days"]
+        old_days = old.get("ssl_days") if old else None
+        if days is not None and days <= SSL_WARN_DAYS:
+            if old_days is None or old_days > SSL_WARN_DAYS:
+                ssl_warnings.append(
+                    f"<p><a href='{url}'>{site['name']}</a> — "
+                    f"SSL expires in <strong>{days} days</strong> ⚠️</p>"
+                )
 
+    if not changes and not ssl_warnings:
+        return
+
+    body = ""
+    if changes:
+        body += "<h2>Status Changed</h2>" + "".join(changes)
+    if ssl_warnings:
+        body += "<h2>SSL Warning</h2>" + "".join(ssl_warnings)
+    body += "<p><a href='https://wang-guangxin.github.io/sites'>View all sites</a></p>"
+    send_notice(f"Uptime Report {now_str()}", body)
+
+
+# ---------------------------------------------------------------------------
+# Main
+# ---------------------------------------------------------------------------
 def main():
-    read_csv_to_list()
-    remove_data_before_seven_days()
-    for key, value in g_config.items():
-        check_url(key)
-    calc_uptime()
-    write_list_to_csv()
-    write_env()
-    if g_notice_enable:
-        do_notice()
+    sites = load_sites()
+    history = load_history()
+    now = datetime.now()
+    day_ago = now - timedelta(days=1)
 
-if __name__ == '__main__':
-    main()
+    results = []
+    for site in sites:
+        url = site["url"]
+        up = check_http(url)
+        ssl_days = check_ssl(url)
+        history[url].append((now, up))
+        # keep only last 7 days
+        history[url] = [e for e in history[url] if e[0] >= now - timedelta(days=HISTORY_DAYS)]
 
+        results.append({
+            "name": site["name"],
+            "url": url,
+            "badges": site.get("badges", []),
+            "up": up,
+            "ssl_days": ssl_days,
+            "uptime_7d": uptime_pct(history[url]),
+            "uptime_24h": uptime_pct(history[url], since=day_ago),
+        })
+
+    save_history(history)
+
+    # Load previous status for change detection
+    prev = {}
+    if os.path.exists(OUTPUT_FILE):
+        try:
+            with open(OUTPUT_FILE, "r", encoding="utf-8") as f:
+                prev = {s["url"]: s for s in json.load(f)["sites"]}
+        except (json.JSONDecodeError, KeyError):
+            prev = {}
+
+    payload = {
+        "updated_at": now.strftime("%Y-%m-%d %H:%M:%S"),
+        "updated_at_cst": datetime.now(pytz.timezone("Asia/Shanghai")).strftime("%Y-%m-%d %H:%M:%S"),
+        "sites": results,
+    }
+
+    os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2)
+
+    print(f"[ok] wrote {OUTPUT_FILE} with {len(results)} sites")
+
+    if os.environ.get("NOTICE_ENABLED", "1") == "1":
+        notify_changes(prev, results)
+
+
+if __name__ == "__main__":
+    sys.exit(main())
