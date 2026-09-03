@@ -32,8 +32,11 @@ jobs:
     - name: Install Node deps
       run: npm ci
 
-    - name: Run uptime monitor
-      run: python3 uptime.py
+    # ---- Cycle 1: run immediately ----
+    - name: Uptime + Build + Deploy (1/5)
+      run: |
+        python3 uptime.py
+        npm run build
       env:
         notice_host_server: ${{ secrets.notice_host_server }}
         notice_user: ${{ secrets.notice_user }}
@@ -41,10 +44,83 @@ jobs:
         notice_mail: ${{ secrets.notice_mail }}
         notice_receiver: ${{ secrets.notice_receiver }}
 
-    - name: Build site
-      run: npm run build
+    - name: Deploy (1/5)
+      uses: peaceiris/actions-gh-pages@v4
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./public
 
-    - name: Deploy to GitHub Pages
+    # ---- Cycle 2: wait 5 min ----
+    - name: Uptime + Build + Deploy (2/5)
+      run: |
+        sleep 300
+        python3 uptime.py
+        npm run build
+      env:
+        notice_host_server: ${{ secrets.notice_host_server }}
+        notice_user: ${{ secrets.notice_user }}
+        notice_pwd: ${{ secrets.notice_pwd }}
+        notice_mail: ${{ secrets.notice_mail }}
+        notice_receiver: ${{ secrets.notice_receiver }}
+
+    - name: Deploy (2/5)
+      uses: peaceiris/actions-gh-pages@v4
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./public
+
+    # ---- Cycle 3: wait 5 min ----
+    - name: Uptime + Build + Deploy (3/5)
+      run: |
+        sleep 300
+        python3 uptime.py
+        npm run build
+      env:
+        notice_host_server: ${{ secrets.notice_host_server }}
+        notice_user: ${{ secrets.notice_user }}
+        notice_pwd: ${{ secrets.notice_pwd }}
+        notice_mail: ${{ secrets.notice_mail }}
+        notice_receiver: ${{ secrets.notice_receiver }}
+
+    - name: Deploy (3/5)
+      uses: peaceiris/actions-gh-pages@v4
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./public
+
+    # ---- Cycle 4: wait 5 min ----
+    - name: Uptime + Build + Deploy (4/5)
+      run: |
+        sleep 300
+        python3 uptime.py
+        npm run build
+      env:
+        notice_host_server: ${{ secrets.notice_host_server }}
+        notice_user: ${{ secrets.notice_user }}
+        notice_pwd: ${{ secrets.notice_pwd }}
+        notice_mail: ${{ secrets.notice_mail }}
+        notice_receiver: ${{ secrets.notice_receiver }}
+
+    - name: Deploy (4/5)
+      uses: peaceiris/actions-gh-pages@v4
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./public
+
+    # ---- Cycle 5: wait 5 min ----
+    - name: Uptime + Build + Deploy (5/5)
+      run: |
+        sleep 300
+        python3 uptime.py
+        npm run build
+      env:
+        notice_host_server: ${{ secrets.notice_host_server }}
+        notice_user: ${{ secrets.notice_user }}
+        notice_pwd: ${{ secrets.notice_pwd }}
+        notice_mail: ${{ secrets.notice_mail }}
+        notice_receiver: ${{ secrets.notice_receiver }}
+
+    - name: Deploy (5/5)
       uses: peaceiris/actions-gh-pages@v4
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
