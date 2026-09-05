@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-05 00:30:56",
-  "updated_at_cst": "2026-09-05 08:31:03",
+  "updated_at": "2026-09-05 00:36:07",
+  "updated_at_cst": "2026-09-05 08:36:14",
   "sites": [
     {
       "name": "Blog",
@@ -22,8 +22,8 @@
       ],
       "up": true,
       "ssl_days": 46,
-      "uptime_7d": 99.48,
-      "uptime_24h": 97.3
+      "uptime_7d": 99.49,
+      "uptime_24h": 97.37
     },
     {
       "name": "PDF Tool",
