@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-21 14:40:21",
-  "updated_at_cst": "2026-09-21 22:40:39",
+  "updated_at": "2026-09-21 19:34:59",
+  "updated_at_cst": "2026-09-22 03:35:07",
   "sites": [
     {
       "name": "Blog",
@@ -21,7 +21,7 @@
         "Public Access"
       ],
       "up": true,
-      "ssl_days": 29,
+      "ssl_days": 89,
       "uptime_7d": 100.0,
       "uptime_24h": 100.0
     },
@@ -54,8 +54,8 @@
         "Public Access"
       ],
       "up": true,
-      "ssl_days": 29,
-      "uptime_7d": 99.57,
+      "ssl_days": 89,
+      "uptime_7d": 99.56,
       "uptime_24h": 100.0
     },
     {
@@ -76,7 +76,7 @@
         "Public Access"
       ],
       "up": true,
-      "ssl_days": 29,
+      "ssl_days": 89,
       "uptime_7d": 100.0,
       "uptime_24h": 100.0
     }
