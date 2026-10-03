@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-02 23:52:24",
-  "updated_at_cst": "2026-10-03 07:52:32",
+  "updated_at": "2026-10-03 02:40:49",
+  "updated_at_cst": "2026-10-03 10:40:57",
   "sites": [
     {
       "name": "Blog",
@@ -9,7 +9,7 @@
         "Public Access"
       ],
       "up": true,
-      "ssl_days": 48,
+      "ssl_days": 47,
       "uptime_7d": 100.0,
       "uptime_24h": 100.0
     },
