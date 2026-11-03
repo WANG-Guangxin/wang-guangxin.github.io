@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-03 09:41:58",
-  "updated_at_cst": "2026-11-03 17:43:15",
+  "updated_at": "2026-11-03 09:48:23",
+  "updated_at_cst": "2026-11-03 17:49:40",
   "sites": [
     {
       "name": "Blog",
@@ -22,8 +22,8 @@
       ],
       "up": false,
       "ssl_days": null,
-      "uptime_7d": 99.36,
-      "uptime_24h": 93.75
+      "uptime_7d": 98.73,
+      "uptime_24h": 88.24
     },
     {
       "name": "PDF Tool",
@@ -55,8 +55,8 @@
       ],
       "up": false,
       "ssl_days": null,
-      "uptime_7d": 99.36,
-      "uptime_24h": 93.75
+      "uptime_7d": 98.73,
+      "uptime_24h": 88.24
     },
     {
       "name": "phpMyAdmin",
@@ -77,8 +77,8 @@
       ],
       "up": false,
       "ssl_days": null,
-      "uptime_7d": 99.36,
-      "uptime_24h": 93.75
+      "uptime_7d": 98.73,
+      "uptime_24h": 88.24
     }
   ]
 }
