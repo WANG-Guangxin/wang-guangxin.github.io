@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-03 10:07:23",
-  "updated_at_cst": "2026-11-03 18:08:40",
+  "updated_at": "2026-11-03 17:21:31",
+  "updated_at_cst": "2026-11-04 01:21:39",
   "sites": [
     {
       "name": "Blog",
@@ -20,10 +20,10 @@
         "China Friendly",
         "Public Access"
       ],
-      "up": false,
-      "ssl_days": null,
-      "uptime_7d": 96.88,
-      "uptime_24h": 70.59
+      "up": true,
+      "ssl_days": 46,
+      "uptime_7d": 96.79,
+      "uptime_24h": 68.75
     },
     {
       "name": "PDF Tool",
@@ -43,7 +43,7 @@
         "Public Access"
       ],
       "up": true,
-      "ssl_days": 86,
+      "ssl_days": 85,
       "uptime_7d": 100.0,
       "uptime_24h": 100.0
     },
@@ -53,10 +53,10 @@
       "badges": [
         "Public Access"
       ],
-      "up": false,
-      "ssl_days": null,
-      "uptime_7d": 96.88,
-      "uptime_24h": 70.59
+      "up": true,
+      "ssl_days": 46,
+      "uptime_7d": 96.79,
+      "uptime_24h": 68.75
     },
     {
       "name": "phpMyAdmin",
@@ -75,10 +75,10 @@
       "badges": [
         "Public Access"
       ],
-      "up": false,
-      "ssl_days": null,
-      "uptime_7d": 96.88,
-      "uptime_24h": 70.59
+      "up": true,
+      "ssl_days": 46,
+      "uptime_7d": 96.79,
+      "uptime_24h": 68.75
     }
   ]
 }
