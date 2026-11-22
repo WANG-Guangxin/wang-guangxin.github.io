@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-22 07:20:07",
-  "updated_at_cst": "2026-11-22 15:20:17",
+  "updated_at": "2026-11-22 07:25:20",
+  "updated_at_cst": "2026-11-22 15:25:40",
   "sites": [
     {
       "name": "Blog",
@@ -21,7 +21,7 @@
         "Public Access"
       ],
       "up": true,
-      "ssl_days": null,
+      "ssl_days": 88,
       "uptime_7d": 100.0,
       "uptime_24h": 100.0
     },
@@ -56,7 +56,7 @@
       "up": true,
       "ssl_days": 88,
       "uptime_7d": 99.18,
-      "uptime_24h": 94.74
+      "uptime_24h": 95.0
     },
     {
       "name": "phpMyAdmin",
@@ -76,7 +76,7 @@
         "Public Access"
       ],
       "up": true,
-      "ssl_days": 88,
+      "ssl_days": null,
       "uptime_7d": 100.0,
       "uptime_24h": 100.0
     }
