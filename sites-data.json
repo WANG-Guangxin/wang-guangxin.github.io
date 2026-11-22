@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-22 00:18:43",
-  "updated_at_cst": "2026-11-22 08:18:53",
+  "updated_at": "2026-11-22 00:23:56",
+  "updated_at_cst": "2026-11-22 08:24:05",
   "sites": [
     {
       "name": "Blog",
@@ -55,8 +55,8 @@
       ],
       "up": true,
       "ssl_days": 88,
-      "uptime_7d": 99.19,
-      "uptime_24h": 94.74
+      "uptime_7d": 99.2,
+      "uptime_24h": 95.0
     },
     {
       "name": "phpMyAdmin",
