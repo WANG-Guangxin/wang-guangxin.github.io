@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-28 04:04:51",
-  "updated_at_cst": "2026-11-28 12:04:59",
+  "updated_at": "2026-11-28 04:10:02",
+  "updated_at_cst": "2026-11-28 12:10:10",
   "sites": [
     {
       "name": "Blog",
@@ -10,8 +10,8 @@
       ],
       "up": true,
       "ssl_days": 89,
-      "uptime_7d": 95.33,
-      "uptime_24h": 58.33
+      "uptime_7d": 95.37,
+      "uptime_24h": 61.54
     },
     {
       "name": "Opengrok",
