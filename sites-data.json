@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-27 22:26:48",
-  "updated_at_cst": "2026-11-28 06:26:55",
+  "updated_at": "2026-11-28 03:59:32",
+  "updated_at_cst": "2026-11-28 11:59:43",
   "sites": [
     {
       "name": "Blog",
@@ -8,10 +8,10 @@
       "badges": [
         "Public Access"
       ],
-      "up": false,
-      "ssl_days": null,
-      "uptime_7d": 95.45,
-      "uptime_24h": 66.67
+      "up": true,
+      "ssl_days": 89,
+      "uptime_7d": 95.28,
+      "uptime_24h": 54.55
     },
     {
       "name": "Opengrok",
@@ -55,7 +55,7 @@
       ],
       "up": true,
       "ssl_days": 82,
-      "uptime_7d": 99.09,
+      "uptime_7d": 99.06,
       "uptime_24h": 100.0
     },
     {
